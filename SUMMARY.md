@@ -1,9 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-* [Code Layout](code-layout.md)
-   * [Plugins](code-layout/plugins.md)
-   * [Themes](code-layout/themes.md)
+* Conventions
+   * Plugin file structure
+   * Theme file structure 
+   * Naming Conventions
 * Planning
    * Wireframes
    * Google Docs
@@ -14,22 +15,23 @@
     * Merge Conflicts
     * Git hooks
     * Workflow (Branching model)
-* Documentation
-   * Inline Comments
-   * README.txt
-   * Changelog
 * Coding Standards
    * PHP 
    * MySQL
    * Object Cache
    * WP Remote Get
+* Documentation
+   * Inline Comments
+   * README.txt
+   * Changelog
 * Testing
     * Unit Testing
     * Functional Testing
 * Build
-   * README.txt generation
-   * CI build tools
+   * README.md to README.txt generation
+   * A way to ignore files in build
+   * comibine/minify css and js to 1 file per project
+   * CI + build + testing tools 
 * Deployment
-   * Github to WordPress SVN
-   * 
-
+   * Github to WordPress SVN (free stuff)
+   * Github to WooCommerce/EDD product (premium stuff)
