@@ -3,4 +3,5 @@
 * [Introduction](README.md)
 * Code Layout
    * Plugins
+   * Themes
 
