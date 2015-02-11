@@ -4,4 +4,5 @@
 * Code Layout
    * Plugins
    * Themes
+* Documentation
 
