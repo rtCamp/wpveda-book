@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Code Layout
+* [Code Layout](code_layout.md)
    * Plugins
    * Themes
 * Documentation
