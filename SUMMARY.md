@@ -6,4 +6,5 @@
    * Themes
 * Documentation
    * Inline Comments
+   * README.txt
 
