@@ -9,6 +9,11 @@
    * Google Docs
    * Mockup Tools
    * Github milestone/tasks
+* Git
+    * Basic Commands
+    * Merge Conflicts
+    * Git hooks
+    * Workflow (Branching model)
 * Documentation
    * Inline Comments
    * README.txt
