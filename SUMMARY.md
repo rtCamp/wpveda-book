@@ -5,4 +5,5 @@
    * Plugins
    * Themes
 * Documentation
+   * Inline Comments
 
