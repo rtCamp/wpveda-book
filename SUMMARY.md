@@ -2,8 +2,8 @@
 
 * [Introduction](README.md)
 * [Code Layout](code-layout.md)
-   * [Plugins](plugins.md)
-   * Themes
+   * [Plugins](code-layout/plugins.md)
+   * [Themes](code-layout/themes.md)
 * Planning
    * Wireframes
    * Google Docs
