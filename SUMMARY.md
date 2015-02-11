@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Code Layout](code_layout.md)
-   * Plugins
+   * [Plugins](plugins.md)
    * Themes
 * Documentation
    * Inline Comments
