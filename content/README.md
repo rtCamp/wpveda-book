@@ -1,6 +1,8 @@
 wpveda book
 ===========
 
+[![Join the chat at https://gitter.im/wpveda/book](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/wpveda/book?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **Status:** Just started. Far away from "ready to use".
 
 Why another book?
@@ -28,4 +30,7 @@ Tools
 
 1. git for version control
 2. github/gitlab for code hosing, issue tracker and milestones.
+<<<<<<< HEAD:content/README.md
 3. [wercker.com](wercker.com) for build and deployment. It can be used to deploy to wordpress.org SVN repo
+=======
+3. [wercker.com](http://wercker.com/) for build and deployment. It can be used to deploy to wordpress.org SVN repo
