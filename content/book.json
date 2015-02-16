@@ -1,0 +1,12 @@
+{
+  "plugins": ["edit-link","ga","anchors","-mathjax"],
+  "pluginsConfig": {
+        "edit-link": {
+          "base": "https://github.com/wpveda/book/edit/master/",
+          "label": "Edit This Page"
+        },
+        "ga": {
+          "token": "UA-59804046-1"
+        }
+  }
+}
