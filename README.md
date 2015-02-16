@@ -28,7 +28,7 @@ Tools
 
 1. git for version control
 2. github/gitlab for code hosing, issue tracker and milestones.
-3. [wercker.com](wercker.com) for build and deployment. It can be used to deploy to wordpress.org SVN repo
+3. [wercker.com](http://wercker.com/) for build and deployment. It can be used to deploy to wordpress.org SVN repo
 
 
 Contributing
