@@ -23,3 +23,8 @@ Based on current status, it's better to list goals of this book.
 4. Separate develop, document, testing, build and deployment clearly.
 5. Have opinionated workflow. Discuss every aspect and agree on "one-way" of doing themes but once a way is accepted, it should be the only way recommended by book.
 6. After book is ready to use, write some tools to review codes against books workflow.
+
+Like to Contibute?
+===================
+
+Please check - [Contributors guideline](https://github.com/wpveda/book/blob/master/CONTRIBUTING.md)
