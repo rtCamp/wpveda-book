@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Meta](meta/index..md)
    * [How to use this book](meta/reading.md)
    * [How to contribute](meta/contributing.md)
    * [FAQ](meta/faq.md)
