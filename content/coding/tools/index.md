@@ -11,3 +11,8 @@ TODO
 7. Other tools
     8. vagrant
     9. docker
+
+TODO 2
+1. WordPress core autocompletion
+2. Syntax highlighting
+3. git support

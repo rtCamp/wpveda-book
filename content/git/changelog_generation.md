@@ -1,3 +1,4 @@
 # Changelog Generation
 
-TODO: Using git command to generate changelog
+TODO:
+1. Using git command to generate changelog
