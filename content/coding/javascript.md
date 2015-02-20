@@ -5,5 +5,5 @@ TODO:
 2. Using jQuery
 3. WordPress JS libraries
 4. Debugging Javascript
-5. Sync v/s Async 
+5. Sync v/s Async
 

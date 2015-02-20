@@ -1,7 +1,7 @@
 wpveda book
 ===========
 
-[![Join the chat at https://gitter.im/wpveda/book](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/wpveda/book?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/wpveda/book](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/wpveda/book?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![wercker status](https://app.wercker.com/status/5bc68c6dc32bf12b94f980ccaba113ef/s "wercker status")](https://app.wercker.com/project/bykey/5bc68c6dc32bf12b94f980ccaba113ef)
 
 **Status:** Just started. Far away from "ready to use".
 
