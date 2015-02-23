@@ -7,3 +7,9 @@ TODO:
 4. Debugging Javascript
 5. Sync v/s Async
 
+
+## Useful links
+
+[WordPress coding standard for JavaScript](https://make.wordpress.org/core/handbook/coding-standards/javascript/)
+
+
