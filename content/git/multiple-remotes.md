@@ -1,4 +1,4 @@
-# Workking with multiple remotes
+# Working with multiple remotes
 
 It may happen that your git repo has multiple remotes e.g. main repo, your fork, a gitlab mirror, etc
 
