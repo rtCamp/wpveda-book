@@ -1,6 +1,6 @@
 <h2>Translation Ready</h2>
 
-<h3>Translating Your Theme</h3>
+Translating Your Theme
 
 Refer for more details:  http://code.tutsplus.com/tutorials/translating-your-theme--wp-25014
 
