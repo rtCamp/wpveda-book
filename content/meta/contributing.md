@@ -33,9 +33,16 @@ Please feel free to open a [github issue](https://github.com/wpveda/book/issues)
 Useful Commands
 =================
 
-1. Install gitbook (globally) - `npm install -g gitbook`
+0. Check if nodejs and npm are installed on your machine. Run commands `node -v` and `npm -v` respectively. If not [follow this on ubuntu](https://rtcamp.com/tutorials/nodejs/node-js-npm-install-ubuntu/) or use `brw install nodejs npm` on mac.
+1. Fork https://github.com/wpveda/book/ on github.
+2. Install gitbook (globally) - `npm install -g gitbook`
 2. Clone your forked repo -  `git clone <forked-repo-url>`
 3. Change directory to gitbook - `cd book` (assuming your forked repo is also named as `book`)
 4. Install gitbook plugins - `gitbook install`
 5. Build gitbook - `gitbook build`
 6. Preview gitbook - `gitbook serve` and open [http://localhost:4000](http://localhost:4000)
+
+**Gitbook Editor**
+
+1. For offline editing - desktop tool gitbook editor can be used - https://github.com/GitbookIO/editor/releases
+2. Once you download Gitbook editor, open `content` folder from your forked & locally cloned git repo.
