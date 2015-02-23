@@ -2,8 +2,8 @@
 
 There will be two branches to start with
 
-1. `master`: default branch when you `git init`. This is stable brnahc. Latest stable tag will always point to this.
-2. `develop`: development branch. This will be like nightly release branch. Latest RC/ alpha/beta release will always point to this.
+1. `master`: Default branch when you `git init`. This is stable branch. Latest stable tag will always point to this.
+2. `develop`: Development branch. This will be like nightly release branch. Latest RC/alpha/beta release will always point to this.
 
 ## Process:
 
