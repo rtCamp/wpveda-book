@@ -16,7 +16,7 @@ Useful Commands
 
 1. Install gitbook (globally) - `npm install -g gitbook`
 2. Clone your forked repo -  `git clone <forked-repo-url>`
-3. Change directory to gitbook - `cd book` (assuming your forked repo is also named as `book`)
+3. Change directory to gitbook - `cd book/content` (assuming your forked repo is also named as `book`)
 4. Install gitbook plugins - `gitbook install`
 5. Build gitbook - `gitbook build`
 6. Preview gitbook - `gitbook serve` and open [http://localhost:4000](http://localhost:4000)
