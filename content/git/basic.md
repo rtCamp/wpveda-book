@@ -1,12 +1,3 @@
-git init
-git clone
-git status
-git pull
-git pull --rebase
-git push
-git checkout
-git checkout -b
-git stash
 
 ##5.1.1 : git init
 
