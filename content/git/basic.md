@@ -97,11 +97,11 @@ Git runs **git fetch** with given parameter and after that it will runs git merg
 
 #### Option:
 
-* --rebase: its will run git rebase after git fetch instead of git commit.
+* **--rebase** : its will run git rebase after git fetch instead of git commit.
 
-* --no-commit: with this option, it's perform git merge without affect merge fail and autocommit.
+* **--no-commit** : with this option, it's perform git merge without affect merge fail and autocommit.
 
-* --force or -f : it will force to fetch changes from remote and merge it with current branch.
+* **--force or -f** : it will force to fetch changes from remote and merge it with current branch.
 
 Note: **--rebase** is more preferable to use with git pull, please refer given link for better idea  https://www.atlassian.com/git/tutorials/merging-vs-rebasing/
 
@@ -121,7 +121,7 @@ $ git pull --force origin master
 ```
 reference link : http://git-scm.com/docs/git-pull
 
-##5.1.5 : git push
+##5.1.6 : git push
 **git push** is logically opposite of **git pull**. git push used to update remote branch with local changes.
 
 >> command: git push [option] [remote] [branch]
@@ -130,12 +130,12 @@ If remote is not specified then it will used origin. you can also specified pre-
 
 #### Option:
 
-* --all: its will push all branch of specified remote
+* **--all** : its will push all branch of specified remote
 
-* --force or -f: command refuses to update a remote commit that is not an ancestor of the local commit used to overwrite it.
+* **--force or -f** : command refuses to update a remote commit that is not an ancestor of the local commit used to overwrite it.
 **--force** option force to push all commit.
 
-* -[no-]verify: Toggle the pre-push hook. **-verify** used to prevent the push and **-no-verify used to bypassed pre-push hook completely**
+* **-[no-]verify** : Toggle the pre-push hook. **-verify** used to prevent the push and **-no-verify used to bypassed pre-push hook completely**
 
 ####Example:
 ```
@@ -155,8 +155,47 @@ $ git push origin HEAD
 ```
 reference link : http://git-scm.com/docs/git-push
 
+##5.1.7 : git checkout
+This command user to checkout branch or create new brach
 
+>> command: git checkout [option] [branch]
 
+#### Option:
 
+* **-b** : option used to create new branch
 
+* **-B** : option used to create new branch and if exist then reset it to start point
 
+* **-f** : it will force to change branch if index or the working tree differs form the HEAD [ uncomited changes ]
+
+####Example:
+```
+To checkout or switch to live branch
+$ git checkout live
+
+To create new branch with name "stable"
+$ git checkout -b stable
+```
+reference link : http://git-scm.com/docs/git-checkout
+
+##5.1.8 : git stash
+stash command used to Stash the changes in a local machine. it will record your current state and clean working directory.
+
+>> command: git stash
+
+`git stash` is equivalent to `git stash save`
+
+####Example:
+```
+To stash current changes and clean the current working directory
+$ git stash
+    or
+$ git stash save
+
+To restore change from stash to current working directory
+$ git stash apply
+
+To inspect stash change
+$ git stash show
+```
+reference link : http://git-scm.com/docs/git-stash
