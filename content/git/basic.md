@@ -93,24 +93,67 @@ To fetch change form remote or other repository and integrate with repository or
 
 >> command: git pull [option] [remote] [branch]
 
-git runs **git fetch** with given parameter and after that it will runs git merge to merge retrieved branch changes into current branch.
+Git runs **git fetch** with given parameter and after that it will runs git merge to merge retrieved branch changes into current branch.
 
 #### Option:
 
-* --rebase: its will run git rebase after git fetch.
+* --rebase: its will run git rebase after git fetch instead of git commit.
 
 * --no-commit: with this option, it's perform git merge without affect merge fail and autocommit.
 
-* --force: it will force to fetch changes from remote and merge it with current branch.
+* --force or -f : it will force to fetch changes from remote and merge it with current branch.
 
 Note: **--rebase** is more preferable to use with git pull, please refer given link for better idea  https://www.atlassian.com/git/tutorials/merging-vs-rebasing/
 
 ####Example:
 ```
+update your current branch with remote branches for the repository you clone
+$ git pull
+  OR
+$ git pull origin
 
+update current branch with remote master branch
+$ git pull origin master
+
+if any comment deleted from remote and not update in local than your local branch is ahead of remote branch.
+in above case simple **git pull** not working you need to using git pull with --force option
+$ git pull --force origin master
 ```
+reference link : http://git-scm.com/docs/git-pull
 
+##5.1.5 : git push
+**git push** is logically opposite of **git pull**. git push used to update remote branch with local changes.
 
+>> command: git push [option] [remote] [branch]
+
+If remote is not specified then it will used origin. you can also specified pre-push hook. it will run before every push action
+
+#### Option:
+
+* --all: its will push all branch of specified remote
+
+* --force or -f: command refuses to update a remote commit that is not an ancestor of the local commit used to overwrite it.
+**--force** option force to push all commit.
+
+* -[no-]verify: Toggle the pre-push hook. **-verify** used to prevent the push and **-no-verify used to bypassed pre-push hook completely**
+
+####Example:
+```
+update your remote [ origin ] branch with current branch for the repository you clone
+$ git push
+    or
+$ git push origin
+
+update all local branches with appropriate remote branches
+$ git push --all
+
+update remote branch which is ref to the master branch with current branch. if ref not found it will create new branch
+$ git push origin master
+
+To push current branch to the same name on remote branch.
+$ git push origin HEAD
+```
+reference link : http://git-scm.com/docs/git-push
 
 
 
