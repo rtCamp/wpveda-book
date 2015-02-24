@@ -9,3 +9,6 @@ TODO:
 Tools:
 1. phpunit
 2. nodejs based tool (not sure if they are needed as phpunit is used everywhere by wordpress plugins)
+
+Links:
+1. WordPress core - https://make.wordpress.org/core/handbook/automated-testing/
