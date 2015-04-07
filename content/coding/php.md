@@ -9,5 +9,6 @@ TODO:
 6. WordPress query monitor plugin
 7. Which PHP functions to avoid e.g. avoid `curl` in favor of `wp_remote_get`
 
+## Useful links
 
-
+[WordPress coding standard for PHP](https://make.wordpress.org/core/handbook/coding-standards/php/)

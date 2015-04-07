@@ -49,7 +49,7 @@
    * [Admin Pages](wordpress/admin-pages.md)
    * [Settings API](wordpress/settings-api.md)
    * [Translation Ready](wordpress/translation.md)
-   * [Settings API](wordpress/settings-api.md)
+   * [Admin AJAX](wordpress/admin_ajax.md)
    * [Navigating Core Files](wordpress/navigating_core_files.md)
 * [Documentation](documentation/index.md)
    * [Inline Comments](documentation/inline-commenting.md)
