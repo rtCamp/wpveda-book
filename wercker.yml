@@ -17,7 +17,7 @@ build:
 deploy:
     steps:
     - install-packages:
-        packages: sshpass
+        packages: sshpass rsync
 
     - script:
         name: deploy books docs to cdn
