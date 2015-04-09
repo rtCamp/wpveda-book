@@ -1,5 +1,5 @@
 {
-  "gitbook": "2.x.x",
+  "gitbook": "1.5.0",
   "plugins": ["edit-link","ga","anchors","-mathjax"],
   "pluginsConfig": {
         "edit-link": {
