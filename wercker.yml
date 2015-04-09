@@ -7,7 +7,7 @@ build:
     # install gitbook itself
     - script:
         name: install gitbook
-        code: sudo npm install -g gitbook
+        code: sudo npm install -g gitbook-cli
 
     # build gitbooks
     - script:
