@@ -36,7 +36,7 @@
        * [WordPress CSS](coding/wordpress.md)
    * [JavaScript](coding/javascript.md)
    * [PHP](coding/php.md)
-       * [Code Sniffer](coding/code_sniffer)
+       * [Code Sniffer](coding/code_sniffer.md)
    * [MySQL](coding/mysql.md)
    * [WordPress](coding/wordpress.md)
    * [Tools](coding/tools/index.md)
