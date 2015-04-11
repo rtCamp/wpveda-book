@@ -28,6 +28,7 @@
    * [Workoing with multiple remotes](git/multiple-remotes.md)
    * [Submodules](git/submodules.md)
    * [Subtree](git/subtree.md)
+   * [Rebase](git/rebase.md)
    * [Commit Message](git/commit_message.md)
    * [Changelog Generation](git/changelog_generation.md)
 * [Coding Standards](coding/index.md)
