@@ -135,3 +135,18 @@ squash 62eed47 Fix something from the previous commit
 ```
 
 Save and close the editor to begin the rebase. This will open another editor asking for the commit message for the combined snapshot. After defining the commit message, the rebase is complete and you should be able to see the squashed commit in your git log output.
+
+##When should I use git pull --rebase?
+
+I know of some people who use `git pull --rebase` by default and others who insist never to use it. I believe I understand the difference between merging and rebasing, but I'm trying to put this in the context of git pull.
+
+You should use git `pull --rebase` when your changes do not deserve a separate branch
+Indeed -- why not then? It's more clear, and doesn't impose a logical grouping on your commits.
+
+I would like to provide a different perspective on what `git pull --rebase` actually means, because it seems to get lost sometimes.
+
+Ok, I suppose it needs some clarification. In Git, as you probably know, you're encouraged to branch and merge. Your local branch, into which you pull changes, and remote branch are, actually, different branches, and git pull is about merging them. It's reasonable, since you push not very often and usually accumulate a number of changes before they constitute a completed feature.
+
+However, sometimes--by whatever reason--you think that it would actually be better if these two--remote and local--were one branch. Like in ***SVN***. It is here where `git pull --rebase` comes into play. You no longer merge--you actually commit on top of the remote branch. That's what it actually is about.
+
+Whether it's dangerous or not is the question of whether you are treating local and remote branch as one inseparable thing. Sometimes it's reasonable (when your changes are small, or if you're at the beginning of a robust development, when important changes are brought in by small commits). Sometimes it's not (when you'd normally create another branch, but you were too lazy to do that). But that's a different question.
