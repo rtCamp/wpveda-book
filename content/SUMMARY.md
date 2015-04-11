@@ -26,8 +26,8 @@
    * [.gitignore file](git/gitignore.md)
    * [Workflow (Branching model)](git/workflow.md)
    * [Workoing with multiple remotes](git/multiple-remotes.md)
-   * [Subtree](git/subtree.md)
    * [Submodules](git/submodules.md)
+   * [Subtree](git/subtree.md)
    * [Commit Message](git/commit_message.md)
    * [Changelog Generation](git/changelog_generation.md)
 * [Coding Standards](coding/index.md)
@@ -72,4 +72,3 @@
    * [Github to Amazon S3](deployment/amazon-s3.md)
    * [Github to EasyDigitalDownload Product](deployment/easydigitaldownload.md)
 * [Post Release](deployment/post_release.md)
-

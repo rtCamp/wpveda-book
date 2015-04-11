@@ -10,7 +10,7 @@ They are not to be confused with remotes, which are meant mainly for branches of
 
 `git submodule add` command followed by a git url of the external project would simply add a submodule into your repo.
 
-Let's take an example of [Watchman plugin](https://github.com/desaiuditd/watchman/) in which git submodule is used.
+Let's take an example of [Watchman plugin](https://github.com/newvariable/watchman/) in which git submodule is used.
 
 ``` shell
 watchman|master ⇒ git submodule add https://github.com/xwp/wp-dev-lib.git dev-lib
@@ -73,7 +73,7 @@ watchman|master⚡ ⇒ git commit -am "Adding dev-lib as submodule"
 When you clone such a project, by default you get the directories that contain submodules, but none of the files within them yet:
 
 ``` shell
-~|⇒ git clone https://github.com/desaiuditd/watchman/
+~|⇒ git clone https://github.com/newvariable/watchman/
 Cloning into 'watchman'...
 remote: Counting objects: 271, done.
 remote: Total 271 (delta 0), reused 0 (delta 0)
@@ -138,7 +138,7 @@ Now your `dev-lib` subdirectory is at the exact state it was in when you committ
 There is another way to do this which is a little simpler, however. If you pass `--recursive` to the `git clone` command, it will automatically initialize and update each submodule in the repository.
 
 ``` shell
-~|⇒ git clone --recursive https://github.com/desaiuditd/watchman/
+~|⇒ git clone --recursive https://github.com/newvariable/watchman/
 Cloning into 'watchman'...
 remote: Counting objects: 271, done.
 remote: Total 271 (delta 0), reused 0 (delta 0)
@@ -172,7 +172,7 @@ git commit -m "Update dev-lib"
 
 ## When to use submodules
 
-If you observe closely the above example of [Watchman plugin](https://github.com/desaiuditd/watchman/), submodule is used for a library which is a helper tool for developers.
+If you observe closely the above example of [Watchman plugin](https://github.com/newvariable/watchman/), submodule is used for a library which is a helper tool for developers.
 
 To be precise, it is not a part of a crux of the plugin. The code that is coming from external library is not used in the execution of the plugin.
 
@@ -186,11 +186,10 @@ For this example of plugin, the author could use submodule because he did not wa
 
 If there is any library and its code which is required in the core execution, then submodule is not quite a good option. Because, the code you will need for the execution won't be present in the repository after a regular clone and your plugin may break. Of course, you will need a explicit reminder to either do a *recursive clone* or *submodule init/update* which is an overhead.
 
-This is just one important fact that comes in the picture when while using submodules in a project.
+This is just one important fact that comes in the picture while using submodules in a project.
 
 Subtree is another promising alternative for Submodule. A detailed comparison between two is explained in the latter chapter of this book.
 
-TODO
-1. When to use git submodules
-2. How to use
-3. examples - any real world project, preferably wordpress project. Explain how that project is using
+**References :**
+
+- **What Submodules are for :** http://somethingsinistral.net/blog/git-submodules-are-probably-not-the-answer/#what-submodules-are-for

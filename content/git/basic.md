@@ -190,3 +190,25 @@ To inspect stash change
 $ git stash show
 ```
 reference link : http://git-scm.com/docs/git-stash
+
+##5.1.9 : git log
+log command is used to show commit logs in the current branch.
+
+>> command: git log
+
+reference link : http://git-scm.com/docs/git-log
+
+##5.1.10 : git revert
+git revert is used to record some new commits to reverse the effect of some earlier commits (often only a faulty one).
+
+>> command : git revert [--[no-]edit] [-n] [-m parent-number] [-s] [-S[<key-id>]] <commit>...
+
+####Example:
+```
+Revert the changes specified by the fourth last commit in HEAD and create a new commit with the reverted changes.
+$ git revert HEAD~3
+
+Revert the changes done by commits from the fifth last commit in master (included) to the third last commit in master (included), but do not create any commit with the reverted changes. The revert only modifies the working tree and the index.
+$ git revert -n master~5..master~2
+```
+reference link: http://git-scm.com/docs/git-revert

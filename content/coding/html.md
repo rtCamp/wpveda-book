@@ -16,6 +16,11 @@ For more information, [read this awesome Stack Overflow article](http://stackove
 ## HTML Validation
 All HTML pages should be verified against the [W3C validator](http://validator.w3.org/), to ensure that the markup is well formed. This in and of itself is not directly indicative of good code, but it helps to weed out problems that are able to be tested via automation. It is no substitute for manual code review.
 
+## HTML5 Semantic Markup
+The markup that you write should always be as semantic as possible. Easily readable and understandable by both humans and Bots( site crawlers ). This even helps the SEO of the site.
+<br />Here is an awesome article that will help you understand the sematics in depth : ([ lets-talk-about-semantics ](http://html5doctor.com/lets-talk-about-semantics/))
+<br/>You can learn about the Semantic elements in HTML5 over here : ([ html5 Semantic Elements ](http://www.w3schools.com/html/html5_semantic_elements.asp) )
+
 ## Self-closing Elements
 Though we are using [HTML5](http://dev.w3.org/html5/spec/Overview.html), which allows for either HTML or XHTML style syntax, we prefer the strictness of XHTML. Therefore, all tags must be properly closed. For tags that can wrap nodes such as text or other elements, termination is a trivial enough task. For tags that are self-closing, the forward slash should have exactly one space preceding it ```
 <br />``` vs. the compact but incorrect ```
