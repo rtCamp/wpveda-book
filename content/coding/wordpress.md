@@ -10,7 +10,7 @@
 
 .alignleft
 
-.wpcaption 
+.wpcaption
 
 .size-full
 
@@ -29,32 +29,32 @@
 
 The main title of the admin panel. Used to display the name of the blog and a link to View Site.
 
-*#adminmenu ul* 
+*#adminmenu ul*
 
 The main level navigation bar, for links: Dashboard, Write, Manage, etc.
 
-*#adminmenu2 ul* 
+*#adminmenu2 ul*
 
 The sub level navigation bar, for links (example: under Manage: Posts, Pages, Categories).
 
-*.wrap* 
+*.wrap*
 
 The basic wrapper for all content in the admin panel, set in a <div>.
 
-*#zeitgeist* 
+*#zeitgeist*
 
 The sidebar on the Dashboard displaying Latest Activity and Blog Stats.
 
-*#footer* 
+*#footer*
 
 The footer at the bottom, with Wordpress logo, version number, and help links.
 
-*.wrap h2* 
+*.wrap h2*
 
 Individual Page headers for the various subpanels, like General Options.
 
 ### Theme post-editor style
-``` add_editor_style( $stylesheet );``` 
+``` add_editor_style( $stylesheet );```
 
 $stylesheet
 (string/array) (optional) Path to a stylesheet file, relative to the current theme directory, or an array thereof to link multiple stylesheet files.
