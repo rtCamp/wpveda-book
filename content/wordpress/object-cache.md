@@ -128,6 +128,6 @@ function prefix_get_top_commented_posts( $force_refresh = false ) {
 
 ##Refence links
 
-http://codex.wordpress.org/Class_Reference/WP_Object_Cache
-https://10up.github.io/Engineering-Best-Practices/php/#performance
-https://www.tollmanz.com/core-caching-concepts-in-wordpress/
+1. http://codex.wordpress.org/Class_Reference/WP_Object_Cache
+2. https://10up.github.io/Engineering-Best-Practices/php/#performance
+3. https://www.tollmanz.com/core-caching-concepts-in-wordpress/

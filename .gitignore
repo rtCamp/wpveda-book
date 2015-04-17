@@ -1,1 +1,5 @@
-/_book/
+_book
+_builds
+_projects
+_steps
+node_modules
