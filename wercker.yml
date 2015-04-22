@@ -1,5 +1,5 @@
 # our build should run within a Ruby box
-box: node
+box: wercker/nodejs
 build:
   steps:
     # - npm-install
