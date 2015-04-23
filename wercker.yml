@@ -1,4 +1,3 @@
-# our build should run within a Ruby box
 box: wercker/nodejs
 build:
   steps:
