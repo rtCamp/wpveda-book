@@ -12,3 +12,4 @@ Tools:
 
 Links:
 1. WordPress core - https://make.wordpress.org/core/handbook/automated-testing/
+2. Pippin's tutorial - https://pippinsplugins.com/series/unit-tests-wordpress-plugins/

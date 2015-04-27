@@ -12,3 +12,8 @@ TODO:
 
 
 
+## Table Name
+
+Format: "Plugin slug" + "_" + "purpose"
+
+Plugin name should have `-` replaces by `_`
