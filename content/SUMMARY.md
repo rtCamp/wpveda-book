@@ -35,6 +35,7 @@
    * [HTML](coding/html.md)
    * [CSS](coding/css.md)
        * [WordPress CSS](coding/wordpress.md)
+       * [CSS Preprocessor](coding/preprocessor.md)
    * [JavaScript](coding/javascript.md)
    * [PHP](coding/php.md)
        * [Code Sniffer](coding/code_sniffer.md)
