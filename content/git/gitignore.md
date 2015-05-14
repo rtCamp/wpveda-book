@@ -4,7 +4,7 @@ During development, We have some file and folders which you don't want to push o
 
 ## How to create .gitignore file
 
-you can create .gitignore file for diffrent scop
+you can create .gitignore file for different scope
 
 ### Global .gitignore file
 
@@ -51,6 +51,7 @@ git rm --cached
 ```
 ### Sass ###
 .sass-cache
+.scss-cache
 
 ### Bower ###
 bower_components
@@ -66,6 +67,7 @@ bower_components
 _book
 
 ### NetBeans ###
+nbproject
 nbproject/private/
 build/
 nbbuild/
@@ -78,11 +80,15 @@ nb-configuration.xml
 ### Node ###
 # Logs
 *.log
+npm-debug.log
 
 # Dependency directory
 node_modules
 
+# Misc files
+.DS_Store
+Thumbs.db
+
 ```
 
 For gitignore rule visit https://www.gitignore.io/
-

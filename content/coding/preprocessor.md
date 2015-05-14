@@ -9,3 +9,5 @@
 * [Getting Started with Grunt](http://blog.teamtreehouse.com/getting-started-with-grunt)
 * [SASS Guideline](http://sass-guidelin.es/)
 * [Compass Inbuilt Mixins](http://compass-style.org/index/mixins/)
+
+Follow [this](http://docs.rtcamp.com/rtpanel/developer/setup-rtpanel-development/) article to install packages and setup project for development.
