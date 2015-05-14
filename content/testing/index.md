@@ -12,7 +12,7 @@ TODO
 6. Helpful WP plugins
     7. wordpress-reset plugin
     8. wordpress-beta release checker/tester
-    9. 
+    9. wordpress Yoast
 
 ## Links:
 1. WordPress testing - http://www.slideshare.net/ptahdunbar/automated-testing-in-wordpress-really
