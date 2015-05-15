@@ -63,6 +63,7 @@
        * [phpunit](testing/phpunit.md)
    * [Functional Testing](testing/functional.md)
    * [Git integration](testing/git-integration.md)
+   * [Manual Testing Guide](testing/testing-data.md)
 * [Build](build/index.md)
    * [README.md to README.txt generation](build/readme-conversion.md)
    * [Updating Translation](deployment/updating_translation.md)
