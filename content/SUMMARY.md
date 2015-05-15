@@ -64,6 +64,7 @@
    * [Functional Testing](testing/functional.md)
    * [Git integration](testing/git-integration.md)
    * [Manual Testing Guide](testing/testing-data.md)
+* [Ads Management](ads-management/dfp-guide.md)
 * [Build](build/index.md)
    * [README.md to README.txt generation](build/readme-conversion.md)
    * [Updating Translation](deployment/updating_translation.md)
