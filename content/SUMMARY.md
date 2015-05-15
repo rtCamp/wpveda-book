@@ -19,6 +19,7 @@
 * [Command Line](git/wp_cli.md)
    * [Linux Commands](git/linux_commands.md)
    * [WP-CLI](git/wp-cli.md)
+   * [Site Migration](git/migration.md)
 * [Git](git/index.md)
    * [Basic Commands](git/basic.md)
    * [Merge Conflicts](git/merge.md)
