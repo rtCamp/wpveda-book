@@ -22,6 +22,7 @@
 * [Git](git/index.md)
    * [Basic Commands](git/basic.md)
    * [Merge Conflicts](git/merge.md)
+   * [Diff](git/diff.md)
    * [Webhooks](git/webhooks.md)
    * [.gitignore file](git/gitignore.md)
    * [Workflow (Branching model)](git/workflow.md)
@@ -74,3 +75,4 @@
    * [Github to Amazon S3](deployment/amazon-s3.md)
    * [Github to EasyDigitalDownload Product](deployment/easydigitaldownload.md)
 * [Post Release](deployment/post_release.md)
+
