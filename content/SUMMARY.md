@@ -26,6 +26,7 @@
    * [Webhooks](git/webhooks.md)
    * [.gitignore file](git/gitignore.md)
    * [Workflow (Branching model)](git/workflow.md)
+   * [gitflow.md](git/gitflow.md)
    * [Workoing with multiple remotes](git/multiple-remotes.md)
    * [Submodules](git/submodules.md)
    * [Subtree](git/subtree.md)
