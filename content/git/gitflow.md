@@ -16,6 +16,8 @@ GitFlow is a branching model for Git. It has attracted a lot of attention becaus
 
     >> command: sudo apt-get install git-flow
 
+    For Other operating system visit: [nvie/gitflow](https://github.com/nvie/gitflow/wiki/Installation)
+
 2.  Clone your existing git repo
 
     Once clone completed and Before initialize gitflow into your repo you need to create two branch into your repo.
@@ -23,7 +25,7 @@ GitFlow is a branching model for Git. It has attracted a lot of attention becaus
     1. **Master**: This is default branch.
     2. **Develop**: This is development branch or next release branch.
 
-    reference link : git clone
+    reference link : [wpveda/git/git-clone](http://wpveda.com/git/basic.html#5-1-2-git-clone)
 
 3.  Run "git flow init" into your git repo folder
 
@@ -64,7 +66,7 @@ GitFlow is a branching model for Git. It has attracted a lot of attention becaus
 
 Feature branch are use to develop new feature for the upcoming or distant feature release.
 
-    >> command: git flow feature [start | finish | publish| pull ] <feature_name>
+>> command: git flow feature [start | finish | publish | pull ] <feature_name>
 
 - If two person ( andey and Rachel ) working on same project but in different feature like featureX and featureY.
 
@@ -129,13 +131,13 @@ After above task completed release brahch deleted.
 ##  Git Flow hotfix
 In between delepment of next release, if any critical bug into earlier release then you can use ** git flow hotfix ** and git flow create new brach as hotfix branch from production releases [master] branch.
 
-    >> command: git flow hotfix [start | finish | publish | pull ] <hotfix_name> [BASENAME]
+>> command: git flow hotfix [start | finish | publish | pull ] <hotfix_name> [BASENAME]
 
 ** [BASENAME] : version argument hereby marks the new hotfix release name.
 
-If before release v1.1.0, Andey find some critical bug like "login_issue" into earlier releas.
+Before release v1.1.0, if Andey find some critical bug like "login_issue" into previous releas.
 
-At this time Andey make hotfix using
+At this time Andey make hotfix release using
 
     >> command: git flow hotfix start login_issue
 
@@ -145,4 +147,4 @@ Additionally the master merge is tagged with the hotfix version.
 
     >> command: git flow hotfix finish login_issue
 
-
+For more information Visit : [git-flow-cheatsheet](http://danielkummer.github.io/git-flow-cheatsheet/)
