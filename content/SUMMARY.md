@@ -37,7 +37,7 @@
 * [Coding Standards](coding/index.md)
    * [HTML](coding/html.md)
    * [CSS](coding/css.md)
-       * [WordPress CSS](coding/wordpress.md)
+       * [WordPress CSS](coding/wordpress_css.md)
        * [CSS Preprocessor](coding/preprocessor.md)
    * [JavaScript](coding/javascript.md)
    * [PHP](coding/php.md)
@@ -78,4 +78,3 @@
    * [Github to Amazon S3](deployment/amazon-s3.md)
    * [Github to EasyDigitalDownload Product](deployment/easydigitaldownload.md)
 * [Post Release](deployment/post_release.md)
-
