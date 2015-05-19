@@ -5,8 +5,8 @@ build:
 
     # install gitbook itself
     - script:
-        name: install gitbook
-        code: npm -g install gitbook@1.5.0
+        name: install gitbook-cli
+        code: npm -g install gitbook-cli
 
     # build gitbooks
     - script:

@@ -14,11 +14,11 @@ To create new repository, follow this 3 step: [ in below example we create repos
 First you need to create folder into your local machine for git repository.
 $ mkdir example-git
 
-Change your working directory as new repository foolder [ example-git ]
+Change your working directory as new repository folder [ example-git ]
 $ cd example-git
 
-Execute **git init** to create ot initialize git repository
-$ cd example-git
+Execute **git init** to create or initialize git repository
+$ git init
 ```
 reference link : http://git-scm.com/docs/git-init
 
@@ -34,9 +34,20 @@ For clone repository into your local directory you need to use ** git clone **
 
 ####Example:
 ```
-To clone wpveda book repo imto your local machine
+To clone wpveda book repo into your local machine
 $ git clone https://github.com/wpveda/book.git
 ```
+
+```bash
+To clone wpveda book repo into custom folder
+$ git clone git@github.com:wpveda/book.git FOLDER-NAME
+```
+
+```bash
+To clone specific branch from wpveda book repo
+$ git clone git@github.com:wpveda/book.git -b BRANCH-NAME
+```
+
 reference link : http://git-scm.com/docs/git-clone
 
 ##5.1.3 : git status
@@ -57,7 +68,7 @@ reference link : http://git-scm.com/docs/git-status
 
 ##5.1.4 : git fetch
 
-Fetch command use to fetch object anf refs from remote or any other repository
+Fetch command use to fetch object and refs from remote or any other repository
 
 >> command: git fetch [option] [remote] [branch]
 
