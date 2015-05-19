@@ -1,7 +1,6 @@
 # Windows
 
-TODO:
-1. Tools people use
-
-Meta-question:
-1. Is it really good idea to include windows?
+Tools:
+1. Eclipse / Netbeans
+2. WAMP / XAMPP
+3. Filezilla
