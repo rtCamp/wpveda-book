@@ -1,22 +1,25 @@
 # Windows
 
-Tools:
-1. Eclipse / Netbeans
+**Tools:**
+
+#### Eclipse / Netbeans
 
 Eclipse / NetBeans is a software development platform written in Java. The Eclipse / NetBeans Platform allows applications to be developed from a set of modular software components called modules.
 
-https://netbeans.org/community/releases/80/install.html
-https://eclipse.org/downloads/
+* [Download Netbeans](https://netbeans.org/community/releases/80/install.html)
+* [Download Eclipse](https://eclipse.org/downloads/)
 
-2. WAMP / XAMPP
+#### WAMP / XAMPP
 
 WAMP / XAMPP consists of the Apache web server, OpenSSL for SSL support, MySQL database and PHP programming language.
 
-https://www.apachefriends.org/download.html
-http://www.wampserver.com/en/
 
-3. Filezilla
+* [Download XAMPP](https://www.apachefriends.org/download.html)
+* [Download WAMP](http://www.wampserver.com/en/)
+
+#### Filezilla
 
 FileZilla is a powerful and free software for transferring files over the Internet. FileZilla is a very popular FTP client.
 
-https://filezilla-project.org/download.php?type=client
+
+* [Download Filezilla](https://filezilla-project.org/download.php?type=client)
