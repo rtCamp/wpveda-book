@@ -13,6 +13,8 @@ There are two types of an admin page
 
 This will create a brand-new menu in the admin menu sidebar.
 
+`add_menu_page()` function is used to create top-level admin page.
+
 ```php
 <?php
 add_menu_page( $page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position );
@@ -37,9 +39,9 @@ function my_custom_menu_page(){
 
 #### 2. Sub-level admin page
 
-There are different functions by using which you can create a sub-level admin page
+There are different functions by using which you can create a sub-level admin page.
 
-The add_submenu_page() function is used to add sub-level menus anywhere
+The `add_submenu_page()` function is used to add sub-level menus anywhere.
 
 ```php
 <?php
@@ -47,11 +49,11 @@ add_submenu_page( $parent_slug, $page_title, $menu_title, $capability, $menu_slu
 ?>
 ```
 
-$parent_slug is the slug name of the parent menu. For example -
+`$parent_slug` is the slug name of the parent menu. For example -
 
-To add menu in Dashboard use $parent_slug as `index.php`
+To add menu in Dashboard use `$parent_slug` as `index.php`
 
-To add menu in Posts use $parent_slug as `edit.php`
+To add menu in Posts use `$parent_slug` as `edit.php`
 
 and so on.
 
@@ -73,7 +75,7 @@ echo '</div>';
 ?>
 ```
 
-Built in top-level pages have there own functions. For example -
+Built in top-level pages have there own functions to add sub menus. For example -
 
 To add a menu item under posts you can use [add_posts_page](https://codex.wordpress.org/Function_Reference/add_posts_page)
 
