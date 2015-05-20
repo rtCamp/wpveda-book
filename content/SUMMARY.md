@@ -78,3 +78,4 @@
    * [Github to Amazon S3](deployment/amazon-s3.md)
    * [Github to EasyDigitalDownload Product](deployment/easydigitaldownload.md)
 * [Post Release](deployment/post_release.md)
+* [Workflow](workflow/README.md)
