@@ -27,6 +27,7 @@
    * [Webhooks](git/webhooks.md)
    * [.gitignore file](git/gitignore.md)
    * [Workflow (Branching model)](git/workflow.md)
+   * [gitflow.md](git/gitflow.md)
    * [Workoing with multiple remotes](git/multiple-remotes.md)
    * [Submodules](git/submodules.md)
    * [Subtree](git/subtree.md)
@@ -36,7 +37,7 @@
 * [Coding Standards](coding/index.md)
    * [HTML](coding/html.md)
    * [CSS](coding/css.md)
-       * [WordPress CSS](coding/wordpress.md)
+       * [WordPress CSS](coding/wordpress_css.md)
        * [CSS Preprocessor](coding/preprocessor.md)
    * [JavaScript](coding/javascript.md)
    * [PHP](coding/php.md)
@@ -78,4 +79,3 @@
    * [Github to EasyDigitalDownload Product](deployment/easydigitaldownload.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
-
