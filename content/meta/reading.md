@@ -11,5 +11,4 @@ It really depends on who you are?
 
 1. You must be knowing plenty of stuff this book covers
 2. As an expert you may disagree with few things - [create an issue](https://github.com/wpveda/book/issues/) about them so we can exchange ideas!
-3. If you find any correction, or improvemnets, please feel free to send pull requests.
-
+3. If you find any correction, or improvements, please feel free to send pull requests.
