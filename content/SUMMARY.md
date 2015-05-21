@@ -64,6 +64,7 @@
    * [Unit Testing](testing/unit.md)
        * [phpunit](testing/phpunit.md)
    * [Functional Testing](testing/functional.md)
+       * [Automation via Nighrwatchjs](testing/automation-night-watch.md)
    * [Git integration](testing/git-integration.md)
    * [Manual Testing Guide](testing/testing-data.md)
 * [Build](build/index.md)
