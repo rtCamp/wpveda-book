@@ -23,12 +23,12 @@ Plugin name should have `-` replaces by `_`
 
 Ability
 -------
-=> dbDelta function has the ability to examine the current table structure, compares it to the desired table structure, 
+=> dbDelta function has the ability to examine the current table structure, compares it to the desired table structure,
 and either adds or modifies the table as necessary, so it can be very handy for updates of our plugin.
 
 Major Disadvantage
 ------------------
-=> dbDelta function is only adds or modifies the table fields not removes it, This means that if you decide to remove 
+=> dbDelta function is only adds or modifies the table fields not removes it, This means that if you decide to remove
 any particular field on your table and hoping dbDelta will help you out with it, you are wrong.
 
 => Description : https://developer.wordpress.org/reference/functions/dbdelta

@@ -6,7 +6,7 @@ Suggested:
 ├── README.txt
 ├── sample-plugin.php
 ├── app
-├── assests
+├── assets
 ├── bin
 ├── languages
 ├── lib
@@ -17,13 +17,13 @@ Suggested:
 
 TODO
 1. Finalize a structure to cover edge cases
-2. folders which are not needed by a plugin will be marked optional
-3. Explain purpose each file/folder
+2. Folders which are not needed by a plugin will be marked optional
+3. Explain purpose of each file/folder
 
 #### 1. README.txt
-It is good practice to write readme.txt file because this file give plugin summary and milestone.
+It is good practice to write readme.txt file because this file gives plugin summary and milestone.
 
-In readme.txt file, mainly three sections will covered `Description`, `Installation`, `Changelog`. You can decribe plugin summary using this sections.
+In readme.txt file, mainly three sections will be covered `Description`, `Installation`, `Changelog`. You can decribe plugin summary using this sections.
 
 **Reference:** https://wordpress.org/plugins/about/readme.txt
 
