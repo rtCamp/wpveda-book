@@ -1,7 +1,7 @@
 # Admin AJAX
 
-Apart from using WordPress Admin AJAX for all your AJAX needs, it can be also used to code long running processes without worrying about timeouts.
+Εκτός από την χρήση του Admin AJAX για όλες τις ανάγκες που έχετε σε AJAX, μπορεί επίσης να χρησιμοποιηθεί για να γράψετε κώδικα που απαιτεί μεγάλο χρονικό διάστημα εκτέλεσης χωρίς να ανησυχείτε για την λήξη εκτέλεσης του σεναρίου.
 
-Some examples:
-1. New release of your plugin adds new mysql column to a custom database. You need to calculate values of new fields for all rows.
-2. You need to loop through all posts without worrying about timeouts. Specaily when dataset is very big and/or WordPress is running on low-end hosting.
+Μερικά παραδείγματα:
+1. Νέα έκδοση του πρόσθετου σας, προσθέτει μια νέα στήλη σε ένα πίνακα. Επιπλέον χρειάζεστε να υπολογίσετε τιμές για αυτό το νέο πεδίο για όλες τις γραμμές.
+2. Πρέπει να εκτελέσετε ένα βρόχο σε όλα τα άρθρα, χωρίς να ανησυχείτε για λήξη του χρόνου εκτέλεσης του σεναρίου. Ειδικά όταν το σύνολο των δεδομένων είναι πολύ μεγάλο και/ή το WordPress εκτελείτε σε ένα χαμηλών δυνατοτήτων server.
