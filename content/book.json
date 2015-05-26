@@ -1,6 +1,6 @@
 {
-  "gitbook": "2.0.1",
-  "plugins": ["edit-link","ga","anchors","-mathjax"],
+  "gitbook": "2.0.2",
+  "plugins": ["collapsible-menu","edit-link","ga","anchors","-mathjax"],
   "pluginsConfig": {
         "edit-link": {
           "base": "https://github.com/wpveda/book/edit/master/content",

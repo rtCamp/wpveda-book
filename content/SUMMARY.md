@@ -64,6 +64,7 @@
    * [Unit Testing](testing/unit.md)
        * [phpunit](testing/phpunit.md)
    * [Functional Testing](testing/functional.md)
+       * [Automation via Nighrwatchjs](testing/automation-night-watch.md)
    * [Git integration](testing/git-integration.md)
    * [Manual Testing Guide](testing/testing-data.md)
 * [Build](build/index.md)
@@ -78,3 +79,4 @@
    * [Github to Amazon S3](deployment/amazon-s3.md)
    * [Github to EasyDigitalDownload Product](deployment/easydigitaldownload.md)
 * [Post Release](deployment/post_release.md)
+* [Workflow](workflow/README.md)
