@@ -41,6 +41,7 @@ Admin folder contains classes and assets which is use only admin side. It contai
 |   |   `-- plugin-name-admin.js
 |   |-- font
 |   |-- img
+|   |-- page
 ```
 **class-plugin-name-admin.php** is class file which is responciable for admin side functionality.
 
@@ -70,9 +71,9 @@ Bin folder contains binary file if existed. like media encoding file.
 ### 4. build
 This folder stores script and other stuff which are use to build the application. This folder should not pushed on svn repository.
 
-**Example**:  pre-commit hook file, travis script, markdown generator etc.
+**Example**:  Pre-commit hook file, Travis script, Markdown generator etc.
 
-you can find build script for wordpress plugin from https://github.com/xwp/wp-dev-lib
+You can find build script for wordpress plugin from https://github.com/xwp/wp-dev-lib
 
 ### 5. includes
 Includes is folder where functionality shared between the admin area and the public-facing parts of the site reside
@@ -98,7 +99,7 @@ Includes contains above file. every file has its own perpose.
 
 **class-plugin-name.php** is file which is load all part [ admin | public | include ] of plugin.
 
-This class intitalised loder classobject and it is use in entier project to register action &hook.
+This class intitalised loder class object and it's use in entier project to register action & hook.
 
 ### 6. languages
 This folder contains languages files `(.pot, .mo)` for multiple language support in plugin.
@@ -107,7 +108,7 @@ This folder contains languages files `(.pot, .mo)` for multiple language support
 http://premium.wpmudev.org/blog/localize-a-wordpress-plugin-and-make-it-translation-ready/
 
 ### 7. lib ( optional )
-Lib is where store code which is developed by us to use our plugin but this code may be used any other plugin also.
+Lib is where store code which is developed by us to use in plugin but this code may be used any other plugin also.
 
 **Example**: Most of plugin need to deal with deatabase to handle custom tables in wordpress.
 
@@ -180,15 +181,17 @@ In readme.txt file, mainly three sections will covered `Description`, `Installat
 This folder contains your test cases files like phpunit & selenium test cases.
 This folder contains two folder
 ```
-|-- unit-test
-|-- function-test
+|-- tests
+|   |-- function-test
+|   `-- unit-test
 ```
+**function-test** contains test cases files which are use to check functional testing.
+
 **unit-test** contains phpunit test cases files which are use to check unit testing
 
 **Referenc:**
 https://pippinsplugins.com/unit-tests-wordpress-plugins-introduction/
 
-**Function-test** contains test cases files which are use to check functional testing.
 
 ### 13. uninstall.php
 This file contains code which are Fired when the plugin is uninstalled.
