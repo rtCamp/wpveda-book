@@ -26,11 +26,11 @@ TODO
 2. folders which are not needed by a plugin will be marked optional
 3. Explain purpose each file/folder
 
-plugin divided into major three part and many other optional part.
+Plugin divided into major three part and many other optional part.
 
 
 ### 1. admin
-Admin Folder contains classes and assets which is use only admin side. it contains subfolder to store admin assets.
+Admin folder contains classes and assets which is use only admin side. It contains subfolder to store admin assets.
 ```
 |-- class-plugin-name-admin.php
 |-- css
@@ -39,7 +39,7 @@ Admin Folder contains classes and assets which is use only admin side. it contai
 |-- img
 |-- page
 ```
-**class-plugin-name-admin.php** file is class file which is responciable for admin side functionality.
+**class-plugin-name-admin.php** is class file which is responciable for admin side functionality.
 
 **page** contains template file for admin side pages.
 
@@ -62,17 +62,17 @@ The assets directory contains three files.
 When committing code to the WordPress Plugin Repository, all of the banner, icon, and screenshot should be placed in the assets directory of the Repository.
 
 ### 3. bin ( optional )
-Bin folder contains binary file if exist. like media encoding file.
+Bin folder contains binary file if existed. like media encoding file.
 
 ### 4. build
-This folder store script and other stuff which is use to build the application. this folder should not pushed on svn repository.
+This folder stores script and other stuff which are use to build the application. This folder should not pushed on svn repository.
 
 **Example**:  pre-commit hook file, travis script, markdown generator etc.
 
-you can find build scriptfor wordpress plugin from <<Link>>
+you can find build script for wordpress plugin from https://github.com/xwp/wp-dev-lib
 
 ### 5. includes
-Includes is where functionality shared between the admin area and the public-facing parts of the site reside
+Includes is folder where functionality shared between the admin area and the public-facing parts of the site reside
 
 ```
 |-- includes
@@ -82,11 +82,11 @@ Includes is where functionality shared between the admin area and the public-fac
 |   |-- class-plugin-name-loader.php
 |   |-- class-plugin-name.php
 ```
-Includes contains above file. every file has its own perpurge
+Includes contains above file. every file has its own perpose.
 
-**class-plugin-name-activator.php** is which contains code to perform on plugin activation hook.
+**class-plugin-name-activator.php** is where contains code to perform on plugin activation hook.
 
-**class-plugin-name-deactivator.php** is which contains code to perform on plugin deactivator hook.
+**class-plugin-name-deactivator.php** is where contains code to perform on plugin deactivator hook.
 
 **class-plugin-name-i18n.php** is contains code to support internationalize for plugin. it's contains code to support language file.
 
@@ -103,11 +103,11 @@ This folder contains languages files `(.pot, .mo)` for multiple language support
 http://premium.wpmudev.org/blog/localize-a-wordpress-plugin-and-make-it-translation-ready/
 
 ### 7. lib ( optional )
-Lib is which contains code which is developed by us to use our plugin but this code may be used any other plugin also.
+Lib is where store code which is developed by us to use our plugin but this code may be used any other plugin also.
 
 **Example**: Most of plugin need to deal with deatabase to handle custom tables in wordpress.
 
-SO there is class which is user to check plugin verson and update database custom table on plugin version update.
+There is class which is user to check plugin verson and update database custom table on plugin version update.
 
 This code may be use for other plugin so we keep that code on Lib folder and we can use same folder in other repository.
 
@@ -157,7 +157,7 @@ public folder contains all public-facing functionality. It contains subfolder to
 
 **class-plugin-name-public.php** is class to load public facing functionalit.
 
-**template** folder contain templates files of your plugin. And also you can give option to developer to override your plugin template files in theme folder.
+**template** folder contains templates files of your plugin. And also you can give option to developer to override your plugin template files in theme folder.
 
 
 ### 11. README.txt
@@ -168,7 +168,7 @@ In readme.txt file, mainly three sections will covered `Description`, `Installat
 **Reference:** https://wordpress.org/plugins/about/readme.txt
 
 ### 12. tests
-This folder contain your test cases files like phpunit & silenium test cases.
+This folder contains your test cases files like phpunit & selenium test cases.
 This folder contains two folder
 ```
 |-- unittest
