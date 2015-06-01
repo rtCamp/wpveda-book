@@ -32,12 +32,15 @@ Plugin divided into major three part and many other optional part.
 ### 1. admin
 Admin folder contains classes and assets which is use only admin side. It contains subfolder to store admin assets.
 ```
-|-- class-plugin-name-admin.php
-|-- css
-|-- js
-|-- fonts
-|-- img
-|-- page
+|-- admin
+|   |-- class-plugin-name-admin.php
+|   |-- css
+|   |   `-- plugin-name-admin.css
+|   |-- index.php
+|   |-- js
+|   |   `-- plugin-name-admin.js
+|   |-- font
+|   |-- img
 ```
 **class-plugin-name-admin.php** is class file which is responciable for admin side functionality.
 
@@ -81,6 +84,7 @@ Includes is folder where functionality shared between the admin area and the pub
 |   |-- class-plugin-name-i18n.php
 |   |-- class-plugin-name-loader.php
 |   |-- class-plugin-name.php
+|   `-- index.php
 ```
 Includes contains above file. every file has its own perpose.
 
@@ -96,7 +100,7 @@ Includes contains above file. every file has its own perpose.
 
 This class intitalised loder classobject and it is use in entier project to register action &hook.
 
-### 6. Languages
+### 6. languages
 This folder contains languages files `(.pot, .mo)` for multiple language support in plugin.
 
 **Reference:**
@@ -147,12 +151,17 @@ Wordpress determine entry point/main file of plugin by using plugin information 
 ### 10. public
 public folder contains all public-facing functionality. It contains subfolder to store admin assets.
 ```
-|-- class-plugin-name-public.php
-|-- css
-|-- index.php
-|-- js
-|-- img
-`-- template
+|-- public
+|   |-- class-plugin-name-public.php
+|   |-- css
+|   |   `-- plugin-name-public.css
+|   |-- index.php
+|   |-- js
+|   |   `-- plugin-name-public.js
+|   |-- img
+|   |-- font
+|   |-- template
+
 ```
 
 **class-plugin-name-public.php** is class to load public facing functionalit.
@@ -171,15 +180,15 @@ In readme.txt file, mainly three sections will covered `Description`, `Installat
 This folder contains your test cases files like phpunit & selenium test cases.
 This folder contains two folder
 ```
-|-- unittest
-|-- functiontest
+|-- unit-test
+|-- function-test
 ```
-**Unittest** contains phpunit test cases files which are use to check unit testing
+**unit-test** contains phpunit test cases files which are use to check unit testing
 
 **Referenc:**
 https://pippinsplugins.com/unit-tests-wordpress-plugins-introduction/
 
-**Functiontest** contains test cases files which are use to check functional testing.
+**Function-test** contains test cases files which are use to check functional testing.
 
 ### 13. uninstall.php
 This file contains code which are Fired when the plugin is uninstalled.
