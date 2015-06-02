@@ -189,12 +189,12 @@ This folder contains your test cases files like phpunit & selenium test cases.
 This folder contains two folder
 ```
 |-- tests
-|   |-- function-test
-|   `-- unit-test
+|   |-- function-tests
+|   `-- unit-tests
 ```
-**function-test** contains test cases files which are use to check functional testing.
+**function-tests** contains test cases files which are use to check functional testing.
 
-**unit-test** contains phpunit test cases files which are use to check unit testing
+**unit-tests** contains phpunit test cases files which are use to check unit testing
 
 **Referenc:**
 https://pippinsplugins.com/unit-tests-wordpress-plugins-introduction/
