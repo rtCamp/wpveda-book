@@ -1,4 +1,4 @@
-#Plugin file sturcture
+#Plugin file structure
 
 Suggested:
 
@@ -42,10 +42,17 @@ Admin folder contains classes and assets which is use only admin side. It contai
 |   |-- font
 |   |-- img
 |   |-- page
+|   |-- classes
+|   |   |-- prefix-modulename
+|   |       |-- class-prefix-classname.php
+|   |   |-- prefix-modulename2
+|   |       |-- class-prefix-classname2.php
 ```
-**class-plugin-name-admin.php** is class file which is responciable for admin side functionality.
+**class-plugin-name-admin.php** is class file which is responsible for admin side functionality.
 
-**page** contains template file for admin side pages.
+**classes** is module structure for our plugin. Each module class will have prefix-modulename as parent folder. All module related classes will be clubbed in this folder.
+
+**page** contains template file for wordpress admin page.
 
 ### 2. assets
 The assets directory contains three files.
@@ -87,7 +94,7 @@ Includes is folder where functionality shared between the admin area and the pub
 |   |-- class-plugin-name.php
 |   `-- index.php
 ```
-Includes contains above file. every file has its own perpose.
+Includes contains above file. every file has its own purpose.
 
 **class-plugin-name-activator.php** is where contains code to perform on plugin activation hook.
 
@@ -99,7 +106,7 @@ Includes contains above file. every file has its own perpose.
 
 **class-plugin-name.php** is file which is load all part [ admin | public | include ] of plugin.
 
-This class intitalised loder class object and it's use in entier project to register action & hook.
+This class initialized loader class object and it's use in entire project to register action & hook.
 
 ### 6. languages
 This folder contains languages files `(.pot, .mo)` for multiple language support in plugin.
@@ -110,9 +117,9 @@ http://premium.wpmudev.org/blog/localize-a-wordpress-plugin-and-make-it-translat
 ### 7. lib ( optional )
 Lib is where store code which is developed by us to use in plugin but this code may be used any other plugin also.
 
-**Example**: Most of plugin need to deal with deatabase to handle custom tables in wordpress.
+**Example**: Most of plugin need to deal with database to handle custom tables in wordpress.
 
-There is class which is user to check plugin verson and update database custom table on plugin version update.
+There is class which is user to check plugin version and update database custom table on plugin version update.
 
 This code may be use for other plugin so we keep that code on Lib folder and we can use same folder in other repository.
 
@@ -165,7 +172,7 @@ public folder contains all public-facing functionality. It contains subfolder to
 
 ```
 
-**class-plugin-name-public.php** is class to load public facing functionalit.
+**class-plugin-name-public.php** is class to load public facing functionality.
 
 **template** folder contains templates files of your plugin. And also you can give option to developer to override your plugin template files in theme folder.
 
@@ -173,7 +180,7 @@ public folder contains all public-facing functionality. It contains subfolder to
 ### 11. README.txt
 It is good practice to write readme.txt file because this file give plugin summary and milestone.
 
-In readme.txt file, mainly three sections will covered `Description`, `Installation`, `Changelog`. You can decribe plugin summary using this sections.
+In readme.txt file, mainly three sections will covered `Description`, `Installation`, `Changelog`. You can describe plugin summary using this sections.
 
 **Reference:** https://wordpress.org/plugins/about/readme.txt
 
