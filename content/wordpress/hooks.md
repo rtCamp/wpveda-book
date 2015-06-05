@@ -8,14 +8,14 @@ WordPress action and filter hooks are what makes WordPress incredibly extendable
 The main difference between actions and filters is the purpose they are used for and how they are declared and used. Here’s a quick summary.
 
 #### - Actions
- - #####When something has to be added
- - #####declared with `add_action()`.
- - #####used with `do_action()`.
+ - When something has to be added
+ - declared with `add_action()`.
+ - used with `do_action()`.
 
 ### - Filters
- - #####When something has to be changed
- - #####declared with `apply_filters()`.
- - #####used with `add_filters()`.
+ - When something has to be changed
+ - declared with `apply_filters()`.
+ - used with `add_filters()`.
 
 ##Examples
 You can create a wordpress action with the following code.
