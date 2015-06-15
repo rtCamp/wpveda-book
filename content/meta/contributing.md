@@ -6,7 +6,7 @@ This is detailed guide for contributors.
 
 All contributors must understand that this book is highly opinionted. This means, it might happen that you may not agree this some portion and your attempt to edit it, by sending pull request is rejected.
 
-Of course, we are open to discussion about every aspect of this book no matter how small it may sound. We request you to please be patience and polite when cotributing.
+Of course, we are open to discussion about every aspect of this book no matter how small it may sound. We request you to please be patience and polite when contributing.
 
 ## Minor edits
 
