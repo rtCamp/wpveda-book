@@ -79,3 +79,4 @@ Incorrect:
 ## Useful links
 
 * [WordPress coding standard for HTML](https://make.wordpress.org/core/handbook/coding-standards/html/)
+* http://learn.shayhowe.com/ - Well explained HTML and CSS tutorial for newbies.
