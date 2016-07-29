@@ -71,7 +71,7 @@
    * [README.md to README.txt generation](build/readme-conversion.md)
    * [Updating Translation](deployment/updating_translation.md)
    * [A way to ignore files during build](build/ignore-build.md)
-   * [comibine/minify css and js to 1 file per project](build/minify.md)
+   * [combine/minify css and js to 1 file per project](build/minify.md)
    * [CI + build + testing tools](build/ci.md)
 * [Deployment](deployment/index.md)
    * [Github to WordPress SVN](deployment/wordpress-svn.md)
