@@ -3,3 +3,5 @@ _builds
 _projects
 _steps
 node_modules
+/.idea
+/content/node_modules
