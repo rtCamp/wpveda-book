@@ -179,6 +179,8 @@ rsync [OPTION] [USER@]HOST:SRC DEST
 
 For more help run `man rsync` OR `rsync --help` command in your terminal.
 
+Read [this tutorial](https://www.rosehosting.com/blog/migrate-your-wordpress-website-to-a-new-virtual-server/) on how to migrate WordPress using rsync
+
 ---
 
 ### ssh
