@@ -1,103 +1,103 @@
-WordPress Admin Pages
+Σελίδες διαχείρισης του WordPress
 =====================
 
-If you are building a wordpress plugin / theme there are situations where you want to create a backend page.
+Αν δημιουργείτε ένα πρόσθετο/θέμα για το WordPress υπάρχουν περιστάσεις που πρέπει να δημιουργήσετε σελίδες στον πίνακα ελέγχου.
 
-There are two types of an admin page
+Υπάρχουν δυο τύποι σελίδων για των πίνακα ελέγχου
 
-1.Top-level admin page
+1.Σελίδες ανώτερου επιπέδου (Top-Level)
 
-2.Sub-level admin page
+2.Σελίδες κατώτερου επιπέδου (Sub-Level)
 
-#### 1. Top-level admin page
+#### 1. Σελίδες ανώτερου επιπέδου
 
-This will create a brand-new menu in the admin menu sidebar.
+Η ακόλουθη συνάρτηση θα δημιουργήσει ένα νέο μενού στην πλευρική μπάρα μενού του πίνακα ελέγχου.
 
-`add_menu_page()` function is used to create top-level admin page.
+Η συνάρτηση `add_menu_page()` χρησιμοποιείτε για να δημιουργήσει ένα μενού ανώτερου επιπέδου.
 
 ```php
 <?php
-add_menu_page( $page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position );
+add_menu_page( $τίτλος_σελίδας, $τίτλος_μενού, $δικαιώματα_πρόσβασης, $slug_μενού, $συνάρτηση, $url_εικονιδίου, $θέση );
 ?>
 ```
 
-###### Example
+###### Παράδειγμα
 
 ```php
 <?php
 add_action( 'admin_menu', 'register_my_custom_menu_page' );
 
 function register_my_custom_menu_page(){
-   add_menu_page( 'custom menu title', 'custom menu', 'manage_options', 'custompage', 'my_custom_menu_page', plugins_url( 'myplugin/images/icon.png' ), 6 );
+   add_menu_page( 'Ο τίτλος της σελίδας', 'Νέο μενού', 'manage_options', 'custompage', 'my_custom_menu_page', plugins_url( 'myplugin/images/icon.png' ), 6 );
    }
 
 function my_custom_menu_page(){
-   echo "Admin Page Test";
+   echo "Δοκιμαστική σελίδα...";
    }
 ?>
 ```
 
-#### 2. Sub-level admin page
+#### 2. Σελίδες κατώτερου επιπέδου
 
-There are different functions by using which you can create a sub-level admin page.
+Για την δημιουργία σελίδες κατώτερου επιπέδου στον πίνακα διαχείρισης υπάρχει διαφορετική συνάρτηση.
 
-The `add_submenu_page()` function is used to add sub-level menus anywhere.
+Η συνάρτηση `add_submenu_page()` χρησιμοποιείτε για να προσθέσει μια σελίδα κατώτερου επιπέδου σε όποιο μενού θέλετε.
 
 ```php
 <?php
-add_submenu_page( $parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function );
+add_submenu_page( $parent_slug, $τίτλος_σελίδας, $τίτλος_μενού, $capability, $menu_slug, $συνάρτηση );
 ?>
 ```
 
-`$parent_slug` is the slug name of the parent menu. For example -
+`$parent_slug` είναι το slug του γονικού μενού. Για παράδειγμα -
 
-To add menu in Dashboard use `$parent_slug` as `index.php`
+Για να προσθέσετε ένα μενού κατώτερου επιπέδου στο μενού Πίνακας ελέγχου μπορείτε να χρησιμοποιήσετε στο `$parent_slug` το `index.php`
 
-To add menu in Posts use `$parent_slug` as `edit.php`
+Για να προσθέσετε ένα μενού κατώτερου επιπέδου στο μενού άρθρα μπορείτε να χρησιμοποιήσετε στο `$parent_slug` το `edit.php`
 
-and so on.
+και πάει λέγοντας
 
-###### Example
+###### Παράδειγμα
 
 ```php
 <?php
 add_action('admin_menu', 'register_my_custom_submenu_page');
 
 function register_my_custom_submenu_page() {
-   add_submenu_page( 'edit.php', 'My Custom Submenu Page', 'My Custom Submenu Page', 'manage_options', 'my-custom-submenu-page', 'my_custom_submenu_page_callback' );
+   add_submenu_page( 'edit.php', 'Σελίδα κατώτερου επιπέδου', 'Σελίδα κατώτερου επιπέδου', 'manage_options', 'my-custom-submenu-page', 'my_custom_submenu_page_callback' );
 }
 
 function my_custom_submenu_page_callback() {
 echo '<div class="wrap"><div id="icon-tools" class="icon32"></div>';
-    echo '<h2>My Custom Submenu Page</h2>';
+    echo '<h2>Η δική μου σελίδα κατώτερου επιπέδου</h2>';
 echo '</div>';
 }
 ?>
 ```
 
-Built in top-level pages have there own functions to add sub menus. For example -
+Επιπλέον, τα εξ ορισμού μενού ανωτέρου επιπέδου, έχουν τις δικές τους συναρτήσεις για την προσθήκη μενού κατώτερου επιπέδου. Για παράδειγμα -
 
-To add a menu item under posts you can use [add_posts_page](https://codex.wordpress.org/Function_Reference/add_posts_page)
+Για την προσθήκη μενού κατώτερου επιπέδου στα άρθρα μπορείτε να χρησιμοποιήσετε την συνάρτηση [add_posts_page](https://codex.wordpress.org/Function_Reference/add_posts_page)
 
-To add a menu item under pages you use [add_pages_page](https://codex.wordpress.org/Function_Reference/add_pages_page)
+Για την προσθήκη μενού κατώτερου επιπέδου στις σελίδες μπορείτε να χρησιμοποιήσετε την συνάρτηση [add_pages_page](https://codex.wordpress.org/Function_Reference/add_pages_page)
 
-To add a menu item under media you use [add_media_page](https://codex.wordpress.org/Function_Reference/add_media_page)
+Για την προσθήκη μενού κατώτερου επιπέδου στις σελίδα με τα πολυμέσα μπορείτε να χρησιμοποιήσετε την συνάρτηση [add_media_page](https://codex.wordpress.org/Function_Reference/add_media_page)
 
-and so on.
+και πάει λέγοντας.
 
-###### Example
+###### Παράδειγμα
 
 ```php
 <?php
 add_action('admin_menu', 'my_plugin_menu');
 
 function my_plugin_menu() {
-  add_posts_page('My Plugin Posts Page', 'My Plugin', 'read', 'my-unique-identifier', 'my_plugin_function');
+  add_posts_page('Υπό σελίδα στα άρθρα για το πρόσθετο μου', 'Πρόσθετο', 'read', 'my-unique-identifier', 'my_plugin_function');
   }
 ?>
 ```
 
-#### Reference Links
+#### Αναφορές
 
 https://codex.wordpress.org/Creating_Options_Pages
 
