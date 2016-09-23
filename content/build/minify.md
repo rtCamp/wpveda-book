@@ -8,7 +8,7 @@ TODO:
 
 **npm packages to combine, minify and validate js file**
 
--	[Combile and Minify JS file](https://www.npmjs.com/package/grunt-contrib-uglify)
+-	[Combine and Minify JS file](https://www.npmjs.com/package/grunt-contrib-uglify)
 -	[Validate files with JSHint](https://www.npmjs.com/package/grunt-contrib-jshint)
 -	[Compile Sass to CSS using Compass](https://www.npmjs.com/package/grunt-contrib-compass)
 -	[grunt-contrib-watch](https://www.npmjs.com/package/grunt-contrib-watch)
