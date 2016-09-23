@@ -42,5 +42,5 @@ The WordPress standard encompasses a superset of the sniffs that the WordPress c
 
 Here is one liner
 ```
-sudo apt-get -y install php-pear && sudo pear install PHP_CodeSniffer && cd $(pear config-get php_dir)/PHP/CodeSniffer/Standards && sudo git clone git://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git && sudo ln -s WordPress-Coding-Standards/WordPress WordPress && sudo ln -s WordPress-Coding-Standards/WordPress-Core WordPress-Core && ln -s WordPress-Coding-Standards/WordPress-Docs WordPress-Docs && sudo ln -s WordPress-Coding-Standards/WordPress-VIP WordPress-VIP && sudo ln -s WordPress-Coding-Standards/WordPress-Extra WordPress-Extra
+sudo apt-get -y install php-pear && sudo pear install PHP_CodeSniffer && cd $(pear config-get php_dir)/PHP/CodeSniffer/Standards && sudo git clone git://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git && sudo ln -s WordPress-Coding-Standards/WordPress WordPress && sudo ln -s WordPress-Coding-Standards/WordPress-Core WordPress-Core && sudo ln -s WordPress-Coding-Standards/WordPress-Docs WordPress-Docs && sudo ln -s WordPress-Coding-Standards/WordPress-VIP WordPress-VIP && sudo ln -s WordPress-Coding-Standards/WordPress-Extra WordPress-Extra
 ```
