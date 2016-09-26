@@ -31,3 +31,5 @@ define( 'WP_SITEURL', 'http://[REMOTE_HOST].com' );
 ```
 
 **Important:** Do not forget to search and replace older host name with REMOTE host name.
+
+Read [this tutorial](https://www.rosehosting.com/blog/migrate-your-wordpress-website-to-a-new-virtual-server/) on how to migrate WordPress using rsync
