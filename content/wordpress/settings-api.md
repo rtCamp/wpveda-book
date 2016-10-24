@@ -1,14 +1,8 @@
 # WordPress Settings API
 
-TODO:
-1. How to use it?
-3. examples
-4. limitation
-4. reference links
-
 The [Settings API](https://developer.wordpress.org/plugins/settings/settings-api/) focuses on providing a way for developers to create forms and manage form data.
 
-## Refence links
+### Reference links
 
 [https:\/\/developer.wordpress.org\/plugins\/settings\/settings-api\/](https://developer.wordpress.org/plugins/settings/settings-api/)
 
