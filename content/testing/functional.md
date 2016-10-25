@@ -1,10 +1,10 @@
 # Functional Testing
 
-Check if a site function properly.
+Check if a site functions properly.
 
 ## Two main categories:
 1. cross-browser (css/js front-end perfection)
-2. single-browser (raw functioanlity tests)
+2. single-browser (raw functionality tests)
 
 
 ## Tools
@@ -24,13 +24,14 @@ Check if a site function properly.
 
 **List of tools**
 
-1. [phantomjs](http://phantomjs.org/) - just a browser
+1. [phantomjs](http://phantomjs.org/) -  Runs a WebKit engine with full JavaScript access, but without the graphical portion.
 2. [theintern.io](http://theintern.io/#compare) - has too many features and still not much talked about. Need to check why?
-3. [karma](http://karma-runner.github.io/) - from Angular JS team. They have one more
-4. [nightwatchjs](http://nightwatchjs.org/) - another famius tool
+3. [karma](http://karma-runner.github.io/) - from Angular JS team.
+
+4. [nightwatchjs](http://nightwatchjs.org/) - Node.js powered browser automation framework. It uses the Selenium WebDriver protocol.
 
 **Evaluation criteria**
-1. Do we need unit tetsing in nodejs?
+1. Do we need unit testing in nodejs?
 2. Do we need cross-browser testing in nodejs?
 3. Cookie/session support
 4. File upload support

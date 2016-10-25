@@ -26,7 +26,6 @@ To setup WordPress Coding Standards
 ```
 ln -s WordPress-Coding-Standards/WordPress WordPress
 ln -s WordPress-Coding-Standards/WordPress-Core WordPress-Core
-ln -s WordPress-Coding-Standards/WordPress-Docs WordPress-Docs
 ln -s WordPress-Coding-Standards/WordPress-VIP WordPress-VIP
 ln -s WordPress-Coding-Standards/WordPress-Extra WordPress-Extra
 ```
@@ -38,9 +37,3 @@ The WordPress standard encompasses a superset of the sniffs that the WordPress c
 - **WordPress-Core:** Sniffs that seek to implement the Core coding standards and go no further.
 - **WordPress-VIP:** Core sniffs plus sniffs specifically implemented to check against the VIP coding requirements
 - **WordPress-Extra:** Core sniffs plus any extras that are best practices but could be controversial.
-- **WordPress-Docs:** Check the whether documentation is added properly or not.
-
-Here is one liner
-```
-sudo apt-get -y install php-pear && sudo pear install PHP_CodeSniffer && cd $(pear config-get php_dir)/PHP/CodeSniffer/Standards && sudo git clone git://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git && sudo ln -s WordPress-Coding-Standards/WordPress WordPress && sudo ln -s WordPress-Coding-Standards/WordPress-Core WordPress-Core && sudo ln -s WordPress-Coding-Standards/WordPress-Docs WordPress-Docs && sudo ln -s WordPress-Coding-Standards/WordPress-VIP WordPress-VIP && sudo ln -s WordPress-Coding-Standards/WordPress-Extra WordPress-Extra
-```

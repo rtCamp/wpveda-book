@@ -1,15 +1,17 @@
 # WordPress
 
-The purpose of the WordPress Coding Standards is to create a baseline for collaboration and review within various aspects of the WordPress open source project and community, from core code to themes to plugins.
+## Useful Articles
 
-Coding standards help avoid common coding errors, improve the readability of code, and simplify modification. They ensure that files within the project appear as if they were created by a single person.
-
-Following the standards means anyone will be able to understand a section of code and modify it, if needed, without regard to when it was written or by whom.
-
-**Language-specific Standards**
-
-1. [PHP Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/)
-2. [HTML Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/html/)
-3. [CSS Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/css/)
-4. [JavaScript Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/)
-
+* [Template Hierarchy](http://codex.wordpress.org/Template_Hierarchy)
+* [The Loop](http://codex.wordpress.org/The_Loop)
+* [Post Types](http://codex.wordpress.org/Post_Types)
+  * [Register Post Type](https://codex.wordpress.org/Function_Reference/register_post_type)
+* [Taxonomies](http://codex.wordpress.org/Taxonomies)
+  * [Register Taxonomy](https://codex.wordpress.org/Function_Reference/register_taxonomy)
+* [Meta Box](http://codex.wordpress.org/Function_Reference/add_meta_box)
+* [Conditional Tags](http://codex.wordpress.org/Conditional_Tags)
+* [Settings API](http://codex.wordpress.org/Settings_API)
+* [Widgets API](http://codex.wordpress.org/Widgets_API)
+* [Add Image Size](https://codex.wordpress.org/Function_Reference/add_image_size)
+* [WP Query](http://codex.wordpress.org/Class_Reference/WP_Query)
+* [Query Posts](http://codex.wordpress.org/Function_Reference/query_posts)
