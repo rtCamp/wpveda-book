@@ -2,7 +2,15 @@
 
 ## **WordPress File and Directory Structure**
 
-wp-admin\/ wp-includes\/ wp-content\/ index.php wp-blog-header.php wp-load.php wp-config.php wp-settings.php wp-cron.php
+* wp-admin\/
+* wp-includes\/
+* wp-content\/
+* index.php
+* wp-blog-header.php
+* wp-load.php
+* wp-config.php
+* wp-settings.php
+* wp-cron.php
 
 **wp-includes** folder contains all the other PHP files and classes which is required for WordPress’ core operations. Again, you shouldn’t want to edit any files in this directory.
 
