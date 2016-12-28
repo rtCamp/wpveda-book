@@ -2,9 +2,9 @@
 
 ## **WordPress File and Directory Structure**
 
-* wp-admin\/
-* wp-includes\/
-* wp-content\/
+* wp-admin/
+* wp-includes/
+* wp-content/
 * index.php
 * wp-blog-header.php
 * wp-load.php
@@ -25,9 +25,9 @@
 
 **References**
 
-[https:\/\/codex.wordpress.org\/WordPress\_Files](https://codex.wordpress.org/WordPress_Files)
+[https://codex.wordpress.org/WordPress_Files](https://codex.wordpress.org/WordPress_Files)
 
-[http:\/\/www.wpexplorer.com\/wordpress-internal-function\/](http://www.wpexplorer.com/wordpress-internal-function/)
+[http://www.wpexplorer.com/wordpress-internal-function/](http://www.wpexplorer.com/wordpress-internal-function/)
 
 ## **WordPress Database Tables**
 
@@ -53,17 +53,16 @@
 
 {prefix}\_options {prefix}\_links
 
-**References** [https:\/\/codex.wordpress.org\/Database\_Description](https://codex.wordpress.org/Database_Description)
+**References** [https://codex.wordpress.org/Database_Description](https://codex.wordpress.org/Database_Description)
 
 ## **WordPress Core Load**
 
 **References**
 
-[https:\/\/www.rarst.net\/wordpress\/wordpress-core-load\/](https://www.rarst.net/wordpress/wordpress-core-load/)
+[https://www.rarst.net/wordpress/wordpress-core-load/](https://www.rarst.net/wordpress/wordpress-core-load/)
 
-[https:\/\/www.rarst.net\/wordpress\/wordpress-query-functions\/](https://www.rarst.net/wordpress/wordpress-query-functions/)
+[https://www.rarst.net/wordpress/wordpress-query-functions/](https://www.rarst.net/wordpress/wordpress-query-functions/)
 
-[https:\/\/codex.wordpress.org\/Plugin\_API\/Action\_Reference](https://codex.wordpress.org/Plugin_API/Action_Reference)
+[https://codex.wordpress.org/Plugin_API/Action_Reference](https://codex.wordpress.org/Plugin_API/Action_Reference)
 
-[http:\/\/rachievee.com\/the-wordpress-hooks-firing-sequence\/](http://rachievee.com/the-wordpress-hooks-firing-sequence/)
-
+[http://rachievee.com/the-wordpress-hooks-firing-sequence/](http://rachievee.com/the-wordpress-hooks-firing-sequence/)

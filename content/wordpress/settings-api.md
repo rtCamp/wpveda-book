@@ -12,7 +12,7 @@ Organizing registration and validation of fields still requires some effort from
 
 * Visual Consistency
 
-* Robustness \(Future-Proofing!\)
+* Robustness (Future-Proofing!)
 
 * Less Work!
 
@@ -28,39 +28,39 @@ Organizing registration and validation of fields still requires some effort from
 
 **Setting Register\/Unregister**
 
-[register\_setting\(\)](https://developer.wordpress.org/reference/functions/register_setting/)
+[register_setting()](https://developer.wordpress.org/reference/functions/register_setting/)
 
-[unregister\_setting\(\)](https://developer.wordpress.org/reference/functions/unregister_setting/)
+[unregister_setting()](https://developer.wordpress.org/reference/functions/unregister_setting/)
 
 **Add Field\/Section**
 
-[add\_settings\_section\(\)](https://developer.wordpress.org/reference/functions/add_settings_section/)
+[add_settings_section()](https://developer.wordpress.org/reference/functions/add_settings_section/)
 
-[add\_settings\_field\(\)](https://developer.wordpress.org/reference/functions/add_settings_field/)
+[add_settings_field()](https://developer.wordpress.org/reference/functions/add_settings_field/)
 
 **Options Form Rendering**
 
-[settings\_fields\(\)](https://developer.wordpress.org/reference/functions/settings_fields/)
+[settings_fields()](https://developer.wordpress.org/reference/functions/settings_fields/)
 
-[do\_settings\_sections\(\)](https://developer.wordpress.org/reference/functions/do_settings_sections/)
+[do_settings_sections()](https://developer.wordpress.org/reference/functions/do_settings_sections/)
 
-[do\_settings\_fields\(\)](https://developer.wordpress.org/reference/functions/do_settings_fields/)
+[do_settings_fields()](https://developer.wordpress.org/reference/functions/do_settings_fields/)
 
 **Errors**
 
-[add\_settings\_error\(\)](https://developer.wordpress.org/reference/functions/add_settings_error/)
+[add_settings_error()](https://developer.wordpress.org/reference/functions/add_settings_error/)
 
-[get\_settings\_errors\(\)](https://developer.wordpress.org/reference/functions/get_settings_errors/)
+[get_settings_errors()](https://developer.wordpress.org/reference/functions/get_settings_errors/)
 
-[settings\_errors\(\)](https://developer.wordpress.org/reference/functions/settings_errors/)
+[settings_errors()](https://developer.wordpress.org/reference/functions/settings_errors/)
 
-See example: [https:\/\/developer.wordpress.org\/plugins\/settings\/custom-settings-page\/](https://developer.wordpress.org/plugins/settings/custom-settings-page/)
+See example: [https://developer.wordpress.org/plugins/settings/custom-settings-page/](https://developer.wordpress.org/plugins/settings/custom-settings-page/)
 
 ### Reference links
 
-[https:\/\/developer.wordpress.org\/plugins\/settings\/settings-api\/](https://developer.wordpress.org/plugins/settings/settings-api/)
+[https://developer.wordpress.org/plugins/settings/settings-api/](https://developer.wordpress.org/plugins/settings/settings-api/)
 
-[https:\/\/codex.wordpress.org\/Settings\_API](https://codex.wordpress.org/Settings_API)
+[https://codex.wordpress.org/Settings_API](https://codex.wordpress.org/Settings_API)
 
 [The Complete Guide to the WordPress Settings API](https://code.tutsplus.com/series/the-complete-guide-to-the-wordpress-settings-api--cms-624)
 

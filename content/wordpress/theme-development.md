@@ -31,8 +31,8 @@ There are only **two files absolutely required in a WordPress** theme:
 
 Though not required, you may see additional files in a theme’s folder including:
 
-* PHP files – including [template files](https://developer.wordpress.org/themes/basics/template-files/ "Template Files Page")
-* [Localization files](https://developer.wordpress.org/theme/functionality/localization/ "Link to the localization section of the theme developer handbook")
+* PHP files – including [template files](https://developer.wordpress.org/themes/basics/template-files/)
+* [Localization files](https://developer.wordpress.org/theme/functionality/localization/)
 * CSS files
 * Graphics
 * JavaScript
@@ -155,7 +155,7 @@ If your blog is at `http://example.com/blog/` and a visitor clicks on a link to 
 5. If `archive.php` is also missing, WordPress will fall back to the main theme template file, `index.php`.
 
 
-Please see: [https:\/\/wphierarchy.com\/](https://wphierarchy.com/)
+Please see: [https://wphierarchy.com/](https://wphierarchy.com/)
 
 
 
@@ -345,11 +345,11 @@ Version:        0.1.0
 
 **References**
 
-[https:\/\/developer.wordpress.org\/themes\/](https://developer.wordpress.org/themes/)
+[https://developer.wordpress.org/themes/](https://developer.wordpress.org/themes/)
 
-[https:\/\/underscores.me\/](https://underscores.me/)
+[https://underscores.me/](https://underscores.me/)
 
-[https:\/\/developer.wordpress.org\/themes\/template-files-section\/](https://developer.wordpress.org/themes/template-files-section/)
+[https://developer.wordpress.org/themes/template-files-section/](https://developer.wordpress.org/themes/template-files-section/)
 
 
 

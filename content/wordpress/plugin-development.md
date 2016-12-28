@@ -20,7 +20,7 @@ Plugins allow you to greatly extend the functionality of WordPress without touch
 
 * Including a Software License
 
-* Activation \/ Deactivation Hooks
+* Activation / Deactivation Hooks
 
 * Uninstall Methods
 
@@ -43,7 +43,7 @@ Domain Path: /languages
 */
 ```
 
-### **Activation \/ Deactivation Hooks**
+### **Activation / Deactivation Hooks**
 
 Activation and deactivation hooks provide ways to perform actions when plugins are activated or deactivated.
 
@@ -63,7 +63,7 @@ register_deactivation_hook( __FILE__, 'pluginprefix_function_to_run' );
 
 A plugin is considered uninstalled if a user has deactivated the plugin, and then clicks the delete link within the WordPress Admin.
 
-**Method 1: register\_uninstall\_hook**
+**Method 1: register_uninstall_hook**
 
 ```
 register_uninstall_hook( __FILE__, 'pluginprefix_function_to_run' );
@@ -72,7 +72,7 @@ register_uninstall_hook( __FILE__, 'pluginprefix_function_to_run' );
 **Method 2: uninstall.php**
     `/plugin-name/uninstall.php`
 
-**Note:** When using uninstall.php, before executing, the plugin should always check for the constant **WP\_UNINSTALL\_PLUGIN** to prevent direct access. The constant will be defined by WordPress during the uninstall.php invocation. The constant is NOT defined when uninstall is performed by register\_uninstall\_hook\(\).
+**Note:** When using uninstall.php, before executing, the plugin should always check for the constant **WP_UNINSTALL_PLUGIN** to prevent direct access. The constant will be defined by WordPress during the uninstall.php invocation. The constant is NOT defined when uninstall is performed by register_uninstall_hook().
 
 ### **Plugin Security**
 
@@ -91,9 +91,9 @@ register_uninstall_hook( __FILE__, 'pluginprefix_function_to_run' );
 
 * Analytics scripts
 
-* SEO options \(meta tags, page title, post titles, robots.txt, etc.\)
+* SEO options (meta tags, page title, post titles, robots.txt, etc.)
 
-* Content Sharing buttons\/links
+* Content Sharing buttons/links
 
 * Custom post-content shortcodes
 
@@ -139,13 +139,13 @@ register_uninstall_hook( __FILE__, 'pluginprefix_function_to_run' );
 
 **References**
 
-[https:\/\/developer.wordpress.org\/plugins\/](https://developer.wordpress.org/plugins/)
+[https://developer.wordpress.org/plugins/](https://developer.wordpress.org/plugins/)
 
-[http:\/\/wppb.me\/](http://wppb.me/)
+[http://wppb.me/](http://wppb.me/)
 
-[https:\/\/github.com\/DevinVinson\/WordPress-Plugin-Boilerplate](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate)
+[https://github.com/DevinVinson/WordPress-Plugin-Boilerplate](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate)
 
-[https:\/\/make.wordpress.org\/themes\/handbook\/guidelines\/plugin-territory\/](https://make.wordpress.org/themes/handbook/guidelines/plugin-territory/)
+[https://make.wordpress.org/themes/handbook/guidelines/plugin-territory/](https://make.wordpress.org/themes/handbook/guidelines/plugin-territory/)
 
-[https:\/\/github.com\/claudiosanches\/wordpress-plugin-boilerplate](https://github.com/claudiosanches/wordpress-plugin-boilerplate)
+[https://github.com/claudiosanches/wordpress-plugin-boilerplate](https://github.com/claudiosanches/wordpress-plugin-boilerplate)
 

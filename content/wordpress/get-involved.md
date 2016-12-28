@@ -37,15 +37,15 @@ There are many different ways for you to get involved with WordPress:
 
 **References**
 
-[https:\/\/make.wordpress.org\/](https://make.wordpress.org/)
+[https://make.wordpress.org/](https://make.wordpress.org/)
 
-[https:\/\/codex.wordpress.org\/Contributing\_to\_WordPress](https://codex.wordpress.org/Contributing_to_WordPress)
+[https://codex.wordpress.org/Contributing_to_WordPress](https://codex.wordpress.org/Contributing_to_WordPress)
 
-[https:\/\/make.wordpress.org\/themes\/handbook\/get-involved\/](https://make.wordpress.org/themes/handbook/get-involved/)
+[https://make.wordpress.org/themes/handbook/get-involved/](https://make.wordpress.org/themes/handbook/get-involved/)
 
-[https:\/\/make.wordpress.org\/polyglots\/handbook\/about\/get-involved\/](https://make.wordpress.org/polyglots/handbook/about/get-involved/)
+[https://make.wordpress.org/polyglots/handbook/about/get-involved/](https://make.wordpress.org/polyglots/handbook/about/get-involved/)
 
-[https:\/\/make.wordpress.org\/plugins\/handbook\/get-involved\/](https://make.wordpress.org/plugins/handbook/get-involved/)
+[https://make.wordpress.org/plugins/handbook/get-involved/](https://make.wordpress.org/plugins/handbook/get-involved/)
 
-[https:\/\/make.wordpress.org\/chat\/](https://make.wordpress.org/chat/)
+[https://make.wordpress.org/chat/](https://make.wordpress.org/chat/)
 
