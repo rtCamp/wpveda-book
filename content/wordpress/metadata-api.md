@@ -221,9 +221,9 @@ add_action( 'plugins_loaded', 'register_metadata_table' );
 
 ### **References**
 
-[https:\/\/developer.wordpress.org\/plugins\/metadata\/](https://developer.wordpress.org/plugins/metadata/)
+[https://developer.wordpress.org/plugins/metadata/](https://developer.wordpress.org/plugins/metadata/)
 
-[https:\/\/pippinsplugins.com\/extending-wordpress-metadata-api\/](https://pippinsplugins.com/extending-wordpress-metadata-api/)
+[https://pippinsplugins.com/extending-wordpress-metadata-api/](https://pippinsplugins.com/extending-wordpress-metadata-api/)
 
-[https:\/\/code.tutsplus.com\/tutorials\/understanding-and-working-with-metadata-in-wordpress--cms-21034](https://code.tutsplus.com/tutorials/understanding-and-working-with-metadata-in-wordpress--cms-21034)
+[https://code.tutsplus.com/tutorials/understanding-and-working-with-metadata-in-wordpress--cms-21034](https://code.tutsplus.com/tutorials/understanding-and-working-with-metadata-in-wordpress--cms-21034)
 
