@@ -62,6 +62,7 @@
   * [MySQL](coding/mysql.md)
 
   * [WordPress](coding/wordpress.md)
+
   * [Tools](coding/tools/index.md)
 
 * [WordPress](wordpress/index.md)
@@ -81,10 +82,12 @@
     * [Shortcode API](/wordpress/shortcode-api.md)
     * [Widgets API](/wordpress/widgets-api.md)
     * [HTTP API](/wordpress/http-api.md)
+    * [Dashboard Widgets API](/wordpress/dashboard-widgets-api.md)
 
   * [Object Cache](wordpress/object-cache.md)
 
   * [Admin Pages](wordpress/admin-pages.md)
+
   * [Translation Ready](wordpress/translation.md)
   * [Admin AJAX](wordpress/admin_ajax.md)
   * [Navigating Core Files](wordpress/navigating_core_files.md)
@@ -109,6 +112,7 @@
 
   * [Manual Testing Guide](testing/testing-data.md)
 
+
 * [Build](build/index.md)
 
   * [README.md to README.txt generation](build/readme-conversion.md)
@@ -127,4 +131,5 @@
 * [Post Release](deployment/post_release.md)
 
 * [Workflow](workflow/README.md)
+
 
