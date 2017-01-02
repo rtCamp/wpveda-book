@@ -56,9 +56,8 @@
   * [JavaScript](coding/javascript.md)
 
   * [PHP](coding/php.md)
-
     * [Code Sniffer](coding/code_sniffer.md)
-
+    
   * [MySQL](coding/mysql.md)
 
   * [WordPress](coding/wordpress.md)
@@ -69,13 +68,10 @@
 
   * [Get involved](wordpress/get-involved.md)
   * [Architecture](wordpress/wordpress-architecture.md)
+  * [Hooks](wordpress/hooks.md)
   * [Plugin development](wordpress/plugin-development.md)
   * [Plugin file structure](convetions/plugins.md)
-  * [Theme development](wordpress/theme-development.md)
-  * [Theme file structure](convetions/themes.md)
-  * [Hooks](wordpress/hooks.md)
   * [WordPress APIs](wordpress/wordpress-apis.md)
-
     * [Settings API](wordpress/settings-api.md)
     * [Options API](wordpress/options-api.md)
     * [Metadata API](wordpress/metadata-api.md)
@@ -83,11 +79,11 @@
     * [Widgets API](/wordpress/widgets-api.md)
     * [HTTP API](/wordpress/http-api.md)
     * [Dashboard Widgets API](/wordpress/dashboard-widgets-api.md)
-
+  * [Theme development](wordpress/theme-development.md)
+  * [Theme file structure](convetions/themes.md)
+  * [The Customizer API](wordpress/customizer-api.md)
   * [Object Cache](wordpress/object-cache.md)
-
   * [Admin Pages](wordpress/admin-pages.md)
-
   * [Translation Ready](wordpress/translation.md)
   * [Admin AJAX](wordpress/admin_ajax.md)
   * [Navigating Core Files](wordpress/navigating_core_files.md)
@@ -101,17 +97,11 @@
 * [Testing](testing/index.md)
 
   * [Unit Testing](testing/unit.md)
-
     * [phpunit](testing/phpunit.md)
-
   * [Functional Testing](testing/functional.md)
-
     * [Automation via Nighrwatchjs](testing/automation-night-watch.md)
-
   * [Git integration](testing/git-integration.md)
-
   * [Manual Testing Guide](testing/testing-data.md)
-
 
 * [Build](build/index.md)
 
