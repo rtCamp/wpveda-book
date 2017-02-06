@@ -30,6 +30,6 @@ NO.
 
 No. This book only needs cotributors time and knowledge. Money is not needed. Not even for hosting (we will soon move content on github-pages, till then it's hosted on a CDN acount with spare unused balance which was getting wasted anyway.)
 
-**Is this book will reamin free?**
+**Will this book remain free?**
 
 Of course, yes. The skilled WordPress developers this book will help create is much more valuable.
