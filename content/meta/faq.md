@@ -24,6 +24,7 @@ Start contributing to this book as well as other wpveda projects - https://githu
 The people who love like solving WordPress problem with quality and elagance.
 
 **Can I place ads or affilaite links in books?**
+
 NO.
 
 **Can I sponsor hosting?**
