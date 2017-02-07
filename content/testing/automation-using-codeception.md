@@ -24,7 +24,8 @@ Recommended way to install it is composer, add `composer.json` into your project
 
 Run `composer install`
 
-_lucatume/wp-browser- It contains the extension for WordPress. For more info refer _[_https://github.com/lucatume/wp-browser_](https://github.com/lucatume/wp-browser)
+_  
+lucatume/wp-browser- It contains the extension for WordPress. For more info refer _[_https://github.com/lucatume/wp-browser_](https://github.com/lucatume/wp-browser)
 
 ## Important Commands:
 
