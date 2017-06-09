@@ -10,9 +10,7 @@ install:
   - npm install -g gitbook-cli
   - sudo pip install awscli
 script:
-  - cd content
   - npm run docs:build
-  - ls -al
   # If the build is on the master branch, deploy the GitBook to S3.
   # CLI cloudfront invalidation is still in preview: http://docs.aws.amazon.com/cli/latest/reference/cloudfront/create-invalidation.html
   - |
