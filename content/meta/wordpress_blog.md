@@ -16,7 +16,7 @@ You must NOT proceed without following instructions in this chapter.
 1. To become a real WordPress Guru (Expert), the most basic skills you need to have is to know `"how to use wordpress"`.
 2. Like cars are supposed to be driven, WordPress is used supposed to be used for writing.
 3. Like you can't learn driving by looking at cars, you can't learn WordPress by just having a look into dashboard (admin-area).
-7. If you don't write on WordPress, you will not understand the user-perspective. If you don't understanf user-pespective, you will not feel same about their problems.
+7. If you don't write on WordPress, you will not understand the user-perspective. If you don't understand user-pespective, you will not feel same about their problems.
 8. You don't have to worry about your spelling or grammtical mistakes. Enjoy writing. Enjoy writing as you enjoyed playing games in school. Did you compare your game to the best gamers? No, right! Now why are you comparing your writing with others.
 9. You are writing for yourself. Yes, you can keep your blog private. But trust us, you will never regert keeping it open!
 
