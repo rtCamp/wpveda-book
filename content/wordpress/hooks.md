@@ -1,10 +1,10 @@
-#WordPress Hooks
+# WordPress Hooks
 
 # What are Hooks ?
 
 WordPress action and filter hooks are what makes WordPress incredibly extendable. These hooks are very easy to use if someone else has already wrote them, and you just had to hook something in.
 
-##The Difference Between Actions and Filters
+## The Difference Between Actions and Filters
 The main difference between actions and filters is the purpose they are used for and how they are declared and used. Here’s a quick summary.
 
 #### - Actions
@@ -17,7 +17,7 @@ The main difference between actions and filters is the purpose they are used for
  - declared with `apply_filters()`.
  - used with `add_filters()`.
 
-##Examples
+## Examples
 You can create a wordpress action with the following code.
 ```
 <?php 
@@ -36,7 +36,7 @@ If `my_action_hook_name` is already declared, WordPress tries to find out when i
 
 Since you now know how to create an WordPress action, the next step is to know how to use it.
 
-##Using WordPress Actions
+## Using WordPress Actions
 You can you the wordpress action with the following code.
 
 ```
@@ -48,7 +48,7 @@ When the action is called, all functions that are ‘hooked’ to this action wi
 
 From what I see, action hooks are usually used to output information or do some additional logic.
 
-##Declaring WordPress Filters
+## Declaring WordPress Filters
 WordPress filters are more difficult to understand compared to actions.
 
 Lets first talk about how to declare filters first, followed by understanding how to modify the information used by filters.
@@ -61,7 +61,7 @@ $output = apply_filters('filter_name', 'filter_args');
 ```
 In the code mentioned above, the declared filter has a name of `filter_name` with default value '`filter_args`'. filter arguments can be strings or even arrays if you like them to.
 
-##Changing the passed value to filter hooks
+## Changing the passed value to filter hooks
 To change the value of $output, you have to pass the value through a filter function.
 ```
 <?php 
@@ -75,7 +75,7 @@ function my_filter_function ( $args ) {
 In this case, `$args`, which currently contains `array('one','two')` is the default value passed to `$output`. For the code above, I have changed $args to `my_new_value`, which will be passed on to $output when the filter function executes. The value of `$output` is now `my_new_value`
 
 following are some more filter and action function with refrence URL 
-##Filter Functions
+## Filter Functions
 - [`has_filter()`]
 - [`add_filter()`]
 - [`apply_filters()`]
@@ -85,7 +85,7 @@ following are some more filter and action function with refrence URL
 - [`remove_all_filters()`]
 - [`doing_filter()`]
  
-##Action Functions
+## Action Functions
 - [`has_action()`]
 - [`add_action()`]
 - [`do_action()`]
@@ -95,7 +95,7 @@ following are some more filter and action function with refrence URL
 - [`remove_all_actions()`]
 - [`doing_action()`]
 
-##Activation/Deactivation/Uninstall Functions
+## Activation/Deactivation/Uninstall Functions
 
 - [`register_activation_hook()`]
 - [`register_uninstall_hook()`]
@@ -125,7 +125,7 @@ following are some more filter and action function with refrence URL
 [`register_uninstall_hook()`]:http://codex.wordpress.org/Function_Reference/register_uninstall_hook
 [`register_deactivation_hook()`]:http://codex.wordpress.org/Function_Reference/register_deactivation_hook
 
-##References
+## References
 - Wordpress Codex : http://codex.wordpress.org/Plugin_API
 - Wordpress Hooks Database : http://adambrown.info/p/wp_hooks
 - Otto : http://ottopress.com/2011/actions-and-filters-are-not-the-same-thing/
