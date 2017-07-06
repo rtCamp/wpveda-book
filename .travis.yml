@@ -1,0 +1,28 @@
+sudo: required
+language: node_js
+node_js:
+  - "6.9.1"
+cache:
+  directories:
+    - node_modules # NPM packages
+install:
+  - cd content
+  - npm install -g gitbook-cli
+  - sudo pip install awscli
+script:
+  - npm run docs:build
+  # If the build is on the master branch, deploy the GitBook to S3.
+  # CLI cloudfront invalidation is still in preview: http://docs.aws.amazon.com/cli/latest/reference/cloudfront/create-invalidation.html
+  - |
+      if [[ $TRAVIS_BRANCH == "master" ]]; then
+        aws s3 sync --acl public-read --delete _book/ s3://book-wpveda ;
+        aws configure set preview.cloudfront true ;
+        aws cloudfront create-invalidation --distribution-id E1PUAISL4SWCVA --paths "/*";
+      else
+        echo "conditions not right for publish"
+      fi
+branches:
+  only:
+    - master
+notifications:
+  email: false

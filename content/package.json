@@ -1,0 +1,25 @@
+{
+  "name": "wpveda.com",
+  "version": "1.0.0",
+  "description": "wpveda GitBook documentation",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook-cli": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "docs:prepare": "gitbook update && gitbook install",
+    "docs:watch": "npm run docs:prepare && gitbook serve",
+    "docs:build": "npm run docs:prepare && gitbook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpveda/book.git"
+  },
+  "author": "rtCamp (https://rtcamp.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wpveda/book/issues"
+  },
+  "homepage": "http://wpveda.com"
+}
