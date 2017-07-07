@@ -1,10 +1,10 @@
-#Translation Ready
+# Translation Ready
 
 Wordpress is used All over the world, As developer you may need to provide your plugin/theme to diffrent languages speaking users, It will be good idea if you create your theme/plugin translation ready.
 
 ### How translation happens ?
 
-Wordpress uses gettext libraries for translation 
+Wordpress uses gettext libraries for translation
 1. Developer are required to wrap translable stings into special functions
 2. Special tools like POEdit used to parse code files and extract translatable content to get POT file
 3. This POT files are sent to glotpress which retruns PO files which are translated files
@@ -23,13 +23,13 @@ Once you have the POT file, you’ll need to open it in a program like POEdit, a
 
 If your theme does not already include it, you’ll need to add the following line to the very top of your functions.php file (just after the opening <?php tag):
 
-```  
+```
 load_theme_textdomain('text_domain');
 
 ```
 
 Notice “text_domain” above – it’s called the text domain name. You can use any name you want, but you should use the same name that’s used throughout the theme in the gettext function.
-#### Best Practices 
+#### Best Practices
 
 You may want to define a constant for your text domain later on it will be hepful in your translation, check example below
 
@@ -75,11 +75,11 @@ printf( __( 'the skye is %s', 'text-domain' ),  $color );
 echo sprintf( __( 'the skye is %s', 'text-domain' ),  $color );
 ```
 ### ``` _n() ```
-The `_n()` function is used to parse pural string, you can use this function when your output is dependent. 
+The `_n()` function is used to parse pural string, you can use this function when your output is dependent.
 
 eg :
 
-Spam deletion, What if we delete only one spam? The output will be: "We deleted 1 spam messages.", which is definitely not correct English, and would certainly be incorrect for many other languages as well. 
+Spam deletion, What if we delete only one spam? The output will be: "We deleted 1 spam messages.", which is definitely not correct English, and would certainly be incorrect for many other languages as well.
 
 ```
 printf( _n( 'We deleted one spam message.', 'We deleted %d spam messages.', $count, 'text-domain' ), $count );
@@ -113,7 +113,7 @@ the other functio are mostly puporse dependent or hybrid
 * ```esc_html_x()``` Retrieves the translation of $text in a gettext context, and escapes it for safe use in HTML.
 
 ```
-    esc_html_x( $text, $context, $domain );  
+    esc_html_x( $text, $context, $domain );
 ```
 
 Finally, if you haven’t done so already, you’ll need to make sure your wp-config.php file matches your language files. For example, if you’re using a French translation, you’ll need to add the fr_FR.po and fr_FR.mo files to your theme folder, then set your language in wp-config.php, like this:

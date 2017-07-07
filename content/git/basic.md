@@ -1,5 +1,5 @@
 
-##5.1.1 : git init
+## 5.1.1 : git init
 
 **git init** command used to initialize a empty git repository or reinitialize existing repository.
 
@@ -9,7 +9,7 @@ It will create **.git** folder into your working directory with some other folde
 
 To create new repository, follow this 3 step: [ in below example we create repository with name **example-git** ]
 
-####Example:
+#### Example:
 ```
 First you need to create folder into your local machine for git repository.
 $ mkdir example-git
@@ -22,7 +22,7 @@ $ git init
 ```
 reference link : http://git-scm.com/docs/git-init
 
-##5.1.2 : git clone
+## 5.1.2 : git clone
 
 If you want to work with existing repository then you need to clone your existing repository into your local machine.
 
@@ -32,7 +32,7 @@ For clone repository into your local directory you need to use ** git clone **
 
 ** you can find git repository url from repository page on github.com.
 
-####Example:
+#### Example:
 ```
 To clone wpveda book repo into your local machine
 $ git clone https://github.com/wpveda/book.git
@@ -50,7 +50,7 @@ $ git clone git@github.com:wpveda/book.git -b BRANCH-NAME
 
 reference link : http://git-scm.com/docs/git-clone
 
-##5.1.3 : git status
+## 5.1.3 : git status
 
 **git status** command shows status of current repository.
 
@@ -59,14 +59,14 @@ reference link : http://git-scm.com/docs/git-clone
 Status contains list of files which have differences between the Working tree and the index file, files which are not tracked by git.
  It's also show difference of local commit and remote commit so you can know how many commit are not push into remote branch.
 
-####Example:
+#### Example:
 ```
 To know status of **example-git** repository execute below command
 $ git status
 ```
 reference link : http://git-scm.com/docs/git-status
 
-##5.1.4 : git fetch
+## 5.1.4 : git fetch
 
 Fetch command use to fetch object and refs from remote or any other repository
 
@@ -75,7 +75,7 @@ Fetch command use to fetch object and refs from remote or any other repository
 This command also fetch branches or tags from more then one repository with the object for that histories.
 by default it will use origin remote.
 
-####Example:
+#### Example:
 ```
 To fetch all branch or tag of origin remote
 $ git fetch
@@ -89,7 +89,7 @@ $ git fetch origin master
 ```
 reference link : http://git-scm.com/docs/git-fetch
 
-##5.1.5 : git pull
+## 5.1.5 : git pull
 
 To fetch change form remote or other repository and integrate with repository or local branch git provides **git pull** command
 
@@ -107,7 +107,7 @@ Git runs **git fetch** with given parameter and after that it will runs git merg
 
 Note: **--rebase** is more preferable to use with git pull, please refer given link for better idea  https://www.atlassian.com/git/tutorials/merging-vs-rebasing/
 
-####Example:
+#### Example:
 ```
 update your current branch with remote branches for the repository you clone
 $ git pull
@@ -123,7 +123,7 @@ $ git pull --force origin master
 ```
 reference link : http://git-scm.com/docs/git-pull
 
-##5.1.6 : git push
+## 5.1.6 : git push
 **git push** is logically opposite of **git pull**. git push used to update remote branch with local changes.
 
 >> command: git push [option] [remote] [branch]
@@ -139,7 +139,7 @@ If remote is not specified then it will used origin. you can also specified pre-
 
 * **-[no-]verify** : Toggle the pre-push hook. **-verify** used to prevent the push and **-no-verify used to bypassed pre-push hook completely**
 
-####Example:
+#### Example:
 ```
 update your remote [ origin ] branch with current branch for the repository you clone
 $ git push
@@ -157,7 +157,7 @@ $ git push origin HEAD
 ```
 reference link : http://git-scm.com/docs/git-push
 
-##5.1.7 : git checkout
+## 5.1.7 : git checkout
 This command user to checkout branch or create new brach
 
 >> command: git checkout [option] [branch]
@@ -170,7 +170,7 @@ This command user to checkout branch or create new brach
 
 * **-f** : it will force to change branch if index or the working tree differs form the HEAD [ uncomited changes ]
 
-####Example:
+#### Example:
 ```
 To checkout or switch to live branch
 $ git checkout live
@@ -180,14 +180,14 @@ $ git checkout -b stable
 ```
 reference link : http://git-scm.com/docs/git-checkout
 
-##5.1.8 : git stash
+## 5.1.8 : git stash
 stash command used to Stash the changes in a local machine. it will record your current state and clean working directory.
 
 >> command: git stash
 
 `git stash` is equivalent to `git stash save`
 
-####Example:
+#### Example:
 ```
 To stash current changes and clean the current working directory
 $ git stash
@@ -202,19 +202,19 @@ $ git stash show
 ```
 reference link : http://git-scm.com/docs/git-stash
 
-##5.1.9 : git log
+## 5.1.9 : git log
 log command is used to show commit logs in the current branch.
 
 >> command: git log
 
 reference link : http://git-scm.com/docs/git-log
 
-##5.1.10 : git revert
+## 5.1.10 : git revert
 git revert is used to record some new commits to reverse the effect of some earlier commits (often only a faulty one).
 
 >> command : git revert [--[no-]edit] [-n] [-m parent-number] [-s] [-S[<key-id>]] <commit>...
 
-####Example:
+#### Example:
 ```
 Revert the changes specified by the fourth last commit in HEAD and create a new commit with the reverted changes.
 $ git revert HEAD~3

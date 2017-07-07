@@ -6,13 +6,13 @@ Rebasing is the process of moving a branch to a new base commit.
 
 From a content perspective, rebasing really is just moving a branch from one commit to another. But internally, Git accomplishes this by creating new commits and applying them to the specified base—it’s literally rewriting your project history. It’s very important to understand that, even though the branch looks the same, it’s composed of entirely new commits.
 
-###Usage
+### Usage
 ``` shell
 git rebase <base>
 ```
 Rebase the current branch onto <base>, which can be any kind of commit reference (an ID, a branch name, a tag, or a relative reference to HEAD).
 
-###Discussion
+### Discussion
 
 The primary reason for rebasing is to maintain a linear project history. For example, consider a situation where the master branch has progressed since you started working on a feature:
 
@@ -44,7 +44,7 @@ A <- B <- C
 
 Rebasing is a common way to integrate upstream changes into your local repository. Pulling in upstream changes with git merge results in a superfluous merge commit every time you want to see how the project has progressed. On the other hand, rebasing is like saying, “I want to base my changes on what everybody has already done.”
 
-###Example
+### Example
 
 The example below combines git rebase with git merge to maintain a linear project history. This is a quick and easy way to ensure that your merges will be fast-forwarded.
 
@@ -82,24 +82,24 @@ git checkout master
 git merge new-feature
 ```
 
-##Interactive Rebase
+## Interactive Rebase
 
 Running git rebase with the `-i` flag begins an interactive rebasing session. Instead of blindly moving all of the commits to the new base, interactive rebasing gives you the opportunity to alter individual commits in the process. This lets you clean up history by removing, splitting, and altering an existing series of commits. It’s like git commit --amend on steroids.
 
-###Usage
+### Usage
 
 ```shell
 git rebase -i <base>
 ```
 Rebase the current branch onto <base>, but use an interactive rebasing session. This opens an editor where you can enter commands (described below) for each commit to be rebased. These commands determine how individual commits will be transferred to the new base. You can also reorder the commit listing to change the order of the commits themselves.
 
-###Discussion
+### Discussion
 
 Interactive rebasing gives you complete control over what your project history looks like. This affords a lot of freedom to developers, as it lets them commit a “messy” history while they’re focused on writing code, then go back and clean it up after the fact.
 
 Most developers like to use an interactive rebase to polish a feature branch before merging it into the main code base. This gives them the opportunity to squash insignificant commits, delete obsolete ones, and make sure everything else is in order before committing to the “official” project history. To everybody else, it will look like the entire feature was developed in a single series of well-planned commits.
 
-###Example
+### Example
 
 The example found below is an interactive adaptation of the one from the non-interactive git rebase page.
 
@@ -136,7 +136,7 @@ squash 62eed47 Fix something from the previous commit
 
 Save and close the editor to begin the rebase. This will open another editor asking for the commit message for the combined snapshot. After defining the commit message, the rebase is complete and you should be able to see the squashed commit in your git log output.
 
-##When should I use git pull --rebase?
+## When should I use git pull --rebase?
 
 I know of some people who use `git pull --rebase` by default and others who insist never to use it. I believe I understand the difference between merging and rebasing, but I'm trying to put this in the context of git pull.
 

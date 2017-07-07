@@ -1,6 +1,6 @@
-#Theme file sturcture
+# Theme file sturcture
 
-Before starting theme development, you must know how the way wordpress select templates files to display pages on your site. It is issential to understand the template heirarchy of Wordpress theme. 
+Before starting theme development, you must know how the way wordpress select templates files to display pages on your site. It is issential to understand the template heirarchy of Wordpress theme.
 
 http://codex.wordpress.org/Template_Hierarchy
 
@@ -12,7 +12,7 @@ http://codex.wordpress.org/Stepping_into_Templates
 
 
 
-##rtPanel
+## rtPanel
 
 
 We use our 'rtPanel' customized wordpress theme for the theme development. You can download the rtPanel theme from Wordpress repo https://wordpress.org/themes/rtpanel or download from Git repo http://git.rtcamp.com/rtpanel/rtpanel
@@ -40,41 +40,41 @@ Structure of rtPanel Theme
     * css : We keep Fontello CSS files to include fontello fonts in project in this direcory.
     * font : This directory contains Fontello font files to include.
     * config.json : It is coinfiguration json file.
-  * foundation : This directory contains Foundation files.  
+  * foundation : This directory contains Foundation files.
   * rtpanel :
     * scss : We write all our theme related CSS in this directory files. We separated CSS sections into SAAS files (.scss).
       * plugins : Plugin related SAAS files are saved in this directory.
 * img : We keep all theme related images in this direcory.
-* js : 
+* js :
    * jquery.sidr.min.js :
    * rtp-app.js :
    * rtp-concat-lib.js :
-   * languages : 
+   * languages :
 * lib :
-   * rtp-comments.php : 
+   * rtp-comments.php :
    * rtp-default-functions.php :
-   * rtp-hooks.php : 
-   * rtp-init.php : 
+   * rtp-hooks.php :
+   * rtp-init.php :
    * rtp-post-summaries.php :
-   * rtp-search.php : 
-   * rtp-sidebars.php : 
+   * rtp-search.php :
+   * rtp-sidebars.php :
 * 404.php :
 * comments.php :
 * footer.php :
 * functions.php :
-* Gruntfile.js : 
-* header.php : 
-* image.php : 
-* index.php : 
+* Gruntfile.js :
+* header.php :
+* image.php :
+* index.php :
 * loop-common.php :
-* package.json ; 
-* readme.txt : 
+* package.json ;
+* readme.txt :
 * screenshot.png
 * search.php :
 * sidebar.php :
 * style.css :
 * template-full-width.php :
-    
+
 
 
 

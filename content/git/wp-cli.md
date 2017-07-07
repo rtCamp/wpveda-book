@@ -54,7 +54,7 @@ Installing the plugin ...
 Plugin installed successfully.
 ```
 
-####SUB-COMMANDS
+#### SUB-COMMANDS
 
 `wp plugin {command-name} {plugin-name}` manage plugin.
 
