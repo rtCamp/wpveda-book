@@ -1,4 +1,4 @@
-#Useful Plugins/Links for Testing WordPress and Making Quality Products.
+# Useful Plugins/Links for Testing WordPress and Making Quality Products.
 
 - Check list for before going live of WP theme: http://premium.wpmudev.org/blog/wp-content/uploads/2012/10/Steps-1-5.pdf
 - Check Active theme in site: http://www.wpthemedetector.com/

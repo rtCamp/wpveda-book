@@ -1,4 +1,4 @@
-#Linux Commands
+# Linux Commands
 
 TODO
 
@@ -53,13 +53,13 @@ Refer for more details: http://www.tecmint.com/12-practical-examples-of-linux-gr
 
 ---
 
-##Xargs
+## Xargs
 
 Reference: http://www.unixmantra.com/2013/12/xargs-all-in-one-tutorial-guide.html
 
 ---
 
-##screen / tmux
+## screen / tmux
 
 screen and tmux are two terminal multiplexers. You can choose either one of them as both are doing same thing.
 

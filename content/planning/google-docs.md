@@ -1,6 +1,6 @@
 You can use Google Docs during early brainstorming phase. It is a good tool to dump idea in early stage and have a collabarative discussion with each of them.
 
-##Google Docs inline comments
+## Google Docs inline comments
 
 1. When a document is shared with someone you can specifically select/highlight portion of text and mark a comment on that.
 2. To mark a comment use shortcut "Cmd+Alt+m" on Mac or "Ctrl+Alt+m" on windows.

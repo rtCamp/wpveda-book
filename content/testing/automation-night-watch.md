@@ -6,7 +6,7 @@ Set up of Nightwatchjs
 ---------------------------------------
 The Set up of Nighrwatchjs is easy. You can set up nightwatchjs with the help of below steps.
 
-###Install Nightwatch
+### Install Nightwatch
 
 Refer steps for installing http://nightwatchjs.org/guide#install-nightwatch
 
@@ -16,7 +16,7 @@ Refer steps for installing http://nightwatchjs.org/guide#install-nightwatch
 
 Refer: https://www.digitalocean.com/community/tutorials/how-to-install-java-on-ubuntu-with-apt-get
 
-###Download and start Selenium Server
+### Download and start Selenium Server
 Refer steps for starting and running the Selenium server http://nightwatchjs.org/guide#running-the-selenium-server
 
 *Note: For best practice, running Selenium Automatically with changing perameter in configuration file.*
@@ -52,7 +52,7 @@ Done! Now, Write your first script
 -----------------------------
 
 Now, Select any editor(IDE) for writing your test script.
-###Your first script
+### Your first script
 Refer: http://nightwatchjs.org/guide#writing-tests
 
 Running your test script
@@ -65,7 +65,7 @@ http://localhost:4444/selenium-server/driver/?cmd=getLogMessages*
 
 *It will show you a 'OK' message on web page if server is running otherwise show 'Unable to connect'*
 
-#####Run Test: 
+##### Run Test:
 
 Go TO your Project Folder in your system --> Run command-  nightwatch -- test folderName/testfileName
 

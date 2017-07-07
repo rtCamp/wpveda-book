@@ -6,7 +6,7 @@ TODO:
 3. examples
 4. reference links
 
-##What is object cache ?
+## What is object cache ?
 
 Caching is simply the act of storing computed data somewhere for later use, and is an incredibly important concept in WordPress. There are different ways to employ caching, and often multiple methods will be used.
 
@@ -19,13 +19,13 @@ In WordPress, the object cache functionality provided by [WP_Object_Cache](http:
 On a regular WordPress install, the difference between transients and the object cache is that transients are persistent and would write to the options table, while the object cache only persists for the particular page load.
 
 
-##When to use it ?
+## When to use it ?
 [WP_Object_Cache](http://codex.worhttp://memcached.org/dpress.org/Class_Reference/WP_Object_Cache) is WordPress' class for caching data which may be computationally expensive to regenerate, such as the result of complex database queries.
 
 The advantage of using the WP_Object_Cache class is primarily performance. Using this class allows you to extend WordPress to use the absolute best caching engines in the world. For instance, using [Memcached](http://memcached.org/) as WordPress’ object cache gives ridiculously fast data access that easily scales to multiple servers. [Memcached](http://memcached.org/) is an important caching engine for use with high traffic websites. With the WP_Object_Cache class, developers can finely tune the caching experience in WordPress, whereas using the transients API gives you very little control over the caching engine. Relating this class back to the metaphor, the WP_Object_Cache class allows you to precisely decide where your food will be stored.
 
 
-#####[Wordpress object cache functions](http://codex.wordpress.org/Class_Reference/WP_Object_Cache#wp_cache_functions)
+##### [Wordpress object cache functions](http://codex.wordpress.org/Class_Reference/WP_Object_Cache#wp_cache_functions)
 
 This function adds data to the cache if the cache key doesn't already exist. If it does exist, the data is not added and the function returns false.
 
@@ -48,7 +48,7 @@ wp_cache_get( $key, $group = '', $force = false, $found = null )
 ````
 
 
-##Emamples
+## Emamples
 In the below example, imagine the $query variable is an expensive SQL query.
 
 ````ruby
@@ -120,13 +120,13 @@ function prefix_get_top_commented_posts( $force_refresh = false ) {
 }
 ````
 
-##Important Notes
+## Important Notes
 - As the objects are stored in memory, you need to consider that these objects can be cleared at any time and that your code must be constructed in a way that it would not rely on the objects being in place.
 - The storage size is limited by the total available memory for PHP on the server. Do not store large data sets, or you might end up with an “Out of memory” message.0
 - Using this type of cache makes sense only for operations repeated more than once in the creation of a page.
 - It works with WordPress since version 2.0.
 
-##Refence links
+## Refence links
 
 1. http://codex.wordpress.org/Class_Reference/WP_Object_Cache
 2. https://10up.github.io/Engineering-Best-Practices/php/#performance

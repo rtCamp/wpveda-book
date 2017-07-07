@@ -16,7 +16,7 @@ TODO:
 
 #### 4. Optional Sections
 =======
-####Useful Links regarding Readme file
+#### Useful Links regarding Readme file
 * [Readme Sample/WordPress Standard](https://wordpress.org/plugins/about/readme.txt)
 * [Readme Generator](http://generatewp.com/plugin-readme/)
 * [Readme Generator](http://sudarmuthu.com/wordpress/wp-readme/)

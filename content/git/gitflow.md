@@ -1,14 +1,14 @@
 # Git Flow
 GitFlow is a branching model for Git. It has attracted a lot of attention because it is very well suited to collaboration and scaling the development team.
 
-#Key Benefits
+# Key Benefits
 - Parallel Development
 - Collaboration
 - Release Staging Area
 - Support For Emergency Fixes
 
 
-##How to use git flow with your existing git repo:
+## How to use git flow with your existing git repo:
 
 1.  You need to install **Git Flow** into you local machine.
 
@@ -62,7 +62,7 @@ GitFlow is a branching model for Git. It has attracted a lot of attention becaus
     After configure this your repository configuration is done to use *Git flow**.
 
 
-##  Git Flow feature
+## Git Flow feature
 
 Feature branch are use to develop new feature for the upcoming or distant feature release.
 
@@ -99,7 +99,7 @@ if Andey want to contribute in "featureY" in between development of "featureX" o
     >> command: git flow feature pull featureY
 
 
-##  Git Flow release
+## Git Flow release
 
 When all next release features completed.you can start preparation of a new production release using **Git Flow release**.
 
@@ -128,7 +128,7 @@ After above task completed release brahch deleted.
     >> command: git push --tags
 
 
-##  Git Flow hotfix
+## Git Flow hotfix
 In between delepment of next release, if any critical bug into earlier release then you can use ** git flow hotfix ** and git flow create new brach as hotfix branch from production releases [master] branch.
 
 >> command: git flow hotfix [start | finish | publish | pull ] <hotfix_name> [BASENAME]
