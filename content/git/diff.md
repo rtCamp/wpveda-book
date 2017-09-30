@@ -4,7 +4,7 @@ Using visual git tools can save time and help you efficiently review changes.
 
 There are many tools but we prefer and recommend [diffmerge](http://www.sourcegear.com/diffmerge/downloads.php). It's open-source and cross-platform.
 
-## Impoetant Note for Mac
+## Important Note for Mac
 
 Please download "installer" version, not "DMG" version.
 
