@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-
   * [How to use this book](meta/reading.md)
   * [How to contribute](meta/contributing.md)
   * [FAQ](meta/faq.md)
@@ -57,7 +56,7 @@
 
   * [PHP](coding/php.md)
     * [Code Sniffer](coding/code_sniffer.md)
-    
+
   * [MySQL](coding/mysql.md)
 
   * [WordPress](coding/wordpress.md)
@@ -121,5 +120,3 @@
 * [Post Release](deployment/post_release.md)
 
 * [Workflow](workflow/README.md)
-
-
