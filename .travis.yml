@@ -21,10 +21,10 @@ deploy:
     #Push the generated gitbook html to the gh-pages branch
   - provider: pages
     skip_cleanup: true
-    repo: wpveda/wpveda.github.io
+    repo: wpveda/wpveda.github.io       #THIS LINE MUST NOT BE REMOVED
     github_token: $GITHUB_TOKEN
     local_dir: _book
-    target_branch: gh_pages
+    target_branch: master
     on:
       branch: master
     #Upload the pdf of the docs as a release tagged with the build number
