@@ -24,6 +24,7 @@ deploy:
     repo: wpveda/wpveda.github.io       #THIS LINE MUST NOT BE REMOVED
     github_token: $GITHUB_TOKEN
     local_dir: _book
+    fqdn: wpveda.com
     target_branch: master
     on:
       branch: master
