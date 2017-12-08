@@ -33,5 +33,5 @@ branches:
   only:
     - master
 
-# notifications:
-  # email: false
+notifications:
+    slack: rtcamp:$SLACK_TOKEN
