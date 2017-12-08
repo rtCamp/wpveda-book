@@ -1,7 +1,7 @@
 wpveda book
 ===========
 
-[![Join the chat at https://gitter.im/wpveda/book](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/wpveda/book?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![wercker status](https://app.wercker.com/status/5bc68c6dc32bf12b94f980ccaba113ef/s "wercker status")](https://app.wercker.com/project/bykey/5bc68c6dc32bf12b94f980ccaba113ef)
+[![Build Status](https://travis-ci.org/wpveda/book.svg?branch=master)](https://travis-ci.org/wpveda/book)
 
 **Status:** Just started. Far away from "ready to use".
 
@@ -24,7 +24,7 @@ Based on current status, it's better to list goals of this book.
 5. Have opinionated workflow. Discuss every aspect and agree on "one-way" of doing themes but once a way is accepted, it should be the only way recommended by book.
 6. After book is ready to use, write some tools to review codes against books workflow.
 
-Like to Contibute?
+Like to Contribute?
 ===================
 
 Please check - [Contributors guideline](https://github.com/wpveda/book/blob/master/CONTRIBUTING.md)
