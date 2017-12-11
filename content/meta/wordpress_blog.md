@@ -31,3 +31,7 @@ TODO:
 1. useful resources to setup a blog on wordpress.com  
 2. guide to self-hosted free WordPress
 
+
+
+
+
