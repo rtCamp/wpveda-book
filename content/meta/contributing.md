@@ -2,6 +2,14 @@
 
 This is detailed guide for contributors.
 
+In general look for TODO list in every chapter to expand it.
+
+It is made using github markdown so it looks like:
+
+* [ ] Write about foo
+* [ ] Clarify bar
+* [ ] Do x 
+
 ## Important
 
 All contributors must understand that this book is highly opinionted. This means, it might happen that you may not agree this some portion and your attempt to edit it, by sending pull request is rejected.
@@ -17,8 +25,7 @@ Of course, we are open to discussion about every aspect of this book no matter h
 
 ## Major edits
 
-Workflow
-============
+# Workflow
 
 Following is recommended workflow:
 
@@ -29,20 +36,21 @@ Following is recommended workflow:
 
 Please feel free to open a [github issue](https://github.com/wpveda/book/issues) if you need more help.
 
+# Useful Commands
 
-Useful Commands
-=================
-
-0. Check if nodejs and npm are installed on your machine. Run commands `node -v` and `npm -v` respectively. If not [follow this on ubuntu](https://rtcamp.com/tutorials/nodejs/node-js-npm-install-ubuntu/) or use `brw install nodejs npm` on mac.
-1. Fork https://github.com/wpveda/book/ on github.
-2. Install gitbook (globally) - `npm install -g gitbook`
-2. Clone your forked repo -  `git clone <forked-repo-url>`
-3. Change directory to gitbook - `cd book` (assuming your forked repo is also named as `book`)
-4. Install gitbook plugins - `gitbook install`
-5. Build gitbook - `gitbook build`
-6. Preview gitbook - `gitbook serve` and open [http://localhost:4000](http://localhost:4000)
+1. Check if nodejs and npm are installed on your machine. Run commands `node -v` and `npm -v` respectively. If not [follow this on ubuntu](https://rtcamp.com/tutorials/nodejs/node-js-npm-install-ubuntu/) or use `brw install nodejs npm` on mac.
+2. Fork [https://github.com/wpveda/book/](https://github.com/wpveda/book/) on github.
+3. Install gitbook \(globally\) - `npm install -g gitbook`
+4. Clone your forked repo -  `git clone <forked-repo-url>`
+5. Change directory to gitbook - `cd book` \(assuming your forked repo is also named as `book`\)
+6. Install gitbook plugins - `gitbook install`
+7. Build gitbook - `gitbook build`
+8. Preview gitbook - `gitbook serve` and open [http://localhost:4000](http://localhost:4000)
 
 **Gitbook Editor**
 
-1. For offline editing - desktop tool gitbook editor can be used - https://github.com/GitbookIO/editor/releases
+1. For offline editing - desktop tool gitbook editor can be used - [https://github.com/GitbookIO/editor/releases](https://github.com/GitbookIO/editor/releases)
 2. Once you download Gitbook editor, open `content` folder from your forked & locally cloned git repo.
+
+
+
