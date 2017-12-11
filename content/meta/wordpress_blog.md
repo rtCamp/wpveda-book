@@ -31,7 +31,11 @@ TODO:
 1. useful resources to setup a blog on wordpress.com  
 2. guide to self-hosted free WordPress
 
+## Tasks
 
+1. Create a WordPress blog
+2. Post an article it
+3. \(rtCamp only\) Share in \#random on Slack
 
 
 
