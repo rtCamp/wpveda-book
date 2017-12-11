@@ -35,7 +35,8 @@ TODO:
 
 1. Create a WordPress blog
 2. Post an article it
-3. \(rtCamp only\) Share in \#random on Slack
+3. \(rtCamp only\) Share in \#random on rtCamp Slack
+4. \(rtCamp only\) Add your blog feed to \#feeds on rtCamp Slack
 
 
 
