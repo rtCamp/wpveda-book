@@ -7,6 +7,9 @@
           "base": "https://github.com/wpveda/book/edit/master/content",
           "label": "Edit This Page"
         },
+        "github-issue-feedback": {
+          "repo": "wpveda/book"
+        },
         "ga": {
           "token": "UA-59804046-1"
         }
