@@ -1,8 +1,4 @@
-# **WordPress APIs**
-
-The **WordPress API** stands for the WordPress Application Programming Interface. It can be separated into multiple API sections \/ topics. Each covers the functions involved in and use of a given set of functionality. Together they form what might be called the WordPress API, which is the plugin/theme/add-on interface created by the entire WordPress project.
-
-If you've read through all of these you should have a good sense of how to extend WordPress through Plugins.
+# Core** APIs**
 
 * [Dashboard Widgets API](https://codex.wordpress.org/Dashboard_Widgets_API)
 * [Database API](https://codex.wordpress.org/Database_API)
@@ -22,4 +18,6 @@ If you've read through all of these you should have a good sense of how to exten
 * [Transients API](https://codex.wordpress.org/Transients_API)
 * [Widgets API](https://codex.wordpress.org/Widgets_API)
 * [XML-RPC WordPress API](https://codex.wordpress.org/XML-RPC_WordPress_API)
+
+
 
