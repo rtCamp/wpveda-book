@@ -58,7 +58,6 @@
     * [HTTP API](/wordpress/http-api.md)
     * [Dashboard Widgets API](/wordpress/dashboard-widgets-api.md)
   * [Theme Development](wordpress/theme-development.md)
-  * [Theme file structure](convetions/themes.md)
   * [The Customizer API](wordpress/customizer-api.md)
   * [Object Cache](wordpress/object-cache.md)
   * [Admin Pages](wordpress/admin-pages.md)
