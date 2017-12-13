@@ -58,6 +58,8 @@
   * [Translation Ready](wordpress/translation.md)
   * [Admin AJAX](wordpress/admin_ajax.md)
   * WordPress Coding Standards
+  * [REST API](wordpress/rest-api.md)
+  * [WP-CLI](wordpress/wp-cli.md)
 * [Documentation](documentation/index.md)
   * [Inline Comments](documentation/inline-commenting.md)
   * [README](documentation/readme.md)

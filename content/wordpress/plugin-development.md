@@ -1,6 +1,6 @@
 # **WordPress Plugin Development**
 
-Please follow [Plugin Handbook](https://developer.wordpress.org/plugins/ "Plugin Handbook") to learn about plugin development.
+Please follow [Plugin Handbook](https://developer.wordpress.org/plugins/ "Plugin Handbook").
 
 ### **Plugin Folder Structure**
 

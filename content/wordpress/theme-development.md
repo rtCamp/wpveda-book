@@ -1,6 +1,6 @@
 # **WordPress Theme Development**
 
-Please follow [Theme Handbook](https://developer.wordpress.org/themes/ "Theme Handbook") to learn about theme development.
+Please follow [Theme Handbook](https://developer.wordpress.org/themes/ "Theme Handbook").
 
 **References**
 
