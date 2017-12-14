@@ -14,7 +14,7 @@
 
 **wp-includes** folder contains all the other PHP files and classes which is required for WordPress’ core operations. Again, you shouldn’t want to edit any files in this directory.
 
-**wp-admin** folder contains the various files of the WordPress dashboard. You know that all administrative or functions related to WordPress, such as writing posts, moderating comments, installing plugins and themes are done via the WordPress dashboard.
+**wp-admin** folder contains the various files of the WordPress dashboard. You know that all administrative or functions related to WordPress, such as writing posts, moderating comments, installing plugins and themes are done via the WordPress dashboard. Again, you shouldn’t want to edit any files in this directory.
 
 **wp-content** folder contains all user uploaded data and is again divided into four sub-folders:
 
@@ -25,7 +25,7 @@
 
 **References**
 
-[https://codex.wordpress.org/WordPress_Files](https://codex.wordpress.org/WordPress_Files)
+[https://codex.wordpress.org/WordPress\_Files](https://codex.wordpress.org/WordPress_Files)
 
 [http://www.wpexplorer.com/wordpress-internal-function/](http://www.wpexplorer.com/wordpress-internal-function/)
 
@@ -51,9 +51,11 @@
 
 {prefix}\_term\_relationship
 
-{prefix}\_options {prefix}\_links
+{prefix}\_options
 
-**References** [https://codex.wordpress.org/Database_Description](https://codex.wordpress.org/Database_Description)
+{prefix}\_links
+
+**References** [https://codex.wordpress.org/Database\_Description](https://codex.wordpress.org/Database_Description)
 
 ## **WordPress Core Load**
 
@@ -63,6 +65,7 @@
 
 [https://www.rarst.net/wordpress/wordpress-query-functions/](https://www.rarst.net/wordpress/wordpress-query-functions/)
 
-[https://codex.wordpress.org/Plugin_API/Action_Reference](https://codex.wordpress.org/Plugin_API/Action_Reference)
+[https://codex.wordpress.org/Plugin\_API/Action\_Reference](https://codex.wordpress.org/Plugin_API/Action_Reference)
 
 [http://rachievee.com/the-wordpress-hooks-firing-sequence/](http://rachievee.com/the-wordpress-hooks-firing-sequence/)
+
