@@ -31,29 +31,18 @@
 
 ## **WordPress Database Tables**
 
-{prefix}\_users
-
-{prefix}\_usermeta
-
-{prefix}\_posts
-
-{prefix}\_postmeta
-
-{prefix}\_comments
-
-{prefix}\_commentmeta
-
-{prefix}\_terms
-
-{prefix}\_termmeta
-
-{prefix}\_term\_taxonomy
-
-{prefix}\_term\_relationship
-
-{prefix}\_options
-
-{prefix}\_links
+1. {prefix}\_users
+2. {prefix}\_usermeta
+3. {prefix}\_posts
+4. {prefix}\_postmeta
+5. {prefix}\_comments
+6. {prefix}\_commentmeta
+7. {prefix}\_terms
+8. {prefix}\_termmeta
+9. {prefix}\_term\_taxonomy
+10. {prefix}\_term\_relationship
+11. {prefix}\_options
+12. {prefix}\_links
 
 **References** [https://codex.wordpress.org/Database\_Description](https://codex.wordpress.org/Database_Description)
 
