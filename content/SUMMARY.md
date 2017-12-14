@@ -9,7 +9,7 @@
   * [Mac](meta/mac.md)
   * [Linux](meta/linux.md)
 * [Tools](/content/tools/index.md)
-  * [Code Sniffer](/content/tools/code-sniffer.md)
+  * [Code Sniffer](/tools/code-sniffer.md)
 * [Planning](planning/index.md)
   * [Google Docs](planning/google-docs.md)
   * [Wireframes](planning/wireframing.md)
