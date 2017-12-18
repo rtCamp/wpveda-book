@@ -1,6 +1,6 @@
 # Mac
 
-Tools
+**Tools**
 
 * [Homebrew](https://brew.sh/ "Homebrew")
 
@@ -20,15 +20,11 @@ Tools
 
 * [PHP CodeSniffer](//tools/code-sniffer.md)
 
-
-
 **Install PHPUnit using brew**
 
 ```
 $ brew install phpunit
 ```
-
-
 
 **References:**
 
