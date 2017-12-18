@@ -1,6 +1,6 @@
 # Code Sniffer
 
-_**TODOs**_
+**TODO:**
 
 * [ ] Write about how to install _**phpcs** in Mac_
 

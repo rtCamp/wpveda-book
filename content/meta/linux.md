@@ -1,21 +1,20 @@
-Linux
-=====
+# Linux
 
 **Tools**
 
-1.	atom
-2.	Sublime Text 3
-3.	netbeans
-4.	npm
-5.	nodejs
-6.	filezilla (ftp) or Nautilus - is there any better alternative?
-7.	poedit
-8.	Shutter
+1. atom
+2. Sublime Text 3
+3. netbeans
+4. npm
+5. nodejs
+6. filezilla \(ftp\) or Nautilus - is there any better alternative?
+7. poedit
+8. Shutter
 
 **Optional**
 
-1.	vagrant
-2.	virtualbox
+1. vagrant
+2. virtualbox
 
 #### Install atom
 
@@ -82,3 +81,6 @@ sudo add-apt-repository ppa:shutter/ppa
 sudo apt-get update
 sudo apt-get install shutter
 ```
+
+
+
