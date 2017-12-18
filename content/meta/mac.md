@@ -1,17 +1,29 @@
 # Mac
 
-Tools  
-1. brew  
-2. xcode command line  
-3. atom  
-4. netbeans  
-5. npm  
-6. nodejs  
-7. vagrant  
-8. virtualbox  
-9. gas mask \(/etc/hosts modifer\)  
-10. jumpcut \(copy-paste log\)  
-11. cyberduck \(ftp\)
+Tools
 
-Config
+* [Homebrew](https://brew.sh/ "Homebrew")
+
+* Command Line Developer Tools
+
+* [VirtualBox](https://www.virtualbox.org/ "VirtualBox")
+
+* [Vagrant](https://www.vagrantup.com/ "Vagrant")
+
+*  [NetBeans IDE](https://netbeans.org/downloads/ "NetBeans IDE")
+
+* [Node.js](https://nodejs.org/en/ "Node.js")
+
+* [npm](https://www.npmjs.com/ "npm")  
+  
+
+
+
+
+
+**References:**
+
+* [How to Install Node.js and NPM on a Mac](http://blog.teamtreehouse.com/install-node-js-npm-mac)
+
+
 
