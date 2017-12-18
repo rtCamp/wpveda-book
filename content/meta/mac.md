@@ -16,9 +16,17 @@ Tools
 
 * [npm](https://www.npmjs.com/ "npm")
 
-* [PHPUnit](https://phpunit.de/ "PHPUnit")
+* [PHPUnit](https://phpunit.de/manual/current/en/installation.html "PHPUnit")
+
+* [PHP CodeSniffer](//tools/code-sniffer.md)
 
 
+
+**Install PHPUnit using brew**
+
+```
+$ brew install phpunit
+```
 
 
 
