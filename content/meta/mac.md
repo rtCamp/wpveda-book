@@ -22,20 +22,15 @@
 
 * [PHP CodeSniffer](//tools/code-sniffer.md)
 
-
-
 **Install PHPUnit using brew**
 
 ```
 $ brew install phpunit
 ```
 
-
-
 **References:**
 
 * [How to Install Node.js and NPM on a Mac](http://blog.teamtreehouse.com/install-node-js-npm-mac)
-* [Configuring CodeSniffer in NetBeans](https://easyengine.io/tutorials/standards/php/code-sniffer/#codesniffer-and-netbeans)
 
 
 

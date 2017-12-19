@@ -24,11 +24,9 @@
 
 [Nodejs & npm installation](https://rtcamp.com/tutorials/nodejs/node-js-npm-install-ubuntu/)
 
-##### 
 
-##### References
 
-* [Configuring CodeSniffer in NetBeans](https://easyengine.io/tutorials/standards/php/code-sniffer/#codesniffer-and-netbeans)
+
 
 
 
