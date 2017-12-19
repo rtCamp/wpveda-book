@@ -41,7 +41,6 @@
     * [CSS Preprocessor](coding/preprocessor.md)
   * [JavaScript](coding/javascript.md)
   * [PHP](coding/php.md)
-    * [Code Sniffer](coding/code_sniffer.md)
   * [MySQL](coding/mysql.md)
   * [WordPress](coding/wordpress.md)
 * [WordPress](wordpress/index.md)
@@ -82,6 +81,4 @@
   * [Github to EasyDigitalDownload Product](deployment/easydigitaldownload.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
-
-
 
