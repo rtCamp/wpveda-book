@@ -1,6 +1,6 @@
 # References
 
-Here, you will find useful articles links.
+Here, you will find useful tutorials.
 
 #### Tutorials by Pippins
 
@@ -14,8 +14,4 @@ Here, you will find useful articles links.
 * [Unit Tests for WordPress Plugins](https://pippinsplugins.com/series/unit-tests-wordpress-plugins/)
 
 You can find more tutorials here: [https://pippinsplugins.com/series/](https://pippinsplugins.com/series/)
-
-
-
-
 
