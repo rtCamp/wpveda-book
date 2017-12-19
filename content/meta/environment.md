@@ -6,12 +6,12 @@ Setup devlopment environment using Linux or Mac.
 
 **TODO:**
 
-* [ ] editorconfig
-* [ ] IDE settings
+* [x] editorconfig
+* [x] IDE settings
 * [ ] local development env
-* [ ] phpcs
+* [x] phpcs
 * [ ] xdebug
-* [ ] phpunit
+* [x] phpunit
 
 ## Tasks
 
@@ -20,8 +20,6 @@ Setup devlopment environment using Linux or Mac.
 * Configure them to match WordPress and rtCamp coding standard.
 
 * Install a local WordPress. Play with it.
-
-
 
 **References:**
 

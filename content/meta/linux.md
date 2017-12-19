@@ -20,13 +20,9 @@
 
 * [PHP CodeSniffer](//tools/code-sniffer.md)
 
+* [Xdebug](https://xdebug.org/)
+
 **Install nodejs & npm**
 
 [Nodejs & npm installation](https://rtcamp.com/tutorials/nodejs/node-js-npm-install-ubuntu/)
-
-
-
-
-
-
 

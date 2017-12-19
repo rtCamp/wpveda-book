@@ -22,6 +22,8 @@
 
 * [PHP CodeSniffer](//tools/code-sniffer.md)
 
+* [Xdebug](https://xdebug.org/)
+
 **Install PHPUnit using brew**
 
 ```
