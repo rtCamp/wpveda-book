@@ -6,12 +6,12 @@ Setup devlopment environment using Linux or Mac.
 
 **TODO:**
 
-* [x] editorconfig
-* [x] IDE settings
+* [ ] editorconfig
+* [ ] IDE settings
 * [ ] local development env
-* [x] phpcs
+* [ ] phpcs
 * [ ] xdebug
-* [x] phpunit
+* [ ] phpunit
 
 ## Tasks
 
