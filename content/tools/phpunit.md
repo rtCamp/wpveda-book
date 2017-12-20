@@ -7,11 +7,13 @@ Read following articles to start writing unit tests for WordPress.
 
 
 
-Read [Unit Tests for WordPress Plugins](https://pippinsplugins.com/series/unit-tests-wordpress-plugins/) to start writing unit tests for WordPress plugins and themes.
+### Must Read
+
+* [Unit Tests for WordPress Plugins](https://pippinsplugins.com/series/unit-tests-wordpress-plugins/)
 
 
 
-**References:**
+### **References**
 
 * [Getting Started with PHPUnit](https://phpunit.de/getting-started.html)
 
