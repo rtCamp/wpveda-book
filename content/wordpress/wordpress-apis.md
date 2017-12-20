@@ -24,6 +24,8 @@
 ##### Tutorial by Pippin
 
 * [WordPress Rewrite API](https://pippinsplugins.com/series/wordpress-rewrite-api/)
+* [Using the WordPress Heartbeat API](https://pippinsplugins.com/using-the-wordpress-heartbeat-api/)
+* [Introduction to the Transients API in WordPress](https://pippinsplugins.com/introduction-to-the-transients-api-in-wordpress/)
 
 
 

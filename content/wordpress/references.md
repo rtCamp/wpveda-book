@@ -6,3 +6,5 @@ Here, you will find useful tutorials.
 
 [https://pippinsplugins.com/series/](https://pippinsplugins.com/series/)
 
+[https://pippinsplugins.com/learn/](https://pippinsplugins.com/learn/)
+
