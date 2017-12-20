@@ -10,6 +10,7 @@
   * [Linux](meta/linux.md)
 * [Tools](/content/tools/index.md)
   * [Code Sniffer](/tools/code-sniffer.md)
+  * [PHPUnit](tools/phpunit.md)
 * [Planning](planning/index.md)
   * [Google Docs](planning/google-docs.md)
   * [Wireframes](planning/wireframing.md)
