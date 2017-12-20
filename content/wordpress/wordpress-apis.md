@@ -21,9 +21,9 @@
 
 ### Must Read
 
+##### Tutorial by Pippin
+
 * [WordPress Rewrite API](https://pippinsplugins.com/series/wordpress-rewrite-api/)
-
-
 
 
 
