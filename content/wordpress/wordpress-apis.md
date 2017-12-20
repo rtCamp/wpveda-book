@@ -19,5 +19,11 @@
 * [Widgets API](https://codex.wordpress.org/Widgets_API)
 * [XML-RPC WordPress API](https://codex.wordpress.org/XML-RPC_WordPress_API)
 
+### Must Read
+
+* [WordPress Rewrite API](https://pippinsplugins.com/series/wordpress-rewrite-api/)
+
+
+
 
 
