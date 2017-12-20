@@ -10,6 +10,7 @@ Read following articles to start writing unit tests for WordPress.
 ##### Tutorial by Pippin
 
 * [Unit Tests for WordPress Plugins](https://pippinsplugins.com/series/unit-tests-wordpress-plugins/)
+* [Unit Tests for WordPress Plugins – Tests vs. Assertions](https://pippinsplugins.com/unit-tests-wordpress-plugins-tests-vs-assertions/)
 
 ### **References**
 

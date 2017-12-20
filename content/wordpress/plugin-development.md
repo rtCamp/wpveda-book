@@ -24,7 +24,7 @@ Please follow [Plugin Handbook](https://developer.wordpress.org/plugins/ "Plugin
 
 ### Must Read
 
-##### Tutorials by Pippins
+##### Tutorials by Pippin
 
 * [Plugin Development 101](https://pippinsplugins.com/series/plugin-development-101/)
 * [Writing Your First WordPress Plugins, Basic to Advanced](https://pippinsplugins.com/series/writing-your-first-wordpress-plugins-basic-to-advanced/)
@@ -32,14 +32,19 @@ Please follow [Plugin Handbook](https://developer.wordpress.org/plugins/ "Plugin
 * [Working with Widgets](https://pippinsplugins.com/series/working-with-widgets/)
 * [Shortcodes 101 for Plugin Developers](https://pippinsplugins.com/series/shortcodes-101/)
 * [Building a Database Abstraction Layer](https://pippinsplugins.com/series/building-a-database-abstraction-layer/)
+* [Extending the WordPress metadata API](https://pippinsplugins.com/extending-wordpress-metadata-api/)
+* [Using wp\_remote\_get\(\) to parse JSON from remote APIs](https://pippinsplugins.com/using-wp_remote_get-to-parse-json-from-remote-apis/)
+* [Determine if a script has been enqueued or registered](https://pippinsplugins.com/determine-script-enqueued-registered/)
 
 ### **References**
 
-[http://wppb.me/](http://wppb.me/)
+* [Tips for getting your plugin approved on WordPress.org](https://pippinsplugins.com/tips-getting-plugin-approved-wordpress-org/)
 
-[https://github.com/DevinVinson/WordPress-Plugin-Boilerplate](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate)
+* [http://wppb.me/](http://wppb.me/)
 
-[https://make.wordpress.org/themes/handbook/guidelines/plugin-territory/](https://make.wordpress.org/themes/handbook/guidelines/plugin-territory/)
+* [https://github.com/DevinVinson/WordPress-Plugin-Boilerplate](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate)
+* [https://make.wordpress.org/themes/handbook/guidelines/plugin-territory/](https://make.wordpress.org/themes/handbook/guidelines/plugin-territory/)
+* [https://github.com/claudiosanches/wordpress-plugin-boilerplate](https://github.com/claudiosanches/wordpress-plugin-boilerplate)
 
-[https://github.com/claudiosanches/wordpress-plugin-boilerplate](https://github.com/claudiosanches/wordpress-plugin-boilerplate)
+
 
