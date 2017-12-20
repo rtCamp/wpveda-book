@@ -2,26 +2,6 @@
 
 Please follow [Plugin Handbook](https://developer.wordpress.org/plugins/ "Plugin Handbook").
 
-### **Plugin Folder Structure**
-
-```
-/plugin-name
-     plugin-name.php
-     uninstall.php
-     /languages
-     /includes
-     /admin
-     /admin/js
-     /admin/css
-     /admin/images
-     /public
-     /public/js
-     /public/css
-     /public/images
-```
-
-### 
-
 ### Must Read
 
 ##### Tutorials by Pippin
