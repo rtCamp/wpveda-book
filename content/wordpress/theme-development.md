@@ -2,6 +2,8 @@
 
 Please follow [Theme Handbook](https://developer.wordpress.org/themes/ "Theme Handbook").
 
+**TODOS**
+
 * [ ] Add theme development exercise   
 
 ### Must Read

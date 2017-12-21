@@ -2,6 +2,10 @@
 
 Please follow [Plugin Handbook](https://developer.wordpress.org/plugins/ "Plugin Handbook").
 
+**TODOS**
+
+* [ ] Add plugin development exercise
+
 ### Must Read
 
 ##### Tutorials by Pippin
