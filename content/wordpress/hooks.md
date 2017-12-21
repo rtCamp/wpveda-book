@@ -1,6 +1,6 @@
 # WordPress Hooks
 
-# What are Hooks ?
+## What are Hooks ?
 
 WordPress action and filter hooks are what makes WordPress incredibly extendable. These hooks are very easy to use if someone else has already wrote them, and you just had to hook something in.
 
