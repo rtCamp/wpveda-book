@@ -26,7 +26,7 @@ You can create a wordpress action with the following code.
 
 ```
 <?php 
-add_action('my_action_hook_name', 'my_action_function_name', $priority);
+add_action( 'my_action_hook_name', 'my_action_function_name', $priority );
 
 function my_action_function_name() {
   // things your function should do
@@ -48,7 +48,7 @@ You can you the wordpress action with the following code.
 
 ```
 <?php 
-do_action('my_action_hook_name'); 
+do_action( 'my_action_hook_name' ); 
 ?>
 ```
 
@@ -66,7 +66,7 @@ Filters are declared with the `apply_filters()` function shown below.
 
 ```
 <?php 
-$output = apply_filters('filter_name', 'filter_args'); 
+$output = apply_filters( 'filter_name', 'filter_args' ); 
 ?>
 ```
 
@@ -78,10 +78,11 @@ To change the value of $output, you have to pass the value through a filter func
 
 ```
 <?php 
-add_filter('filter_name', 'my_filter_function'); 
+add_filter( 'filter_name', 'my_filter_function' ); 
+
 function my_filter_function ( $args ) {
- $args = 'my new value'; 
- return $args;
+    $args = 'my new value'; 
+    return $args;
 }
 ?>
 ```
