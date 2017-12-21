@@ -1,12 +1,4 @@
 # WordPress Coding Standards
 
-
-
-**References**
-
-[https://make.wordpress.org/core/handbook/best-practices/coding-standards/](https://make.wordpress.org/core/handbook/best-practices/coding-standards/)
-
-
-
-
+Please follow [WordPress Coding Standards Handbook](https://make.wordpress.org/core/handbook/best-practices/coding-standards/)
 
