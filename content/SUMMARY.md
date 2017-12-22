@@ -53,7 +53,7 @@
   * [Best Practices](wordpress/best-practices.md)
   * [REST API](wordpress/rest-api.md)
   * [WP-CLI](wordpress/wp-cli.md)
-  * [PHPUnit](/content/wordpress/phpunit.md)
+  * [PHPUnit](/wordpress/phpunit.md)
   * [Object Cache](wordpress/object-cache.md)
   * [Admin Pages](wordpress/admin-pages.md)
   * [Translation Ready](wordpress/translation.md)
