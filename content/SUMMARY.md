@@ -53,7 +53,7 @@
   * [Best Practices](wordpress/best-practices.md)
   * [REST API](wordpress/rest-api.md)
   * [WP-CLI](wordpress/wp-cli.md)
-  * [PHPUnit](tools/phpunit.md)
+  * [PHPUnit](/content/wordpress/phpunit.md)
   * [Object Cache](wordpress/object-cache.md)
   * [Admin Pages](wordpress/admin-pages.md)
   * [Translation Ready](wordpress/translation.md)
@@ -82,4 +82,6 @@
   * [Github to EasyDigitalDownload Product](deployment/easydigitaldownload.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
+
+
 
