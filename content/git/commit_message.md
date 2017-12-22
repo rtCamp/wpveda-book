@@ -1,11 +1,13 @@
 # Commit Message
 
 Good commit messages serve at least three important purposes:
-*  To speed up the reviewing process.
-*  To help us write a good release note.
-*  To help the future maintainers of repository, say five years into the future, to find out why a particular change was made to the code or why a specific feature was added.
+
+* To speed up the reviewing process.
+* To help us write a good release note.
+* To help the future maintainers of repository, say five years into the future, to find out why a particular change was made to the code or why a specific feature was added.
 
 Structure your commit message like this:
+
 ```
 Short (50 chars or less) summary of changes
 
@@ -23,19 +25,37 @@ Further paragraphs come after blank lines.
  - Typically a hyphen or asterisk is used for the bullet, preceded by a
    single space, with blank lines in between, but conventions vary here
 ```
+
 ### Do
 
 * Write the summary line and description of what you have done in the imperative mode, that is as if you were commanding someone. Write `"fix"`, `"add"`, `"change"` instead of `"fixed"`, `"added"`, `"changed"`.
 * Always leave the second line blank.
-* Line break the commit message (to make the commit message readable without having to scroll horizontally in `gitk`).
+* Line break the commit message \(to make the commit message readable without having to scroll horizontally in `gitk`\).
 
 ### Don't
 
 * Don't end the summary line with a period - it's a title and titles don't end with a period.
 
+### The seven rules of a great git commit message
+
+1. Separate subject from body with a blank line
+2. Limit the subject line to 50 characters
+3. Capitalize the subject line
+4. Do not end the subject line with a period
+5. Use the imperative mood in the subject line
+6. Wrap the body at 72 characters
+7. Use the body to explain what and why vs. how
+
 ### Tips
 
 * If it seems difficult to summarize what your commit does, it may be because it includes several logical changes or bug fixes, and are better split up into several commits using `git add -p`.
 * Commit message should refer to github issues in `#ISSUE_NUMBER` style.
+
+
+
+### References:
+
+* [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+
 
 

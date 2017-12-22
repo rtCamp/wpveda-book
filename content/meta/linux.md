@@ -1,84 +1,28 @@
-Linux
-=====
+# Linux
 
 **Tools**
 
-1.	atom
-2.	Sublime Text 3
-3.	netbeans
-4.	npm
-5.	nodejs
-6.	filezilla (ftp) or Nautilus - is there any better alternative?
-7.	poedit
-8.	Shutter
+* [EasyEngine](https://easyengine.io/ "EasyEngine")
 
-**Optional**
+* [VirtualBox](https://www.virtualbox.org/ "VirtualBox")
 
-1.	vagrant
-2.	virtualbox
+* [Vagrant](https://www.vagrantup.com/ "Vagrant")
 
-#### Install atom
+* [VVV](https://varyingvagrantvagrants.org/ "Varying Vagrant Vagrants")
 
-Run following commands to install Atom.
+* [NetBeans IDE](https://netbeans.org/downloads/ "NetBeans IDE")
 
-```bash
-sudo add-apt-repository ppa:webupd8team/atom
-sudo apt-get update
-sudo apt-get install atom
-```
+* [Node.js](https://nodejs.org/en/ "Node.js")
 
-#### Install Sublime Text 3
+* [npm](https://www.npmjs.com/ "npm")
 
-Run following commands to install Sublime Text 3.
+* [PHPUnit](https://phpunit.de/manual/current/en/installation.html "PHPUnit")
 
-```bash
-sudo add-apt-repository ppa:webupd8team/sublime-text-3
-sudo apt-get update
-sudo apt-get install sublime-text-installer
-```
+* [PHP CodeSniffer](//tools/code-sniffer.md)
 
-#### Install netbeans
+* [Xdebug](https://xdebug.org/)
 
-Run following commands to install Netbeans.
-
-```bash
-# Dependencies
-sudo apt-get install openjdk-7-jre openjdk-7-jdk
-
-# Download Netbeans
-wget -c http://dlc-cdn.sun.com/netbeans/8.0.2/final/bundles/netbeans-8.0.2-php-linux.sh
-chmod u+x netbeans-8.0.2-php-linux.sh
-sudo bash netbeans-8.0.2-php-linux.sh
-```
-
-#### Install nodejs & npm
+**Install nodejs & npm**
 
 [Nodejs & npm installation](https://rtcamp.com/tutorials/nodejs/node-js-npm-install-ubuntu/)
 
-#### Install Filezilla
-
-Run following commands to install Filezilla.
-
-```bash
-sudo add-apt-repository ppa:n-muench/programs-ppa
-sudo apt-get update
-sudo apt-get install filezilla
-```
-
-#### Install poedit
-
-Run following command to install poedit.
-
-```bash
-sudo apt-get install poedit
-```
-
-#### Install Shutter
-
-Run following commands to install shutter.
-
-```bash
-sudo add-apt-repository ppa:shutter/ppa
-sudo apt-get update
-sudo apt-get install shutter
-```
