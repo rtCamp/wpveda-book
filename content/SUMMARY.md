@@ -10,9 +10,6 @@
   * [Linux](meta/linux.md)
 * [Tools](/content/tools/index.md)
   * [Code Sniffer](/tools/code-sniffer.md)
-* [Command Line](command-line.md)
-  * [Linux Commands](/meta/linux_commands.md)
-  * [Site Migration](/meta/migration.md)
 * [Git](git/index.md)
   * [Merge Conflicts](git/merge.md)
   * [Diff](git/diff.md)
@@ -68,6 +65,9 @@
   * [Github to WooCommerce Product](deployment/woocommerce.md)
   * [Github to Amazon S3](deployment/amazon-s3.md)
   * [Github to EasyDigitalDownload Product](deployment/easydigitaldownload.md)
+* Command Line
+  * [Linux Commands](/meta/linux_commands.md)
+  * [Site Migration](/meta/migration.md)
 * [Planning](planning/index.md)
   * [Google Docs](planning/google-docs.md)
   * [Wireframes](planning/wireframing.md)
@@ -77,4 +77,6 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
+
+
 
