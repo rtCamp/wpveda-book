@@ -51,8 +51,6 @@ Further paragraphs come after blank lines.
 * If it seems difficult to summarize what your commit does, it may be because it includes several logical changes or bug fixes, and are better split up into several commits using `git add -p`.
 * Commit message should refer to github issues in `#ISSUE_NUMBER` style.
 
-
-
 ### References:
 
 * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)

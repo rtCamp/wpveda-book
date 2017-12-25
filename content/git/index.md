@@ -10,6 +10,12 @@ Go through the following tutorials to learn more about Git.
 * [GitHub Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 * [Visual Git Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html)
 * [Reference](https://git-scm.com/docs)
+* [Oh shit, git!](http://ohshitgit.com/)
+* [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
+
+### Commit Message
+
+Read [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) article.
 
 
 
