@@ -13,6 +13,27 @@ Go through the following tutorials to learn more about Git.
 * [Oh shit, git!](http://ohshitgit.com/)
 * [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
 
+### Basic Commands
+
+Following are the basic Git commands which you will use daily.
+
+* [init](https://git-scm.com/docs/git-init)
+* [clone](https://git-scm.com/docs/git-clone)
+* [add](https://git-scm.com/docs/git-add)
+* [status](https://git-scm.com/docs/git-status)
+* [commit](https://git-scm.com/docs/git-commit)
+* [diff](https://git-scm.com/docs/git-diff)
+* [reset](https://git-scm.com/docs/git-reset)
+* [checkout](https://git-scm.com/docs/git-checkout)
+* [merge](https://git-scm.com/docs/git-merge)
+* [pull](https://git-scm.com/docs/git-pull)
+* [push](https://git-scm.com/docs/git-push)
+* [log](https://git-scm.com/docs/git-log)
+* [stash](https://git-scm.com/docs/git-stash)
+* [remote](https://git-scm.com/docs/git-remote)
+* [revert](https://git-scm.com/docs/git-revert)
+* [config](https://git-scm.com/docs/git-config)
+
 ### Commit Message
 
 * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
