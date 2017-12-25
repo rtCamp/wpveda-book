@@ -17,7 +17,7 @@
   * [Github wiki](planning/github-wiki.md)
   * [Github milestone\/issues](planning/github-issues.md)
   * [Database Design](planning/database_design.md)
-* Command Line
+* [Command Line](command-line.md)
   * [Linux Commands](/meta/linux_commands.md)
   * [Site Migration](/meta/migration.md)
 * [Git](git/index.md)
@@ -80,6 +80,4 @@
   * [Github to EasyDigitalDownload Product](deployment/easydigitaldownload.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
-
-
 
