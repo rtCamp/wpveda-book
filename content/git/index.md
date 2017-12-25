@@ -2,7 +2,7 @@
 
 Git allows groups of people to work on the same documents \(often code\) at the same time, and without stepping on each other's toes. It's a distributed version control system.
 
-If you're new to Git then learn Git in your browser for free with [Try Git](https://try.github.io/).
+If you're new to Git then learn Git in your browser with [Try Git](https://try.github.io/).
 
 Go through the following tutorials to learn more about Git.
 
