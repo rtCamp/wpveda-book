@@ -39,7 +39,6 @@
     * [WordPress CSS](coding/wordpress_css.md)
     * [CSS Preprocessor](coding/preprocessor.md)
   * [JavaScript](coding/javascript.md)
-  * [PHP](coding/php.md)
   * [MySQL](coding/mysql.md)
 * [WordPress](wordpress/index.md)
   * [Get Involved](wordpress/get-involved.md)
