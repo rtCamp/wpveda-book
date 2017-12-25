@@ -27,7 +27,7 @@
   * [Webhooks](git/webhooks.md)
   * [.gitignore file](git/gitignore.md)
   * [Workflow \(Branching model\)](git/workflow.md)
-  * [gitflow.md](git/gitflow.md)
+  * [Git Flow](git/gitflow.md)
   * [Workoing with multiple remotes](git/multiple-remotes.md)
   * [Submodules](git/submodules.md)
   * [Subtree](git/subtree.md)
@@ -82,6 +82,4 @@
   * [Github to EasyDigitalDownload Product](deployment/easydigitaldownload.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
-
-
 
