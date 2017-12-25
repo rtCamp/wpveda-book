@@ -17,9 +17,9 @@
   * [Github wiki](planning/github-wiki.md)
   * [Github milestone\/issues](planning/github-issues.md)
   * [Database Design](planning/database_design.md)
-* [Command Line](git/wp_cli.md)
-  * [Linux Commands](git/linux_commands.md)
-  * [Site Migration](git/migration.md)
+* Command Line
+  * [Linux Commands](/meta/linux_commands.md)
+  * [Site Migration](/meta/migration.md)
 * [Git](git/index.md)
   * [Basic Commands](git/basic-commands.md)
   * [Commit Message](git/commit_message.md)
@@ -80,4 +80,6 @@
   * [Github to EasyDigitalDownload Product](deployment/easydigitaldownload.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
+
+
 
