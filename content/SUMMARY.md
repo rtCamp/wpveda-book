@@ -28,7 +28,7 @@
   * [.gitignore file](git/gitignore.md)
   * [Workflow \(Branching model\)](git/workflow.md)
   * [Git Flow](git/gitflow.md)
-  * [Workoing with multiple remotes](git/multiple-remotes.md)
+  * [Multiple Remotes](git/multiple-remotes.md)
   * [Submodules](git/submodules.md)
   * [Subtree](git/subtree.md)
   * [Rebase](git/rebase.md)
