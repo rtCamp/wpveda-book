@@ -14,7 +14,6 @@
   * [Linux Commands](/meta/linux_commands.md)
   * [Site Migration](/meta/migration.md)
 * [Git](git/index.md)
-  * [Basic Commands](git/basic-commands.md)
   * [Merge Conflicts](git/merge.md)
   * [Diff](git/diff.md)
   * [Webhooks](git/webhooks.md)
