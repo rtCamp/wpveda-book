@@ -49,6 +49,7 @@
   * [Changelog](documentation/changelog.md)
 * [Testing](testing/index.md)
   * [Functional Testing](testing/functional.md)
+    * [Codeception](/testing/automation-using-codeception.md)
   * [Git integration](testing/git-integration.md)
   * [Manual Testing Guide](testing/testing-data.md)
 * [Build](build/index.md)
@@ -74,4 +75,6 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
+
+
 
