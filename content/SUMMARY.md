@@ -10,7 +10,6 @@
   * [Linux](meta/linux.md)
 * [Tools](/content/tools/index.md)
   * [Code Sniffer](/tools/code-sniffer.md)
-
 * [Command Line](command-line.md)
   * [Linux Commands](/meta/linux_commands.md)
   * [Site Migration](/meta/migration.md)
@@ -27,13 +26,12 @@
   * [Submodules](git/submodules.md)
   * [Subtree](git/subtree.md)
   * [Changelog Generation](git/changelog_generation.md)
-* [Coding Standards](coding/index.md)
-  * [HTML](coding/html.md)
-  * [CSS](coding/css.md)
-    * [WordPress CSS](coding/wordpress_css.md)
-    * [CSS Preprocessor](coding/preprocessor.md)
-  * [JavaScript](coding/javascript.md)
-  * [MySQL](coding/mysql.md)
+* [Basics](basics/index.md)
+  * [HTML](basics/html.md)
+  * [CSS](basics/css.md)
+    * [CSS Preprocessor](basics/preprocessor.md)
+  * [JavaScript](basics/javascript.md)
+  * [MySQL](basics/mysql.md)
 * [WordPress](wordpress/index.md)
   * [Get Involved](wordpress/get-involved.md)
   * [Architecture](wordpress/wordpress-architecture.md)
@@ -81,6 +79,4 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
-
-
 
