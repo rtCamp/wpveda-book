@@ -48,10 +48,7 @@
   * [README](documentation/readme.md)
   * [Changelog](documentation/changelog.md)
 * [Testing](testing/index.md)
-  * [Unit Testing](testing/unit.md)
-    * [phpunit](testing/phpunit.md)
   * [Functional Testing](testing/functional.md)
-    * [Automation via Nighrwatchjs](testing/automation-night-watch.md)
   * [Git integration](testing/git-integration.md)
   * [Manual Testing Guide](testing/testing-data.md)
 * [Build](build/index.md)
@@ -65,7 +62,7 @@
   * [Github to WooCommerce Product](deployment/woocommerce.md)
   * [Github to Amazon S3](deployment/amazon-s3.md)
   * [Github to EasyDigitalDownload Product](deployment/easydigitaldownload.md)
-* Command Line
+* [Command Line](command-line.md)
   * [Linux Commands](/meta/linux_commands.md)
   * [Site Migration](/meta/migration.md)
 * [Planning](planning/index.md)
@@ -77,6 +74,4 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
-
-
 
