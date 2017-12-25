@@ -15,7 +15,6 @@
   * [Site Migration](/meta/migration.md)
 * [Git](git/index.md)
   * [Basic Commands](git/basic-commands.md)
-  * [Commit Message](git/commit_message.md)
   * [Merge Conflicts](git/merge.md)
   * [Diff](git/diff.md)
   * [Webhooks](git/webhooks.md)

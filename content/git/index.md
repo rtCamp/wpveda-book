@@ -15,7 +15,8 @@ Go through the following tutorials to learn more about Git.
 
 ### Commit Message
 
-Read [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) article.
+* [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+* [Writing good commit messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages)
 
 
 
