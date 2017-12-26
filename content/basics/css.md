@@ -4,7 +4,6 @@ Go through the following tutorials and articles to learn CSS.
 
 * [CSS Tutorial by W3Schools](https://www.w3schools.com/css/default.asp)
 * [Flexbox Froggy](http://flexboxfroggy.com/)
-* [WordPress CSS Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/css/)
 * [Opening the Box Model](https://learn.shayhowe.com/html-css/opening-the-box-model/)
 
 ### Sass \(Syntactically Awesome StyleSheets\)
