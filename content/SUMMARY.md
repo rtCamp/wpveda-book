@@ -25,7 +25,7 @@
   * [HTML](basics/html.md)
   * [CSS](basics/css.md)
   * [JavaScript](basics/javascript.md)
-  * [MySQL](basics/mysql.md)
+  * [PHP](/basics/php.md)
 * [WordPress](wordpress/index.md)
   * [Get Involved](wordpress/get-involved.md)
   * [Architecture](wordpress/wordpress-architecture.md)
@@ -74,4 +74,6 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
+
+
 
