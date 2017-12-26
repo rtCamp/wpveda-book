@@ -8,8 +8,6 @@ Here, you will find useful tutorials.
 
 [https://pippinsplugins.com/learn/](https://pippinsplugins.com/learn/)
 
-
-
 ### Useful Links
 
 * [WordPress Snippets - CSS-Tricks](https://css-tricks.com/snippets/wordpress/)
