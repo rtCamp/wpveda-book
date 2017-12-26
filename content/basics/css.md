@@ -6,8 +6,6 @@ Go through the following tutorials and articles to learn CSS.
 * [Flexbox Froggy](http://flexboxfroggy.com/)
 * [WordPress CSS Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/css/)
 
-
-
 ### Sass \(Syntactically Awesome StyleSheets\)
 
 **Note: **Use **SCSS **syntax.
@@ -15,8 +13,6 @@ Go through the following tutorials and articles to learn CSS.
 * [http://sass-lang.com/](http://sass-lang.com/)
 * [Sass Basics](http://sass-lang.com/guide)
 * [Sass Documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
-
-
 
 
 
