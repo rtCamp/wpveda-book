@@ -14,11 +14,10 @@ Go through the following tutorials and articles to learn CSS.
 * [Sass Basics](http://sass-lang.com/guide)
 * [Sass Documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
 
-
-
 ### Useful Links
 
 * [CSS Snippets - CSS-Tricks](https://css-tricks.com/snippets/css/)
+* [Sass Snippets - CSS-Tricks](https://css-tricks.com/snippets/sass/)
 
 
 
