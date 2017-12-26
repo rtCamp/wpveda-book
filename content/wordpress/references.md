@@ -2,11 +2,11 @@
 
 Here, you will find useful tutorials.
 
-#### More tutorials by Pippin
+### Must Read
 
-[https://pippinsplugins.com/series/](https://pippinsplugins.com/series/)
-
-[https://pippinsplugins.com/learn/](https://pippinsplugins.com/learn/)
+* [WordPress The Right Way](https://www.wptherightway.org/en/)
+* [https://pippinsplugins.com/series/](https://pippinsplugins.com/series/)
+* [https://pippinsplugins.com/learn/](https://pippinsplugins.com/learn/)
 
 ### Useful Links
 
