@@ -24,7 +24,6 @@
 * [Basics](basics/index.md)
   * [HTML](basics/html.md)
   * [CSS](basics/css.md)
-    * [CSS Preprocessor](basics/preprocessor.md)
   * [JavaScript](basics/javascript.md)
   * [MySQL](basics/mysql.md)
 * [WordPress](wordpress/index.md)
