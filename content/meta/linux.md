@@ -1,6 +1,6 @@
 # Linux
 
-**Tools**
+### **Tools**
 
 * [EasyEngine](https://easyengine.io/ "EasyEngine")
 
@@ -22,7 +22,17 @@
 
 * [Xdebug](https://xdebug.org/)
 
-**Install nodejs & npm**
 
-[Nodejs & npm installation](https://rtcamp.com/tutorials/nodejs/node-js-npm-install-ubuntu/)
+
+### Setup local development environment
+
+Use [EasyEngine](https://easyengine.io/) to setup local development environment.
+
+
+
+### References
+
+* [Nodejs & npm installation](https://rtcamp.com/tutorials/nodejs/node-js-npm-install-ubuntu/)
+
+
 
