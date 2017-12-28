@@ -8,7 +8,7 @@
 * [Environment](meta/environment.md)
   * [Mac](meta/mac.md)
   * [Linux](meta/linux.md)
-* [Tools](/content/tools/index.md)
+* [Tools](tools/index.md)
   * [Code Sniffer](/tools/code-sniffer.md)
 * [Git](git/index.md)
   * [Merge Conflicts](git/merge.md)
