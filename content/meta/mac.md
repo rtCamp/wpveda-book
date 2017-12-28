@@ -34,6 +34,8 @@ Use VVV for local development environment. Please go through the [VVV Getting St
 
 Please go the [Laravel Valet](https://laravel.com/docs/5.5/valet) documentation.
 
+* Harness the power of Laravel Valet for creating fully functional WordPress installs in seconds. [https://github.com/aaemnnosttv/wp-cli-valet-command](https://github.com/aaemnnosttv/wp-cli-valet-command)
+
 ### **References**
 
 * [How to Install Node.js and NPM on a Mac](http://blog.teamtreehouse.com/install-node-js-npm-mac)
