@@ -24,11 +24,15 @@
 
 * [Xdebug](https://xdebug.org/)
 
-**Install PHPUnit using brew**
+### Setup local development environment
 
-```
-$ brew install phpunit
-```
+#### Use VVV
+
+Use VVV for local development environment. Please go through the [VVV Getting Started](https://varyingvagrantvagrants.org/docs/en-US/installation/) documentation.
+
+#### Use Laravel Valet
+
+Please go the [Laravel Valet](https://laravel.com/docs/5.5/valet) documentation.
 
 **References:**
 

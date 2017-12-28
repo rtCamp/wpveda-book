@@ -9,9 +9,9 @@ Setup devlopment environment using Linux or Mac.
 * [x] editorconfig
 * [x] IDE settings
 * [ ] local development env
-* [ ] phpcs
+* [x] phpcs
 * [ ] xdebug
-* [ ] phpunit
+* [x] phpunit
 
 ## Tasks
 
@@ -34,6 +34,4 @@ Setup devlopment environment using Linux or Mac.
 * [WordPress Development using PhpStorm](https://confluence.jetbrains.com/display/PhpStorm/WordPress+Development+using+PhpStorm)
 
 * [WordPress code style configuration for PhpStorm](https://github.com/Automattic/PhpStorm-Resources)
-
-
 
