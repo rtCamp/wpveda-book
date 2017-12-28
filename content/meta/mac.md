@@ -1,6 +1,6 @@
 # Mac
 
-**Tools**
+### **Tools**
 
 * [Homebrew](https://brew.sh/ "Homebrew")
 
