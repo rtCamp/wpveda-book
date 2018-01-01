@@ -20,15 +20,11 @@
 
 * [PHP CodeSniffer](//tools/code-sniffer.md)
 
-* [Xdebug](https://xdebug.org/)
-
-
+* [Xdebug](/tools/xdebug.md)
 
 ### Setup local development environment
 
 Use [EasyEngine](https://easyengine.io/) to setup local development environment.
-
-
 
 ### References
 
