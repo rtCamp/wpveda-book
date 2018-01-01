@@ -22,7 +22,7 @@
 
 * [PHP CodeSniffer](//tools/code-sniffer.md)
 
-* [Xdebug](https://xdebug.org/)
+* [Xdebug](/tools/xdebug.md)
 
 ### Setup local development environment
 
