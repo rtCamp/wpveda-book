@@ -10,6 +10,7 @@
   * [Linux](meta/linux.md)
 * [Tools](tools/index.md)
   * [Code Sniffer](/tools/code-sniffer.md)
+  * [Xdebug](tools/xdebug.md)
 * [Git](git/index.md)
   * [Merge Conflicts](git/merge.md)
   * [Diff](git/diff.md)
@@ -74,6 +75,4 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
-
-
 
