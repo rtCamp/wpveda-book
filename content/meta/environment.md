@@ -8,7 +8,7 @@ Setup devlopment environment using Linux or Mac.
 
 * [x] editorconfig
 * [x] IDE settings
-* [ ] local development env
+* [x] local development env
 * [x] phpcs
 * [ ] xdebug
 * [x] phpunit
