@@ -4,15 +4,6 @@ Setup devlopment environment using Linux or Mac.
 
 🚫 **Note: **In rtCamp, use of Windows OS is strictly discouraged. ⚠️
 
-**TODO:**
-
-* [x] editorconfig
-* [x] IDE settings
-* [x] local development env
-* [x] phpcs
-* [ ] xdebug
-* [x] phpunit
-
 ## Tasks
 
 * Install softwares for OS you are using.
@@ -34,4 +25,6 @@ Setup devlopment environment using Linux or Mac.
 * [WordPress Development using PhpStorm](https://confluence.jetbrains.com/display/PhpStorm/WordPress+Development+using+PhpStorm)
 
 * [WordPress code style configuration for PhpStorm](https://github.com/Automattic/PhpStorm-Resources)
+
+
 
