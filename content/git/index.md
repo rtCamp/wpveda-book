@@ -12,6 +12,7 @@ Go through the following tutorials to learn more about Git.
 * [Reference](https://git-scm.com/docs)
 * [Oh shit, git!](http://ohshitgit.com/)
 * [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
+* [Git - Book](https://git-scm.com/book/en/v2)
 
 ### Basic Commands
 
