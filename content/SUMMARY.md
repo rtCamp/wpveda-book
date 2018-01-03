@@ -37,11 +37,8 @@
   * [Theme Development](wordpress/theme-development.md)
   * [Best Practices](wordpress/best-practices.md)
   * [WP-CLI](wordpress/wp-cli.md)
-  * [WP-CLI](wordpress/wp-cli.md)
+  * [REST API](/wordpress/rest-api.md)
   * [PHPUnit](/wordpress/phpunit.md)
-  * [Object Cache](wordpress/object-cache.md)
-  * [Admin Pages](wordpress/admin-pages.md)
-  * [Translation Ready](wordpress/translation.md)
   * [References](wordpress/references.md)
 * [Documentation](documentation/index.md)
   * [Inline Comments](documentation/inline-commenting.md)
@@ -75,4 +72,6 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
+
+
 
