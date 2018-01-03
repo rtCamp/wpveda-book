@@ -40,5 +40,9 @@ Following are the basic Git commands which you will use daily.
 * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 * [Writing good commit messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages)
 
+### **References**
+
+* [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+
 
 
