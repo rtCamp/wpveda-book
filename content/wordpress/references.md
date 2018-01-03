@@ -18,4 +18,6 @@ Here, you will find useful tutorials.
 * [WordPress Developer Resources](https://developer.wordpress.org/)
 * [WordPress Codex](http://codex.wordpress.org/)
 
-
+### Scale WordPress
+* [Scale WP](https://www.scalewp.io/)
+* [EasyEngine Tutorial](https://easyengine.io/tutorials/)
