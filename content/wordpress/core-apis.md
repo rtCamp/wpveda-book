@@ -13,7 +13,6 @@
 * [Settings API](https://codex.wordpress.org/Settings_API)
 * [Shortcode API](https://codex.wordpress.org/Shortcode_API)
 * [Theme Modification API](https://codex.wordpress.org/Theme_Modification_API)
-* [Theme Customization API](https://codex.wordpress.org/Theme_Customization_API)
 * [Transients API](https://codex.wordpress.org/Transients_API)
 * [Widgets API](https://codex.wordpress.org/Widgets_API)
 * [XML-RPC WordPress API](https://codex.wordpress.org/XML-RPC_WordPress_API)
