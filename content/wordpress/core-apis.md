@@ -8,7 +8,6 @@
 * [Metadata API](https://codex.wordpress.org/Metadata_API)
 * [Options API](https://codex.wordpress.org/Options_API)
 * [Plugin API](https://codex.wordpress.org/Plugin_API)
-* [Quicktags API](https://codex.wordpress.org/Quicktags_API)
 * [Rewrite API](https://codex.wordpress.org/Rewrite_API)
 * [Settings API](https://codex.wordpress.org/Settings_API)
 * [Shortcode API](https://codex.wordpress.org/Shortcode_API)
