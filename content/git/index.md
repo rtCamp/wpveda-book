@@ -43,6 +43,7 @@ Following are the basic Git commands which you will use daily.
 ### **References**
 
 * [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+* [GitHub Help](https://help.github.com/categories/bootcamp/)
 
 
 
