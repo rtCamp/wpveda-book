@@ -1,6 +1,6 @@
 # Mac
 
-**Tools**
+### **Tools**
 
 * [Homebrew](https://brew.sh/ "Homebrew")
 
@@ -22,15 +22,21 @@
 
 * [PHP CodeSniffer](//tools/code-sniffer.md)
 
-* [Xdebug](https://xdebug.org/)
+* [Xdebug](/tools/xdebug.md)
 
-**Install PHPUnit using brew**
+### Setup local development environment
 
-```
-$ brew install phpunit
-```
+#### Using VVV
 
-**References:**
+Use VVV for local development environment. Please go through the [VVV Getting Started](https://varyingvagrantvagrants.org/docs/en-US/installation/) documentation.
+
+#### Using Laravel Valet
+
+Please go the [Laravel Valet](https://laravel.com/docs/5.5/valet) documentation.
+
+* Harness the power of Laravel Valet for creating fully functional WordPress installs in seconds. [https://github.com/aaemnnosttv/wp-cli-valet-command](https://github.com/aaemnnosttv/wp-cli-valet-command)
+
+### **References**
 
 * [How to Install Node.js and NPM on a Mac](http://blog.teamtreehouse.com/install-node-js-npm-mac)
 

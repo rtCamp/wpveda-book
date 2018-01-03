@@ -1,9 +1,9 @@
 # WordPress Object Cache
 
-TODO:
-1. How to use it?
-2. When to use it?
-3. examples
+TODO:  
+1. How to use it?  
+2. When to use it?  
+3. examples  
 4. reference links
 
 ## What is object cache ?
@@ -14,53 +14,53 @@ The "Object Cache"
 
 Object caching is the act of caching data or objects for later use. In the context of WordPress, objects are cached in memory so they can be retrieved quickly.
 
-In WordPress, the object cache functionality provided by [WP_Object_Cache](http://codex.wordpress.org/Class_Reference/WP_Object_Cache), and the [Transient API](http://codex.wordpress.org/Transients_API) are great solutions for improving performance on long-running queries, complex functions, or similar.
+In WordPress, the object cache functionality provided by [WP\_Object\_Cache](http://codex.wordpress.org/Class_Reference/WP_Object_Cache), and the [Transient API](http://codex.wordpress.org/Transients_API) are great solutions for improving performance on long-running queries, complex functions, or similar.
 
 On a regular WordPress install, the difference between transients and the object cache is that transients are persistent and would write to the options table, while the object cache only persists for the particular page load.
 
-
 ## When to use it ?
-[WP_Object_Cache](http://codex.worhttp://memcached.org/dpress.org/Class_Reference/WP_Object_Cache) is WordPress' class for caching data which may be computationally expensive to regenerate, such as the result of complex database queries.
 
-The advantage of using the WP_Object_Cache class is primarily performance. Using this class allows you to extend WordPress to use the absolute best caching engines in the world. For instance, using [Memcached](http://memcached.org/) as WordPress’ object cache gives ridiculously fast data access that easily scales to multiple servers. [Memcached](http://memcached.org/) is an important caching engine for use with high traffic websites. With the WP_Object_Cache class, developers can finely tune the caching experience in WordPress, whereas using the transients API gives you very little control over the caching engine. Relating this class back to the metaphor, the WP_Object_Cache class allows you to precisely decide where your food will be stored.
+[WP\_Object\_Cache](http://codex.worhttp://memcached.org/dpress.org/Class_Reference/WP_Object_Cache) is WordPress' class for caching data which may be computationally expensive to regenerate, such as the result of complex database queries.
 
+The advantage of using the WP\_Object\_Cache class is primarily performance. Using this class allows you to extend WordPress to use the absolute best caching engines in the world. For instance, using [Memcached](http://memcached.org/) as WordPress’ object cache gives ridiculously fast data access that easily scales to multiple servers. [Memcached](http://memcached.org/) is an important caching engine for use with high traffic websites. With the WP\_Object\_Cache class, developers can finely tune the caching experience in WordPress, whereas using the transients API gives you very little control over the caching engine. Relating this class back to the metaphor, the WP\_Object\_Cache class allows you to precisely decide where your food will be stored.
 
 ##### [Wordpress object cache functions](http://codex.wordpress.org/Class_Reference/WP_Object_Cache#wp_cache_functions)
 
 This function adds data to the cache if the cache key doesn't already exist. If it does exist, the data is not added and the function returns false.
 
-````ruby
+```ruby
 wp_cache_set( $key, $data, $group, $expire )
-````
+```
 
 Adds data to the cache. If the cache key already exists, then it will be overwritten; if not then it will be created.
 
-````ruby
+```ruby
 wp_cache_get( $key, $group )
 wp_cache_get( $key, $group = '', $force = false, $found = null )
-````
+```
 
 Returns the value of the cached object, or false if the cache key doesn't exist.
 
-````ruby
+```ruby
 wp_cache_get( $key, $group )
 wp_cache_get( $key, $group = '', $force = false, $found = null )
-````
-
+```
 
 ## Emamples
+
 In the below example, imagine the $query variable is an expensive SQL query.
 
-````ruby
+```ruby
 $result = wp_cache_get( 'my_result' );
 if ( false === $result ) {
-	$result = $wpdb->get_results( $query );
-	wp_cache_set( 'my_result', $result );
+    $result = $wpdb->get_results( $query );
+    wp_cache_set( 'my_result', $result );
 }
-````
+```
 
 Retrieve top 10 most-commented posts and cache the results.
-````ruby
+
+```ruby
 function prefix_get_top_commented_posts() {
     // Check for the top_commented_posts key in the 'top_posts' group.
     $top_commented_posts = wp_cache_get( 'prefix_top_commented_posts', 'top_posts' );
@@ -77,8 +77,9 @@ function prefix_get_top_commented_posts() {
     }
     return $top_commented_posts;
 }
-````
-In the above example, the cache is checked for an object with the 10 most commented posts and would generate the list in case the object is not in the cache yet. Generally, calls to WP_Query other than the main query should be cached.
+```
+
+In the above example, the cache is checked for an object with the 10 most commented posts and would generate the list in case the object is not in the cache yet. Generally, calls to WP\_Query other than the main query should be cached.
 
 As the content is cached for 300 seconds, the query execution is limited to one time every 5 minutes, which is nice.
 
@@ -86,9 +87,9 @@ However, the cache rebuild in this example would always be triggered by a visito
 
 That said, a relatively easy solution for this problem is to make sure that your users would ideally always hit a primed cache. To accomplish this, you need to think about the conditions that need to be met to make the cached value invalid. In our case this would be the change of a comment.
 
-The easiest hook we could identify that would be triggered for any of this actions would be wp_update_comment_count set as do_action( 'wp_update_comment_count', $post_id, $new, $old ).
+The easiest hook we could identify that would be triggered for any of this actions would be wp\_update\_comment\_count set as do\_action\( 'wp\_update\_comment\_count', $post\_id, $new, $old \).
 
-````ruby
+```ruby
 /**
  * Prime the cache for the top 10 most-commented posts.
  *
@@ -118,16 +119,20 @@ function prefix_get_top_commented_posts( $force_refresh = false ) {
     }
     return $top_commented_posts;
 }
-````
+```
 
 ## Important Notes
-- As the objects are stored in memory, you need to consider that these objects can be cleared at any time and that your code must be constructed in a way that it would not rely on the objects being in place.
-- The storage size is limited by the total available memory for PHP on the server. Do not store large data sets, or you might end up with an “Out of memory” message.0
-- Using this type of cache makes sense only for operations repeated more than once in the creation of a page.
-- It works with WordPress since version 2.0.
+
+* As the objects are stored in memory, you need to consider that these objects can be cleared at any time and that your code must be constructed in a way that it would not rely on the objects being in place.
+* The storage size is limited by the total available memory for PHP on the server. Do not store large data sets, or you might end up with an “Out of memory” message.0
+* Using this type of cache makes sense only for operations repeated more than once in the creation of a page.
+* It works with WordPress since version 2.0.
 
 ## Refence links
 
-1. http://codex.wordpress.org/Class_Reference/WP_Object_Cache
-2. https://10up.github.io/Engineering-Best-Practices/php/#performance
-3. https://www.tollmanz.com/core-caching-concepts-in-wordpress/
+1. [http://codex.wordpress.org/Class\_Reference/WP\_Object\_Cache](http://codex.wordpress.org/Class_Reference/WP_Object_Cache)
+2. [https://10up.github.io/Engineering-Best-Practices/php/\#performance](https://10up.github.io/Engineering-Best-Practices/php/#performance)
+3. [https://www.tollmanz.com/core-caching-concepts-in-wordpress/](https://www.tollmanz.com/core-caching-concepts-in-wordpress/)
+
+
+
