@@ -34,7 +34,7 @@
   * [Plugin Development](wordpress/plugin-development.md)
   * [Core APIs](wordpress/wordpress-apis.md)
   * [Theme Development](wordpress/theme-development.md)
-  * [WordPress Coding Standards](wordpress/wordpress-coding-standards.md)
+  * [Coding Standards](wordpress/wordpress-coding-standards.md)
   * [Best Practices](wordpress/best-practices.md)
   * [REST API](wordpress/rest-api.md)
   * [WP-CLI](wordpress/wp-cli.md)
