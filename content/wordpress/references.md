@@ -12,5 +12,10 @@ Here, you will find useful tutorials.
 
 * [WordPress Snippets - CSS-Tricks](https://css-tricks.com/snippets/wordpress/)
 
+### Resources
+
+* [WordPress Core Handbook](https://make.wordpress.org/core/handbook/)
+* [WordPress Developer Resources](https://developer.wordpress.org/)
+* [WordPress Codex](http://codex.wordpress.org/)
 
 
