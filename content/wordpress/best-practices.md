@@ -8,5 +8,9 @@
 
 P.S: If you have less time then pick one from XWP or 10up and you can continue later on.
 
+### Scale WordPress
+* [Scale WP](https://www.scalewp.io/)
+* [EasyEngine Tutorial](https://easyengine.io/tutorials/)
+
 ### Extra
 * [Clean Code concepts adapted for PHP](https://github.com/jupeter/clean-code-php)
