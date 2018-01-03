@@ -32,6 +32,7 @@ Following are the basic Git commands which you will use daily.
 * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 * [Writing good commit messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages)
 
+<<<<<<< HEAD
 ### **References**
 
 * [Videos](https://git-scm.com/videos)
@@ -43,5 +44,15 @@ Following are the basic Git commands which you will use daily.
 * [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 * [GitHub Help](https://help.github.com/categories/bootcamp/)
 
+=======
+### Extra
+>>>>>>> master
 
+Go through the following tutorials to learn more about Git.
 
+* [Videos](https://git-scm.com/videos)
+* [GitHub Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+* [Visual Git Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html)
+* [Reference](https://git-scm.com/docs)
+* [Oh shit, git!](http://ohshitgit.com/)
+* [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
