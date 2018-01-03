@@ -3,7 +3,6 @@
 * [Dashboard Widgets API](https://codex.wordpress.org/Dashboard_Widgets_API)
 * [Database API](https://codex.wordpress.org/Database_API)
 * [HTTP API](https://codex.wordpress.org/HTTP_API)
-* [REST API](https://developer.wordpress.org/rest-api/)
 * [File Header API](https://codex.wordpress.org/File_Header_API)
 * [Filesystem API](https://codex.wordpress.org/Filesystem_API)
 * [Metadata API](https://codex.wordpress.org/Metadata_API)
