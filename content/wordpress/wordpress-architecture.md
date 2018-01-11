@@ -44,11 +44,9 @@
 11. {prefix}\_options
 12. {prefix}\_links
 
-**References** [https://codex.wordpress.org/Database\_Description](https://codex.wordpress.org/Database_Description)
+**Reference:** [https://codex.wordpress.org/Database\_Description](https://codex.wordpress.org/Database_Description)
 
 ## **WordPress Core Load**
-
-**References**
 
 * [Make sense of WordPress core load](https://www.rarst.net/wordpress/wordpress-core-load/)
 * [Make sense of WordPress query functions](https://www.rarst.net/wordpress/wordpress-query-functions/)
