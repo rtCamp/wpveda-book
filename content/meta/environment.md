@@ -4,15 +4,6 @@ Setup devlopment environment using Linux or Mac.
 
 🚫 **Note: **In rtCamp, use of Windows OS is strictly discouraged. ⚠️
 
-**TODO:**
-
-* [x] editorconfig
-* [x] IDE settings
-* [ ] local development env
-* [ ] phpcs
-* [ ] xdebug
-* [ ] phpunit
-
 ## Tasks
 
 * Install softwares for OS you are using.

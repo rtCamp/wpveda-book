@@ -10,6 +10,7 @@ Following are the basic Git commands which you will use daily.
 
 * [init](https://git-scm.com/docs/git-init)
 * [clone](https://git-scm.com/docs/git-clone)
+* [branch](https://git-scm.com/docs/git-branch)
 * [add](https://git-scm.com/docs/git-add)
 * [status](https://git-scm.com/docs/git-status)
 * [commit](https://git-scm.com/docs/git-commit)
@@ -20,6 +21,7 @@ Following are the basic Git commands which you will use daily.
 * [pull](https://git-scm.com/docs/git-pull)
 * [push](https://git-scm.com/docs/git-push)
 * [log](https://git-scm.com/docs/git-log)
+* [fetch](https://git-scm.com/docs/git-fetch)
 * [stash](https://git-scm.com/docs/git-stash)
 * [remote](https://git-scm.com/docs/git-remote)
 * [revert](https://git-scm.com/docs/git-revert)
@@ -30,9 +32,7 @@ Following are the basic Git commands which you will use daily.
 * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 * [Writing good commit messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages)
 
-### Extra
-
-Go through the following tutorials to learn more about Git.
+### **References**
 
 * [Videos](https://git-scm.com/videos)
 * [GitHub Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
@@ -40,3 +40,8 @@ Go through the following tutorials to learn more about Git.
 * [Reference](https://git-scm.com/docs)
 * [Oh shit, git!](http://ohshitgit.com/)
 * [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
+* [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+* [GitHub Help](https://help.github.com/categories/bootcamp/)
+
+
+
