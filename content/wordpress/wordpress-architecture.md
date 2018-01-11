@@ -50,11 +50,11 @@
 
 **References**
 
-[https://www.rarst.net/wordpress/wordpress-core-load/](https://www.rarst.net/wordpress/wordpress-core-load/)
+* [https://www.rarst.net/wordpress/wordpress-core-load/](https://www.rarst.net/wordpress/wordpress-core-load/)
+* [https://www.rarst.net/wordpress/wordpress-query-functions/](https://www.rarst.net/wordpress/wordpress-query-functions/)
+* [How WordPress Actually Works Behind the Scenes \(Infographic\)](http://www.wpbeginner.com/wp-tutorials/how-wordpress-actually-works-behind-the-scenes-infographic/?display=wide)
+* [https://codex.wordpress.org/Plugin\_API/Action\_Reference](https://codex.wordpress.org/Plugin_API/Action_Reference)
+* [http://rachievee.com/the-wordpress-hooks-firing-sequence/](http://rachievee.com/the-wordpress-hooks-firing-sequence/)
 
-[https://www.rarst.net/wordpress/wordpress-query-functions/](https://www.rarst.net/wordpress/wordpress-query-functions/)
 
-[https://codex.wordpress.org/Plugin\_API/Action\_Reference](https://codex.wordpress.org/Plugin_API/Action_Reference)
-
-[http://rachievee.com/the-wordpress-hooks-firing-sequence/](http://rachievee.com/the-wordpress-hooks-firing-sequence/)
 
