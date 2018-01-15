@@ -40,6 +40,7 @@
   * [REST API](/wordpress/rest-api.md)
   * [PHPUnit](/wordpress/phpunit.md)
   * [References](wordpress/references.md)
+  * [Contribute](wordpress/contribute.md)
 * [Documentation](documentation/index.md)
   * [Inline Comments](documentation/inline-commenting.md)
   * [README](documentation/readme.md)
@@ -72,6 +73,4 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
-
-
 
