@@ -6,13 +6,13 @@ Please go through the following chapters.
 
 * [Get Involved](/wordpress/get-involved.md)
 
-* [Architecture](/wordpress/wordpress-architecture.md)
+* [Architecture](/wordpress/architecture.md)
 
-* [Coding Standards](/wordpress/wordpress-coding-standards.md)
+* [Coding Standards](/wordpress/coding-standards.md)
 
 * [Hooks](/wordpress/hooks.md)
 
-* [Core APIs](/wordpress/wordpress-apis.md)
+* [Core APIs](/wordpress/core-apis.md)
 
 * [Plugin Development](/wordpress/plugin-development.md)
 
