@@ -13,6 +13,7 @@ Go through the following tutorials and articles to learn CSS.
 * [http://sass-lang.com/](http://sass-lang.com/)
 * [Sass Basics](http://sass-lang.com/guide)
 * [Sass Documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
+* [Learn CSS Layout](http://learnlayout.com)
 
 ### Useful Links
 
