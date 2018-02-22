@@ -3,10 +3,10 @@
 **First Check if phpcs is installed or not**
 
 `which phpcs`  
-It should return path of current phpcs installation.   
+It should return path of current phpcs installation.  
 If returned nothing probably phpcs is not installed.
 
-`phpcs --version`   
+`phpcs --version`  
 To check which version you're using. Always try to get latest version. Head out to [https://github.com/squizlabs/PHP\_CodeSniffer/releases](https://github.com/squizlabs/PHP_CodeSniffer/releases) to check latest version.
 
 ## Install or update.
@@ -37,15 +37,17 @@ curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar && chmod +x php
 
 ### Install WPCS and PHPCompatibility
 
-You can install WPCS via git repo as mentioned below.
+You can install WPCS and VIP Coding Standards via git repo as mentioned below.
 
 ```
 cd ~/Documents
 mkdir Coding-Standards && cd $_
 git clone -b master https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git wpcs
+git clone -b master https://github.com/Automattic/VIP-Coding-Standards.git
 git clone -b master https://github.com/wimg/PHPCompatibility.git PHPCompatibility
 pwd # copy this
 ln -s {paste here}/PHPCompatibility/PHPCompatibility wpcs/PHPCompatibility
+ln -s {paste here}/VIP-Coding-Standards/WordPressVIPMinimum wpcs/WordPressVIPMinimum
 phpcs --config-set installed_paths {Paste here again}/wpcs # remember this path
 ```
 
