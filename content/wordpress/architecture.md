@@ -44,17 +44,16 @@
 11. {prefix}\_options
 12. {prefix}\_links
 
-**References** [https://codex.wordpress.org/Database\_Description](https://codex.wordpress.org/Database_Description)
+**Reference:** [https://codex.wordpress.org/Database\_Description](https://codex.wordpress.org/Database_Description)
 
 ## **WordPress Core Load**
 
-**References**
+* [Make sense of WordPress core load](https://www.rarst.net/wordpress/wordpress-core-load/)
+* [Editing wp-config.php](https://codex.wordpress.org/Editing_wp-config.php)
+* [Make sense of WordPress query functions](https://www.rarst.net/wordpress/wordpress-query-functions/)
+* [How WordPress Actually Works Behind the Scenes \(Infographic\)](http://www.wpbeginner.com/wp-tutorials/how-wordpress-actually-works-behind-the-scenes-infographic/?display=wide)
+* [Plugin API/Action Reference](https://codex.wordpress.org/Plugin_API/Action_Reference)
+* [The WordPress Hooks Firing Sequence!](http://rachievee.com/the-wordpress-hooks-firing-sequence/)
 
-[https://www.rarst.net/wordpress/wordpress-core-load/](https://www.rarst.net/wordpress/wordpress-core-load/)
 
-[https://www.rarst.net/wordpress/wordpress-query-functions/](https://www.rarst.net/wordpress/wordpress-query-functions/)
-
-[https://codex.wordpress.org/Plugin\_API/Action\_Reference](https://codex.wordpress.org/Plugin_API/Action_Reference)
-
-[http://rachievee.com/the-wordpress-hooks-firing-sequence/](http://rachievee.com/the-wordpress-hooks-firing-sequence/)
 

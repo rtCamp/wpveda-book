@@ -10,6 +10,7 @@ Go through the following tutorials and articles to learn HTML.
 ### Useful Links
 
 * [HTML Snippets - CSS-Tricks](https://css-tricks.com/snippets/html/)
+* [HTML Cheat Sheet](https://www.hostinger.com/tutorials/html-cheat-sheet)
 
 
 

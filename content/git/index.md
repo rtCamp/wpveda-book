@@ -37,6 +37,7 @@ Following are the basic Git commands which you will use daily.
 * [Videos](https://git-scm.com/videos)
 * [GitHub Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 * [Visual Git Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html)
+* [Visual Git Guide](https://marklodato.github.io/visual-git-guide/index-en.html)
 * [Reference](https://git-scm.com/docs)
 * [Oh shit, git!](http://ohshitgit.com/)
 * [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)

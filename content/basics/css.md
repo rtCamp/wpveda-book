@@ -4,7 +4,9 @@ Go through the following tutorials and articles to learn CSS.
 
 * [CSS Tutorial by W3Schools](https://www.w3schools.com/css/default.asp)
 * [Flexbox Froggy](http://flexboxfroggy.com/)
+* [CSS Grid Garden](http://cssgridgarden.com/)
 * [Opening the Box Model](https://learn.shayhowe.com/html-css/opening-the-box-model/)
+* [Learn CSS Layout](http://learnlayout.com)
 
 ### Sass \(Syntactically Awesome StyleSheets\)
 
@@ -18,6 +20,7 @@ Go through the following tutorials and articles to learn CSS.
 
 * [CSS Snippets - CSS-Tricks](https://css-tricks.com/snippets/css/)
 * [Sass Snippets - CSS-Tricks](https://css-tricks.com/snippets/sass/)
+* [CSS Cheat Sheet](/CSS Cheat Sheet)
 
 
 
