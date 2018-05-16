@@ -16,6 +16,7 @@ Here, you will find useful tutorials.
 * [The WordPress Mega Cheat Sheet](https://makeawebsitehub.com/wordpress-mega-cheat-sheet/)
 * [WordPress Visual Cheat Sheet](https://artistrelations.com/tour-support/a/edu/WordPress-Visual-Cheat-Sheet.pdf)
 * [WordPress Cheat Sheet](https://www.hostinger.com/tutorials/wordpress-cheat-sheet)
+* [How to Install WordPress on Ubuntu 18.04 with a LEMP Stack and Let's Encrypt](https://thishosting.rocks/install-wordpress-ubuntu/)
 
 ### Resources
 
