@@ -10,6 +10,7 @@ Go through the following tutorials and articles to learn PHP.
   * [Documenting your Code](http://www.phptherightway.com/#documenting)
 * [PHP: Namespaces](http://php.net/manual/en/language.namespaces.php)
 * [PHP: Language Reference](http://php.net/manual/en/langref.php)
+* [How to Install PHP (7 or 7.2) on Ubuntu](https://thishosting.rocks/install-php-on-ubuntu/)
 
 
 
