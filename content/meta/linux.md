@@ -29,6 +29,8 @@ Use [EasyEngine](https://easyengine.io/) to setup local development environment.
 ### References
 
 * [Nodejs & npm installation](https://rtcamp.com/tutorials/nodejs/node-js-npm-install-ubuntu/)
+* [How to Install WordPress on Ubuntu 18.04 with a LEMP Stack and Let's Encrypt](https://thishosting.rocks/install-wordpress-ubuntu/)
+* [How to Install PHP (7 or 7.2) on Ubuntu](https://thishosting.rocks/install-php-on-ubuntu/)
 
 
 
