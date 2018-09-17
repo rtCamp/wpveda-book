@@ -16,6 +16,7 @@ Here, you will find useful tutorials.
 * [The WordPress Mega Cheat Sheet](https://makeawebsitehub.com/wordpress-mega-cheat-sheet/)
 * [WordPress Visual Cheat Sheet](https://artistrelations.com/tour-support/a/edu/WordPress-Visual-Cheat-Sheet.pdf)
 * [WordPress Cheat Sheet](https://www.hostinger.com/tutorials/wordpress-cheat-sheet)
+* [WP Glossary](https://www.wpglossary.net/ "WP Glossary")
 
 ### Resources
 
@@ -24,5 +25,9 @@ Here, you will find useful tutorials.
 * [WordPress Codex](http://codex.wordpress.org/)
 
 ### Scale WordPress
+
 * [Scale WP](https://www.scalewp.io/)
 * [EasyEngine Tutorial](https://easyengine.io/tutorials/)
+
+
+
