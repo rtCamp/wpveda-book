@@ -8,10 +8,11 @@
 * [Environment](environment/index.md)
   * [Mac](environment/mac/index.md)
   * [Linux](environment/linux/index.md)
-	* [Commands](/environment/linux/commands.md)
+    * [Commands](/environment/linux/commands.md)
 * [Tools](tools/index.md)
   * [Code Sniffer](/tools/code-sniffer.md)
   * [Xdebug](tools/xdebug.md)
+  * [Sublime Text](tools/sublime-text.md)
 * [Git](git/index.md)
   * [Merge Conflicts](git/merge.md)
   * [Diff](git/diff.md)
@@ -71,3 +72,4 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
+
