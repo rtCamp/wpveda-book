@@ -50,6 +50,7 @@
     * [Codeception](/testing/automation-using-codeception.md)
   * [Git integration](testing/git-integration.md)
   * [Manual Testing Guide](/content/testing/useful-links.md)
+  * [Check list while testing theme](testing/check-list-while-testing-theme.md)
 * [Build](build/index.md)
   * [README.md to README.txt generation](build/readme-conversion.md)
   * [Updating Translation](deployment/updating_translation.md)
@@ -73,6 +74,5 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
-
-
+* [QA](qa.md)
 
