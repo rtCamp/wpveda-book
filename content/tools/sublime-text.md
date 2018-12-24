@@ -18,7 +18,7 @@ sudo apt-get install -y sublime-text-installer
 
 ## Install Package Control
 
-The simplest method of installation is through the Sublime Text console. The console is accessed via the `````ctrl+``` shortcut or the````View &gt; Show Console\` menu. Once open, paste the appropriate Python code for your version of Sublime Text into the console.
+The simplest method of installation is through the Sublime Text console. The console is accessed via the **ctrl+\` **shortcut or the **View &gt; Show Console** menu. Once open, paste the appropriate Python code for your version of Sublime Text into the console.
 
 Now once the console is open click on this link [https://packagecontrol.io/installation](https://packagecontrol.io/installation) an copy the python code from there and paste it in sublime console.
 
