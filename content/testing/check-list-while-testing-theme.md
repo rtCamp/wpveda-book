@@ -1,4 +1,4 @@
-# rtQA Checklist while testing theme
+# QA Checklist while testing theme
 
 QA Team member should cross check all the points listed below while testing the theme. This checklist points may vary as per the requirement and scope of the project. However, this has been prepared considering the most common points to be tested.
 
