@@ -2,8 +2,6 @@
 
 Free. Open source. Runs everywhere. [Download Visual Studio Code](https://code.visualstudio.com/Download)
 
-
-
 ### Extensions
 
 * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
@@ -35,8 +33,6 @@ Free. Open source. Runs everywhere. [Download Visual Studio Code](https://code.v
 * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
 
 * [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)
-
-
 
 
 
