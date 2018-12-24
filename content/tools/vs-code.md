@@ -32,11 +32,7 @@ Free. Open source. Runs everywhere. [Download Visual Studio Code](https://code.v
 
 * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
 
-* [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)
-
-
-
-
+* [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)  
 
 **References**
 
