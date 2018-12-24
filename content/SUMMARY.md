@@ -57,3 +57,4 @@
   * [A way to ignore files during build](build/ignore-build.md)
   * [combine\/minify css and js to 1 file per project](build/minify.md)
   * [CI + build + testing tools](build/ci.md)
+* [Workflow](workflow/README.md)
