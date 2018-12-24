@@ -16,7 +16,7 @@ You must NOT proceed without following instructions in this chapter.
 
 ## Why so much stress on writing!
 
-1. To become a real WordPress Guru \(Expert\), the most basic skills you need to have is to know `"how to use wordpress"`.
+1. To become a real WordPress Guru \(Expert\), the most basic skills you need to have is to know `"how to use WordPress"`.
 2. Like cars are supposed to be driven, WordPress is used supposed to be used for writing.
 3. Like you can't learn driving by looking at cars, you can't learn WordPress by just having a look into dashboard \(admin-area\).
 4. If you don't write on WordPress, you will not understand the user-perspective. If you don't understand user-pespective, you will not feel same about their problems.
