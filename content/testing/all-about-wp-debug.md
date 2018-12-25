@@ -36,26 +36,33 @@ There are other constants used along with WP\_DEBUG constant. Let’s understand
 
 #### **Putting it All Together**
 
-> // Turn debugging on 
+> // Turn debugging on
 >
-> define\('WP\_DEBUG', true\); 
+> define\('WP\_DEBUG', true\);
 >
-> // Tell WordPress to log everything to /wp-content/debug.log 
+> // Tell WordPress to log everything to /wp-content/debug.log
 >
-> define\('WP\_DEBUG\_LOG', true\); 
+> define\('WP\_DEBUG\_LOG', true\);
 >
-> // Turn off the display of error messages on your site 
+> // Turn off the display of error messages on your site
 >
-> define\('WP\_DEBUG\_DISPLAY', false\); 
+> define\('WP\_DEBUG\_DISPLAY', false\);
 >
 > // For good measure, you can also add the following code, which will hide errors from being displayed on-screen @ini\_set\('display\_errors', 0\);
 
+#### **How to open wp-config.php file**
 
+For Updating the WordPress wp-config file, Open the terminal and login to your server where the site is hosted \(or jump to the local set up.\) This file is located inside the root directory of the proeject folder. 
+
+1. Open the terminal
+2. Goto thw folder where you wordpress set up is created
+3. Open wp-config.php file with any of faviourute editor like nano, vi, vim, etc
+4. Add the line of codes as mentioned above
+5. Save the changes and quit from the editor. 
 
 _**NOTE:** Don’t forget that WP\_DEBUG is for local development use and should not be used on live sites._
 
 Read more about WP\_DEBUG - [https://codex.wordpress.org/WP\_DEBUG](https://codex.wordpress.org/WP_DEBUG)
 
-#### **How to open wp-config.php file**
 
-For Updating the WordPress wp-config file, Open the terminal and login to your server where the site is hosted (or jump to the local set up.) This file is located inside the root directory of the proeject folder. Login with server login credentials if your SSH keys are added in the server then it will login otherwise will ask for password. 
+
