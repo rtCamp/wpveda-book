@@ -55,6 +55,7 @@
   * [Checklist to test the demo sites after migration](testing/checklist-to-test-the-demo-sites-after-migration.md)
   * [QA Guidelines](testing/qa-process-guidelines.md)
   * [QA Process Standards](testing/qa-process-standards.md)
+  * [Go Live check list](testing/go-live-check-list.md)
 * [Build](build/index.md)
   * [README.md to README.txt generation](build/readme-conversion.md)
   * [Updating Translation](deployment/updating_translation.md)
