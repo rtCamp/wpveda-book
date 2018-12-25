@@ -29,3 +29,7 @@ We have listed few points to test the site before we go live. Feel free to add i
 
 
 
+Once the site goes live, do the sanity testing to cross that everything works as expected.
+
+
+
