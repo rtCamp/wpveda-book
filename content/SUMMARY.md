@@ -53,7 +53,7 @@
   * [Useful Links](testing/useful-links.md)
   * [All about WP Debug](testing/all-about-wp-debug.md)
   * [Checklist to test the demo sites after migration](testing/checklist-to-test-the-demo-sites-after-migration.md)
-  * [QA Process Guidelines](testing/qa-process-guidelines.md)
+  * [QA Guidelines](testing/qa-process-guidelines.md)
   * [QA Process Standards](testing/qa-process-standards.md)
 * [Build](build/index.md)
   * [README.md to README.txt generation](build/readme-conversion.md)

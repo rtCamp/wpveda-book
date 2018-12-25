@@ -1,4 +1,4 @@
-### QA Process Guidelines
+### QA Guidelines
 
 This doc is related to change in the process of our work culture. It doesn’t mean our current process is not good. We are modifying this for minimum effort and maximum result.
 
@@ -6,18 +6,18 @@ We’ve created some guidelines for improving our work process which will help u
 
 **Some points, will help us, are as follows:**
 
-* **Good Morning:**
+* **Good Morning:**  
   When we will come office, List out our all pending/assigned tasks in one place like AC ticket or any TO-DO app. So that we can manage the work through out the day.
 
-* **Status of Project:**
-  When we leave office, update the status of all tasks you did on that day over a respective slack channel.
-  e.g. _Help Manual- ABC is in progress and completed 70%, Testing of ABC theme is going on, and completed 50%._
+* **Status of Project:**  
+  When we leave office, update the status of all tasks you did on that day over a respective slack channel.  
+  e.g. _Help Manual- ABC is in progress and completed 70%, Testing of ABC theme is going on, and completed 50%._  
   This will help PM to update the project-status to upper management OR Client and also it will be helpful while creating task map for next day.
 
-* **Estimated Time:**
+* **Estimated Time:**  
   Ask the time limit and priority of the task assigned to you. Test according to the time given by PM, It will help you to set mind map for the task.
 
-* **Specify the Reason:**
+* **Specify the Reason:**  
   In any circumstances, if the tasks take extra time, like slow of net speed, problem in system performance etc then please specify in related project ticket and do time entry separately as _non billable_. It will help the management for checking the solution.
 
 * **Create Test Plan and Mind Map:**  
@@ -34,7 +34,7 @@ We’ve created some guidelines for improving our work process which will help u
   * Project was very interesting due to use of new plugins etc. Faced some new type of bugs\(if any\). Most of bugs ware related to Spacing/UI. No major issue ware found in this project. 
   * Faced some problem due to inconsistency of the design, random changes by client or lack of explanation of requirement…..etc
 
-* **Enhance your skills:**
+* **Enhance your skills:**  
   If you are free and going to read any article/new things then ask to our PM/Seniors once and specify what you going to do. Might be they could help you for better resource and comment on tickets too, because next time when any body explore any thing which you have already learned, it will be helpful to them.
 
 * **Use application, Don’t test Application:**  
