@@ -12,6 +12,7 @@
 * [Tools](tools/index.md)
   * [Code Sniffer](/tools/code-sniffer.md)
   * [Xdebug](tools/xdebug.md)
+  * [Sublime Text](tools/sublime-text.md)
   * [VS Code](tools/vs-code.md)
 * [Git](git/index.md)
   * [Merge Conflicts](git/merge.md)
@@ -72,4 +73,3 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
-
