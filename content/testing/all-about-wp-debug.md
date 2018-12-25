@@ -57,3 +57,5 @@ _**NOTE:** Don’t forget that WP\_DEBUG is for local development use and should
 Read more about WP\_DEBUG - [https://codex.wordpress.org/WP\_DEBUG](https://codex.wordpress.org/WP_DEBUG)
 
 #### **How to open wp-config.php file**
+
+For Updating the WordPress wp-config file, Open the terminal and login to your server where the site is hosted (or jump to the local set up.) This file is located inside the root directory of the proeject folder. Login with server login credentials if your SSH keys are added in the server then it will login otherwise will ask for password. 
