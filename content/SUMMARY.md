@@ -57,6 +57,7 @@
   * [QA Process Standards](testing/qa-process-standards.md)
   * [Go Live check list](testing/go-live-check-list.md)
   * [Checklist for Testing Major Releases of Plugins and WordPress](testing/checklist-for-testing-major-releases-of-plugins-and-wordpress.md)
+  * [Performance Testing tool – Webpagetest Quick start up Guide](testing/performance-testing-tool-webpagetest-quick-start-up-guide.md)
 * [Build](build/index.md)
   * [README.md to README.txt generation](build/readme-conversion.md)
   * [Updating Translation](deployment/updating_translation.md)
