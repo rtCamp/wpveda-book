@@ -56,3 +56,4 @@ _**NOTE:** Don’t forget that WP\_DEBUG is for local development use and should
 
 Read more about WP\_DEBUG - [https://codex.wordpress.org/WP\_DEBUG](https://codex.wordpress.org/WP_DEBUG)
 
+#### **How to open wp-config.php file**
