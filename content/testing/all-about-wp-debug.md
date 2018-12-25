@@ -1,7 +1,3 @@
-### How to open wp-c
-
-### 
-
 ### All about WP Debug
 
 WP\_DEBUG is a PHP constant that can be used to trigger the **debug mode** throughout WordPress. It is assumed to be false by default and is usually set to true in the **wp-config.php** file on development copies of WordPress.
@@ -38,22 +34,25 @@ There are other constants used along with WP\_DEBUG constant. Let’s understand
 
    `define('SCRIPT_DEBUG', true);`
 
-   #### **Putting it All Together**
+#### **Putting it All Together**
 
-   > **    
-   > **// Turn debugging on  
-   > define\('WP\_DEBUG', true\);  
-   >   
-   > // Tell WordPress to log everything to /wp-content/debug.log  
-   > define\('WP\_DEBUG\_LOG', true\);  
-   >   
-   > // Turn off the display of error messages on your site  
-   > define\('WP\_DEBUG\_DISPLAY', false\);  
-   >   
-   > // For good measure, you can also add the following code, which will hide errors from being displayed on-screen  
-   > @ini\_set\('display\_errors', 0\);
+> // Turn debugging on 
+>
+> define\('WP\_DEBUG', true\); 
+>
+> // Tell WordPress to log everything to /wp-content/debug.log 
+>
+> define\('WP\_DEBUG\_LOG', true\); 
+>
+> // Turn off the display of error messages on your site 
+>
+> define\('WP\_DEBUG\_DISPLAY', false\); 
+>
+> // For good measure, you can also add the following code, which will hide errors from being displayed on-screen @ini\_set\('display\_errors', 0\);
 
-   _**NOTE:** Don’t forget that WP\_DEBUG is for local development use and should not be used on live sites._
+
+
+_**NOTE:** Don’t forget that WP\_DEBUG is for local development use and should not be used on live sites._
 
 Read more about WP\_DEBUG - [https://codex.wordpress.org/WP\_DEBUG](https://codex.wordpress.org/WP_DEBUG)
 
