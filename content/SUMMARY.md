@@ -50,8 +50,8 @@
   * [Functional Testing](testing/functional.md)
     * [Codeception](/testing/automation-using-codeception.md)
   * [Git integration](testing/git-integration.md)
-  * [QA Checklist while testing theme](/testing/check-list-while-testing-theme.md)
-  * [Useful Links](/testing/useful-links.md)
+  * [QA Checklist while testing theme](testing/check-list-while-testing-theme.md)
+  * [Useful Links](testing/useful-links.md)
   * [All about WP Debug](testing/all-about-wp-debug.md)
 
 * [Build](build/index.md)
