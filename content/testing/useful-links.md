@@ -10,6 +10,7 @@
 * Official PageSpeed Insights by Google: [https://developers.google.com/speed/pagespeed/insights/](https://developers.google.com/speed/pagespeed/insights/)
 * Check the MarkUp of theme: [https://validator.w3.org/](https://validator.w3.org/)
 * Test the website on different browsers and mobile devices: [https://www.browserstack.com](https://www.browserstack.com)
+* To see the maximum used devices world wide: [http://gs.statcounter.com/screen-resolution-stats/desktop/worldwide](http://gs.statcounter.com/screen-resolution-stats/desktop/worldwide)
 * Check the broken link of website: [https://www.brokenlinkcheck.com/](https://www.brokenlinkcheck.com/)
 * A quick and convenient way to find out what font is used on any site
   * Chrome Extension: [https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en)
