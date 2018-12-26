@@ -7,6 +7,7 @@ Go through the following tutorials and articles to learn CSS.
 * [CSS Grid Garden](http://cssgridgarden.com/)
 * [Opening the Box Model](https://learn.shayhowe.com/html-css/opening-the-box-model/)
 * [Learn CSS Layout](http://learnlayout.com)
+* [Learn BEM — Block Element Modifier](http://getbem.com/introduction/)
 
 ### Sass \(Syntactically Awesome StyleSheets\)
 
@@ -21,6 +22,3 @@ Go through the following tutorials and articles to learn CSS.
 * [CSS Snippets - CSS-Tricks](https://css-tricks.com/snippets/css/)
 * [Sass Snippets - CSS-Tricks](https://css-tricks.com/snippets/sass/)
 * [CSS Cheat Sheet](/CSS Cheat Sheet)
-
-
-
