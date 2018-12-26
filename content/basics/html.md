@@ -7,6 +7,7 @@ Go through the following tutorials and articles to learn HTML.
 * [http://codeguide.co/\#html](http://codeguide.co/#html)
 * [HTML5 Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
 * [HTML: A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+* [Getting started with schema.org using Microdata](https://schema.org/docs/gs.html)
 
 ### Useful Links
 
