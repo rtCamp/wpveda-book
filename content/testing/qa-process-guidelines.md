@@ -50,5 +50,5 @@ We’ve created some guidelines for improving our work process which will help u
 * **When to stop testing:**  
   As we know testing is never ending process. Set the time limit and number of bugs for each module. Create the test cases list, execute all cases. Think.. It is ready for ~~client~~ end user? if you get answer “**Yes**“. Stop testing.
 
-We will update this time to time. Feel free to share your suggestions and points. You are most Welcome.![](https://s.w.org/images/core/emoji/11/svg/1f642.svg "🙂")
+We will update this time to time. Feel free to share your suggestions and points. You are most Welcome.
 
