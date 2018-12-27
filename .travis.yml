@@ -1,38 +1,28 @@
 sudo: required
-
 language: node_js
-
 node_js:
-  - "stable"
-
+- stable
 cache:
   directories:
-    - node_modules # NPM packages
-
+  - node_modules
 install:
-  - npm install -g gitbook-cli
-
+- npm install -g gitbook-cli
 script:
-  - gitbook install
-  - gitbook build
-#  - rm -v _book/.travis.yml
-
+- gitbook install
+- gitbook build
 deploy:
-    #Push the generated gitbook html to the gh-pages branch
-  - provider: pages
-    skip_cleanup: true
-    repo: wpveda/wpveda.github.io       #THIS LINE MUST NOT BE REMOVED
-    github_token: $GITHUB_TOKEN
-    local_dir: _book
-    fqdn: wpveda.com
-    target_branch: master
-    on:
-      branch: master
-    #Upload the pdf of the docs as a release tagged with the build number
-
+- provider: pages
+  skip_cleanup: true
+  repo: wpveda/wpveda.github.io
+  github_token: "$GITHUB_TOKEN"
+  local_dir: _book
+  fqdn: wpveda.com
+  target_branch: master
+  on:
+    branch: master
 branches:
   only:
-    - master
-
+  - master
 notifications:
-    slack: rtcamp:$SLACK_TOKEN
+  slack:
+    secure: WuuEvACHU25m+GDHhehZTPv5NZHzB+aUNgjteICtsX3+iaC21ykF/9wsd8trCN2/8TjlQksyEEtllA+EmFWGyzCZjle9Lg38ilxYoHufCIFDV0AIJHWNONCywe7/F6RLy7OPmuKHYEbP70p/BuRrchfaS8e/GdjueIjlcDlGpiA=
