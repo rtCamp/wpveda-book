@@ -62,6 +62,7 @@
   * [Performance Testing tool – Webpagetest Quick start up Guide](testing/performance-testing-tool-webpagetest-quick-start-up-guide.md)
   * [Automation Testing Basic Guide](testing/automation-testing-using-codeception.md)
     * [Codeception Setup Guide line](testing/automation-testing-using-codeception/test.md)
+  * [Manual Testing Work Flow and tools to be used](qa/manual-testing-work-flow-and-tools-to-be-used.md)
 * [Build](build/index.md)
   * [README.md to README.txt generation](build/readme-conversion.md)
   * [Updating Translation](deployment/updating_translation.md)
@@ -82,6 +83,4 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
-
-
 
