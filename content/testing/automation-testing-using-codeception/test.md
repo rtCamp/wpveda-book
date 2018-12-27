@@ -67,21 +67,15 @@ E.g. If you are working on Automation of **XYZ** Plugin then go the plugin direc
 
 Inside the `test` directory create one `composer.json` file and add the below lines of code and save it.
 
-> {
->
-> ```
-> "require": {
->
-> },
->
-> "require-dev": {
->
->     "lucatume/wp-browser": "\*"
->
-> }
-> ```
->
-> }
+```
+{
+    "require": {
+    },
+    "require-dev": {
+        "lucatume/wp-browser": "*"
+    }
+}
+```
 
 Now, open the terminal and jump till the `test` folder. Run the below command which will install the codeception for you.
 
