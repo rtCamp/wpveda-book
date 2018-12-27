@@ -58,7 +58,7 @@
   * [Go Live check list](testing/go-live-check-list.md)
   * [Checklist for Testing Major Releases of Plugins and WordPress](testing/checklist-for-testing-major-releases-of-plugins-and-wordpress.md)
   * [Performance Testing tool – Webpagetest Quick start up Guide](testing/performance-testing-tool-webpagetest-quick-start-up-guide.md)
-  * [Automation Testing](testing/automation-testing-using-codeception.md)
+  * [Automation Testing Basic Guide](testing/automation-testing-using-codeception.md)
     * [Codeception Setup Guide line](testing/automation-testing-using-codeception/test.md)
 * [Build](build/index.md)
   * [README.md to README.txt generation](build/readme-conversion.md)
