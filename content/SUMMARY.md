@@ -44,6 +44,7 @@
   * [PHPUnit](/wordpress/phpunit.md)
   * [References](wordpress/references.md)
   * [Contribute](wordpress/contribute.md)
+  * [Gutenberg](wordpress/gutenberg.md)
 * [Documentation](documentation/index.md)
   * [Inline Comments](documentation/inline-commenting.md)
   * [README](documentation/readme.md)
