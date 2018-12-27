@@ -49,10 +49,8 @@
   * [Inline Comments](documentation/inline-commenting.md)
   * [README](documentation/readme.md)
   * [Changelog](documentation/changelog.md)
-* [Testing](testing/index.md)
-  * [Functional Testing](testing/functional.md)
-  * [Codeception ](/testing/automation-using-codeception.md)
-  * [Git integration](testing/git-integration.md)
+* [QA](qa/index.md)
+  * [Git integration](/qa/git-integration.md)
   * [QA Checklist while testing theme](testing/check-list-while-testing-theme.md)
   * [Useful Links](testing/useful-links.md)
   * [All about WP Debug](testing/all-about-wp-debug.md)
@@ -84,3 +82,6 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
+
+
+
