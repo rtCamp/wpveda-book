@@ -1,11 +1,11 @@
 ### Codeception Setup Guide line
 
-Codeception is a PHP Testing Framework. It is very easy to install and set up test environment in your system. You can write your automation test cases in your favourite text editor/IDE and run them in the browser you wish. Let’s see everything in details:
+Codeception is a PHP Testing Framework. It is very easy to install and set up test environment in your system. You can write your automation test cases in your favourite text editor/IDE and run them in the browser you wish. Let’s see everything in details:
 
 #### Why use Codeception?
 
-* It combines all testing types \(acceptance, functional and unit\)
-* Has support for in built WordPress functions. Supported functions can be checked here -&gt; [https://github.com/lucatume/wp-browser](https://github.com/lucatume/wp-browser)
+* It combines all testing types \(acceptance, functional and unit\)
+* Has support for in built WordPress functions. Supported functions can be checked here -&gt; [https://github.com/lucatume/wp-browser](https://github.com/lucatume/wp-browser)
 * Good documentation is available here -&gt; [http://codeception.com/docs/modules/WebDriver](http://codeception.com/docs/modules/WebDriver)
 * Tests can be executed using Firefox, Chrome, Safari and other browsers including PhantomJS with Selenium WebDriver or using cloud testing services like BrowserStack, saucelab etc.
 * Tests can be executed inside a PHP framework. Supported frameworks are Symfony, Laravel, Zend Framework, Yii, Phalcon etc
@@ -32,7 +32,7 @@ Check [this](https://getcomposer.org/doc/00-intro.md) link for more information 
 
 #### Running Composer
 
-The resulting file is **composer.phar**, a PHP Archive that can be executed directly via PHP. Execute command below in order to run Composer.
+The resulting file is **composer.phar**, a PHP Archive that can be executed directly via PHP. Execute command below in order to run Composer.
 
 ```
 php composer.phar
@@ -51,7 +51,7 @@ nano ~/.bash_profile
 alias composer="php /usr/local/bin/composer.phar"
 ```
 
-Now, reopen the terminal and run
+Now, reopen the terminal and run
 
 ```
 composer
@@ -69,15 +69,17 @@ Inside the `test` directory create one `composer.json` file and add the below li
 
 > {
 >
->     "require": {
+> ```
+> "require": {
 >
->     },
+> },
 >
->     "require-dev": {
+> "require-dev": {
 >
->         "lucatume/wp-browser": "\*"
+>     "lucatume/wp-browser": "\*"
 >
->     }
+> }
+> ```
 >
 > }
 
@@ -99,5 +101,23 @@ codecept
 
 #### Setup Codeception for Project
 
+To fully use the WordPress specific modules of the **WPBrowser **suite you need to setup a local WordPress installation.
 
+```
+vendor/bin/codecept bootstrap
+```
+
+The above command
+
+_**codecept bootstrap**_
+
+creates the
+
+**tests directory**
+
+and along with it the
+
+**acceptance, functional, integration and unit suites**
+
+creating tests sub-directory and a configuration file for each.
 
