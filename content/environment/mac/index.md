@@ -14,6 +14,8 @@
 
 * [NetBeans IDE](https://netbeans.org/downloads/ "NetBeans IDE")
 
+* [VS Code](/tools/vs-code.md "VS Code")
+
 * [Node.js](https://nodejs.org/en/ "Node.js")
 
 * [npm](https://www.npmjs.com/ "npm")
@@ -25,6 +27,9 @@
 * [Xdebug](/tools/xdebug.md)
 
 ### Setup local development environment
+
+#### Using EasyEngine
+Use [EasyEngine](https://easyengine.io/) to setup local development environment.
 
 #### Using VVV
 
@@ -39,6 +44,3 @@ Please go the [Laravel Valet](https://laravel.com/docs/5.5/valet) documentation.
 ### **References**
 
 * [How to Install Node.js and NPM on a Mac](http://blog.teamtreehouse.com/install-node-js-npm-mac)
-
-
-
