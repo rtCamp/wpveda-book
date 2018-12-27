@@ -27,11 +27,12 @@ Before jump into any test tool, let's go through some basic concept automation t
    * Automated test case should be executed over the different set of browsers. If the automated test case can be run on a specific browser then there is no use of automation feature since the site needs to be tested over multiple browser. In short, there should a cross browser compatibilty.
 
    **The following category of test cases are not suitable for automation.**
+
    * Test Cases that are newly designed and not executed manually at least once
    * Test Cases for which the requirements are frequently changing
    * Test cases which are executed on an ad-hoc basis.
 
-> **Note : **Maintainance of automatd test cases are very much important**. **As new functionalities or features are added, automation Scripts need to be added, reviewed and maintained for each release cycle.
+> **Note : **Maintainance of automatd test cases are very much important**. **As new functionalities or features are added, the automation Scripts need to be added, reviewed and maintained for each release cycle.
 
 
 
