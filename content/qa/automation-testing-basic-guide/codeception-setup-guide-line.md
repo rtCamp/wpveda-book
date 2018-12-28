@@ -20,7 +20,7 @@ You can install the codeception either way explain below.
 1. Using Composer
 2. Using PHAR file
 
-I have set up my system using **composer **though you can choose any option, whichever works best for you. If you want to install using the second method, please check this [link](http://codeception.com/install). Alternatively, please keep reading this article for the first method.
+I have set up my system using **composer **though you can choose any option, whichever works best for you. If you want to install using the second method, please check this [link](http://codeception.com/install). Alternatively, please keep reading this article for the first method. First check if the composer is installed in your system and if it is not there then you have to install the composer first.
 
 #### Installing Composer
 
@@ -28,7 +28,7 @@ I have set up my system using **composer **though you can choose any option, whi
 curl -sS https://getcomposer.org/installer | php
 ```
 
-Check [this](https://getcomposer.org/doc/00-intro.md) link for more information about composer.
+Check [this](https://getcomposer.org/doc/00-intro.md) link for more information about composer. Alternatively you can use `brew install composer` \(for mac users\)
 
 #### Running Composer
 
@@ -57,7 +57,7 @@ Now, reopen the terminal and run
 composer
 ```
 
-----Screen------
+It will show you the composer details like its version number along with various commands.
 
 #### Installing Codeception
 
