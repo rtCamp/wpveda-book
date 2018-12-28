@@ -34,7 +34,9 @@ Add-ons:
 
 * [Use Browserstack ](https://www.browserstack.com)
 
-**Screen capture tools: **\( You can use any of the the tool listed below or you can continue with some other tool which fulfills the requirement to convey the proper detail for the issue\)
+**Screen capture tools: **
+
+_Note: You can use any of the the tool listed below or you can continue with some other tool which fulfills the requirement to convey the proper detail for the issue_
 
 * [Shutter](http://shutter-project.org/faq-help/ppa-installation-guide/) for Linux
 
