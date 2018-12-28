@@ -34,7 +34,7 @@ Add-ons:
 
 * [Use Browserstack ](https://www.browserstack.com)
 
-**Screen capture tools: **\( You can use any of the the tool listed below or you can continue with some other tool which fulfills the requirement to convey the proper detail for the issue\) 
+**Screen capture tools: **\( You can use any of the the tool listed below or you can continue with some other tool which fulfills the requirement to convey the proper detail for the issue\)
 
 * [Shutter](http://shutter-project.org/faq-help/ppa-installation-guide/) for Linux
 
@@ -58,7 +58,7 @@ Add-ons:
 
 * GitHub-[https://github.com/rtcamp](https://github.com/rtcamp)
 
-* ~~GitLab-~~[~~http://git.rtcamp.com/~~](http://git.rtcamp.com/) Not using anymore. Out all repoes are migrated to github
+* ~~GitLab-~~[~~http://git.rtcamp.com/~~](http://git.rtcamp.com/) Not using anymore. Our all repoes are migrated to github
 
 **Continuous Integration:**
 
