@@ -38,7 +38,7 @@ Add-ons:
 
 * [Shutter](http://shutter-project.org/faq-help/ppa-installation-guide/) for Linux
 
-* [Snagit](https://www.techsmith.com/snagit.html) for Windows
+* [~~Snagit~~](https://www.techsmith.com/snagit.html)~~ for Windows \(It is paid now\)~~
 
 * [Nimbus Screenshot & Screen Video Recorder](https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj)
 
