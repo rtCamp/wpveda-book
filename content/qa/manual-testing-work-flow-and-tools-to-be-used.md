@@ -22,9 +22,9 @@ Add-ons:
 
 * [Web Developer toolbar](https://addons.mozilla.org/en-us/firefox/addon/web-developer/)
 
-* [Color picker/zilla](https://addons.mozilla.org/en-us/firefox/addon/colorpicker/)
+* [Color picker/zilla](https://addons.mozilla.org/en-US/firefox/addon/colorzilla/)
 
-* [Multi links etc](https://addons.mozilla.org/en-US/firefox/addon/open-multiple-locations/)
+* [Open Multiple Urls](https://chrome.google.com/webstore/detail/open-multiple-urls/oifijhaokejakekmnjmphonojcfkpbbh/related?hl=en)
 
 * [Web Developer for Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm)
 
