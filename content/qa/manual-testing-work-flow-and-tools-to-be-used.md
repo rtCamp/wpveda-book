@@ -62,9 +62,9 @@ Add-ons:
 
 **Continuous Integration:**
 
-* Travis CI - [https://travis-ci.org/](https://travis-ci.org/)
+* Travis CI - [https://travis-ci.org/](https://travis-ci.org/) \(Public repo\)
 
-* Circle CI - [http://circleci.com/](http://circleci.com/)
+* Circle CI - [http://circleci.com/](http://circleci.com/) \(Private repo\)
 
 
 
