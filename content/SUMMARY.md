@@ -57,7 +57,6 @@
   * [QA Guidelines](qa/qa-guidelines.md)
   * [QA Process Standards](qa/qa-process-standards.md)
   * [Go Live check list](qa/go-live-check-list.md)
-  * [Checklist for Testing Major Releases of Plugins and WordPress](qa/checklist-for-testing-major-releases-of-plugins-and-wordpress.md)
   * [Performance Testing tool – Webpagetest Quick start up Guide](qa/performance-testing-tool-webpagetest-quick-start-up-guide.md)
   * [Automation Testing Basic Guide](qa/automation-testing-basic-guide.md)
     * [Codeception Setup Guide line](qa/automation-testing-basic-guide/codeception-setup-guide-line.md)
