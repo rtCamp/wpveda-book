@@ -48,19 +48,13 @@ _Note: You can use any of the the tool listed below or you can continue with som
 
 * Google Drive
 
-* Lean Testing :[http://rtcamp.leantesting.com/](http://rtcamp.leantesting.com/)
+* Lean Testing: [http://leantesting.com/](https://leantesting.com/)
 
-* Invision App :[http://www.invisionapp.com/](http://www.invisionapp.com/)
-
-**Project Management Tools-for planning, progress tracking and communication.**
-
-* Active Collab:[https://ac.rtcamp.com/](https://ac.rtcamp.com/)
+* Invision App: [http://www.invisionapp.com/](http://www.invisionapp.com/)
 
 **Code storage and collaboration tools:**
 
-* GitHub-[https://github.com/rtcamp](https://github.com/rtcamp)
-
-* ~~GitLab-~~[~~http://git.rtcamp.com/~~](http://git.rtcamp.com/) Not using anymore. Our all repoes are migrated to github
+* GitHub-[https://github.com/](https://github.com/rtcamp)
 
 **Continuous Integration:**
 
