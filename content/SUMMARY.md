@@ -54,7 +54,6 @@
   * [QA Checklist while testing theme](qa/check-list-while-testing-theme.md)
   * [Useful Links](qa/useful-links.md)
   * [All about WP Debug](qa/all-about-wp-debug.md)
-  * [Checklist to test the demo sites after migration](qa/checklist-to-test-the-demo-sites-after-migration.md)
   * [QA Guidelines](qa/qa-guidelines.md)
   * [QA Process Standards](qa/qa-process-standards.md)
   * [Go Live check list](qa/go-live-check-list.md)
