@@ -17,7 +17,7 @@ Before jump into any test tool, let's go through some basic concept automation t
 
 4. **Which test cases should be automated?**
 
-   **We can consider the below scenarios where the test cases can be automated. **
+   **We can consider the below scenarios where the test cases can be automated.**
 
    * Test Cases that are very tedious or difficult to perform manually
    * Test Cases which are time-consuming if they run manually
