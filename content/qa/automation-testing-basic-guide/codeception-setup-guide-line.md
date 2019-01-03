@@ -38,7 +38,7 @@ The resulting file is **composer.phar**, a PHP Archive that can be executed dire
 php composer.phar
 ```
 
-However, we want composer to be accessible **globally **by simply typing composer. To do this, move it to`/usr/local/bin/`
+However, we want composer to be accessible **globally** by simply typing composer. To do this, move it to`/usr/local/bin/`
 
 ```
 sudo mv composer.phar /usr/local/bin/
