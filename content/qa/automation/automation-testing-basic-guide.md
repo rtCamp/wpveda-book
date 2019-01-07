@@ -32,7 +32,4 @@ Before jump into any test tool, let's go through some basic concept automation t
    * Test Cases for which the requirements are frequently changing
    * Test cases which are executed on an ad-hoc basis.
 
-> **Note :** Maintainance of automatd test cases are very much important**. **As new functionalities or features are added, the automation Scripts need to be added, reviewed and maintained for each release cycle.
-
-
-
+> **Note :** Maintainance of automatd test cases are very much important. As new functionalities or features are added, the automation Scripts need to be added, reviewed and maintained for each release cycle.
