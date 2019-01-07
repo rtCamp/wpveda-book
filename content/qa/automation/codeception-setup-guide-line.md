@@ -138,7 +138,7 @@ OR
 
 `codecept generate:cept acceptance Login`
 
-This command will generate **LoginCept.php **file under acceptance directory.
+This command will generate **LoginCept.php** file under acceptance directory.
 
 #### Write your sample scenario
 
@@ -159,7 +159,7 @@ $I->seeElement( 'li#menu-dashboard' );
 
 #### Understanding the Webdriver Module
 
-The WPWebDriver module requires a**Selenium or PhantomJS server **to run. In order to run Selenium, you need to download Selenium Server and get it running. Alternatively, you may use PhantomJS headless browser but this is useful only if you want to run headless script. \(I use selenium server.\) This way you can see the actual output in the real browser in your **Local **system along with terminal will prompt which code line is being executed.
+The WPWebDriver module requires a **Selenium or PhantomJS server** to run. In order to run Selenium, you need to download Selenium Server and get it running. Alternatively, you may use PhantomJS headless browser but this is useful only if you want to run headless script. \(I use selenium server.\) This way you can see the actual output in the real browser in your **Local** system along with terminal will prompt which code line is being executed.
 
 #### How to run scenario using Selenium Server
 

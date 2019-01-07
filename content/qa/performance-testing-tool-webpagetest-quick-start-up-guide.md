@@ -2,18 +2,18 @@
 
 #### **Performance Testing** {#performance-testing}
 
-Performance Testing is a type of testing to ensure software applications will perform well under their expected workload. Performance testing is the type of **Non-Functional Testing. **There are different tools to measure the performance of the website. We are going to explore **Webpage test **performance testing tool, explained as below :
+Performance Testing is a type of testing to ensure software applications will perform well under their expected workload. Performance testing is the type of **Non-Functional Testing.** There are different tools to measure the performance of the website. We are going to explore **Webpage test** performance testing tool, explained as below :
 
-**WebPagetest **is used for measuring and analyzing the performance of web pages. Webpagetest enables you to run web performance tests on your site from a number of different locations across the world in a number of different browsers.
+**WebPagetest** is used for measuring and analyzing the performance of web pages. Webpagetest enables you to run web performance tests on your site from a number of different locations across the world in a number of different browsers.
 
 ### **Running a Performance Test** {#running-a-performance-test}
 
 1. Visit - [https://www.webpagetest.org/](https://www.webpagetest.org/)
-2. Select **Simple Testing **to perform simple tests
+2. Select **Simple Testing** to perform simple tests
 3. Enter URL that needs to be tested.
 4. Select the Test Configurations \(Either Desktop, Mobile testing\)
 5. Include Repeat View \(Only if required\)
-6. After everything is configured click on **Start Test **button. The request will be sent to the selected location for testing.
+6. After everything is configured click on **Start Test** button. The request will be sent to the selected location for testing.
 
 **Note:**The test may take time depending on how many tests are ahead of yours.
 
@@ -59,4 +59,3 @@ Following are some of the page level metrics captured and displayed for the over
 
 **Reference Links**  
 [https://sites.google.com/a/webpagetest.org/docs/](https://sites.google.com/a/webpagetest.org/docs/)
-
