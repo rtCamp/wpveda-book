@@ -101,7 +101,7 @@ To fully use the WordPress specific modules of the **WPBrowser** suite you need 
 vendor/bin/codecept bootstrap
 ```
 
-The above command \_**codecept bootstrap **\_creates the **codeception.yml file and** **tests directory. **Inside the tests directory it creates the **acceptance, functional and unit suites** a configuration file for each.
+The above command **codecept bootstrap** creates the **codeception.yml file and tests directory.** Inside the tests directory it creates the **acceptance, functional and unit suites** a configuration file for each.
 
 Edit the codeception.yml file to match your local WordPress setup and point the modules to the local WordPress installation folder, the local WordPress URL and so on.
 
