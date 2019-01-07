@@ -34,7 +34,7 @@ Add-ons:
 
 * [Use Browserstack ](https://www.browserstack.com)
 
-**Screen capture tools: **
+**Screen capture tools:**
 
 _Note: You can use any of the the tool listed below or you can continue with some other tool which fulfills the requirement to convey the proper detail for the issue_
 
