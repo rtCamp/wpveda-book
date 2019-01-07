@@ -81,4 +81,3 @@
   * [Database Design](planning/database_design.md)
 * [Post Release](deployment/post_release.md)
 * [Workflow](workflow/README.md)
-
