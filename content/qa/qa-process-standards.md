@@ -1,6 +1,6 @@
 ### QA Process Standards
 
-Once the development is completed the QA team members works on **QA of the Theme and Help Manual** tickets raised on Active Collab Project Management System**.**
+Once the development is completed the QA team members works on **QA of the Theme and Help Manual.**
 
 ##### QA team ensures the following:
 
@@ -35,8 +35,7 @@ In this case client expects his site to be same as his old HTML site. The reason
 
 **Reporting:**
 
-1. ~~All the bugs / issues are added as tasks on internal ~~
-   ~~**Active Collab Project Management System. Also we can used Google drive sheet format for complex projects where tracking on active collab is not possible.**~~** **Right now we are using **Github Repo **to report the issues for internal and client project.
+1. Report the issues on bug tracker. 
 2. QA team can assign the tickets to respective developer or the respective member of the team will take care of it in case if the QA member is not sure who is going to fix the bug.
 3. Once the testing is done, QA team member comments on AC Task that **Testing has been done**.
 
