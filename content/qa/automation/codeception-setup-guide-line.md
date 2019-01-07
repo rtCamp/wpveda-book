@@ -95,7 +95,7 @@ codecept
 
 #### Setup Codeception for Project
 
-To fully use the WordPress specific modules of the **WPBrowser **suite you need to setup a local WordPress installation.
+To fully use the WordPress specific modules of the **WPBrowser** suite you need to setup a local WordPress installation.
 
 ```
 vendor/bin/codecept bootstrap
@@ -247,6 +247,3 @@ Check the below screenshot for how it looks when your test runs successfully.
 4. [Codeception Webdriver Module](http://codeception.com/docs/modules/WebDriver)
 5. [Browserstack integration with codeception](https://www.browserstack.com/automate/codeception)
 6. [Php Test Club – Codeception Forum](http://phptest.club/c/codeception)
-
-
-
