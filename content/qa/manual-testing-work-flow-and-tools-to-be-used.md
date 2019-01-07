@@ -54,7 +54,7 @@ _Note: You can use any of the the tool listed below or you can continue with som
 
 **Code storage and collaboration tools:**
 
-* GitHub-[https://github.com/](https://github.com/rtcamp)
+* GitHub-[https://github.com/](https://github.com/)
 
 **Continuous Integration:**
 
