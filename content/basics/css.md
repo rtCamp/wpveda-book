@@ -23,3 +23,4 @@ Go through the following tutorials and articles to learn CSS.
 * [CSS Snippets - CSS-Tricks](https://css-tricks.com/snippets/css/)
 * [Sass Snippets - CSS-Tricks](https://css-tricks.com/snippets/sass/)
 * [CSS Cheat Sheet](/CSS Cheat Sheet)
+* [BEM Best Practices - BEM-Examples](https://seesparkbox.com/foundry/bem_by_example)
