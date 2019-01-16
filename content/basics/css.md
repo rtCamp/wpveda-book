@@ -4,6 +4,8 @@ Go through the following tutorials and articles to learn CSS.
 
 * [CSS Tutorial by W3Schools](https://www.w3schools.com/css/default.asp)
 * [Flexbox Froggy](http://flexboxfroggy.com/)
+* [CSS Flexbox Fundamentals Visual Guide](https://medium.com/swlh/css-flexbox-fundamentals-visual-guide-1c467f480dac)
+* [Flexbox — The Animated Tutorial](https://medium.com/@js_tut/flexbox-the-animated-tutorial-8075cbe4c1b2)
 * [Flexbox Defense](http://www.flexboxdefense.com/)
 * [CSS Grid Garden](http://cssgridgarden.com/)
 * [Opening the Box Model](https://learn.shayhowe.com/html-css/opening-the-box-model/)
