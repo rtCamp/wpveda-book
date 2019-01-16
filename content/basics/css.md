@@ -6,6 +6,7 @@ Go through the following tutorials and articles to learn CSS.
 * [Flexbox Froggy](http://flexboxfroggy.com/)
 * [CSS Flexbox Fundamentals Visual Guide](https://medium.com/swlh/css-flexbox-fundamentals-visual-guide-1c467f480dac)
 * [Flexbox — The Animated Tutorial](https://medium.com/@js_tut/flexbox-the-animated-tutorial-8075cbe4c1b2)
+* [Flexbox Defense](http://www.flexboxdefense.com/)
 * [CSS Grid Garden](http://cssgridgarden.com/)
 * [Opening the Box Model](https://learn.shayhowe.com/html-css/opening-the-box-model/)
 * [Learn CSS Layout](http://learnlayout.com)
@@ -24,3 +25,4 @@ Go through the following tutorials and articles to learn CSS.
 * [CSS Snippets - CSS-Tricks](https://css-tricks.com/snippets/css/)
 * [Sass Snippets - CSS-Tricks](https://css-tricks.com/snippets/sass/)
 * [CSS Cheat Sheet](/CSS Cheat Sheet)
+* [BEM Best Practices - BEM-Examples](https://seesparkbox.com/foundry/bem_by_example)
