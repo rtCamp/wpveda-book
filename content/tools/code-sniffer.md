@@ -37,6 +37,8 @@ curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar && chmod +x php
 
 ### Install WPCS and PHPCompatibility
 
+
+#### Direct download
 You can install WPCS and VIP Coding Standards via git repo as mentioned below.
 
 ```
@@ -51,7 +53,20 @@ ln -s {paste here}/VIP-Coding-Standards/WordPressVIPMinimum wpcs/WordPressVIPMin
 phpcs --config-set installed_paths {Paste here again}/wpcs # remember this path
 ```
 
-Note: you can also install WPCS via composer.
+#### via composer
+You can install it via composer using following. 
+
+```bash
+composer global require dealerdirect/phpcodesniffer-composer-installer \
+	wp-coding-standards/wpcs 1.2.1 \
+	automattic/vipwpcs \
+	phpcompatibility/php-compatibility \
+	phpcompatibility/phpcompatibility-wp:* --update-no-dev
+```
+
+Note: you won't need to set `installed_paths` when used with composer as dealerdirect/phpcodesniffer-composer-installer will take care of it.
+
+You should checkout each github repo for coding standard and see it's purpose.
 
 ### Check and Fix phpcs path
 
@@ -76,3 +91,13 @@ git pull origin master
 
 Note: You should update wpcs every month or so or on every release.
 
+
+### Using phpcs 
+
+You should checkout https://github.com/squizlabs/PHP_CodeSniffer/wiki for usage. 
+
+You can run phpcs on single file using `phpcs --standards=wordpress-core file/or/folder/path`
+
+Ideally each project should have `phpcs.ruleset.xml` with rules defined in it. 
+
+Sample configuration file: https://github.com/xwp/wp-foo-bar/blob/master/phpcs.ruleset.xml
