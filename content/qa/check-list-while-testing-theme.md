@@ -10,6 +10,7 @@ QA Team member should cross check all the points listed below while testing the 
   4. Site Favicon
   5. Social links should open in new tab
   6. Use site logo on wp backend login page instead of wordpress logo
+  7. Make sure to check Theme's screenshot.png on themes.php page, this should be present for the theme which we are testing
 * ### **Comments**
 
   1. If comments have disabled then should display appropriate message in front end.
