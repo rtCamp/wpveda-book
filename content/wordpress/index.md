@@ -26,7 +26,7 @@ Please go through the following chapters.
 
 * [PHPUnit](//wordpress/phpunit.md)
 
-* [Templating using wp.template](/wordpress/wp-template.md)
+* [Javascript Reference](/wordpress/javascript-reference.md)
 
 
 
