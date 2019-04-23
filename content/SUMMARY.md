@@ -28,6 +28,7 @@
 * [Basics](basics/index.md)
   * [HTML](basics/html.md)
   * [CSS](basics/css.md)
+  * [Sass](basics/sass.md)
   * [JavaScript](basics/javascript.md)
   * [PHP](/basics/php.md)
 * [WordPress](wordpress/index.md)
