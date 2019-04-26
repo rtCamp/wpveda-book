@@ -26,5 +26,7 @@ Please go through the following chapters.
 
 * [PHPUnit](//wordpress/phpunit.md)
 
+* [Javascript Reference](/wordpress/javascript-reference.md)
+
 
 
