@@ -1,12 +1,12 @@
-# Gutenberg
+# Block Editor
 
-Please follow [Gutenberg Handbook](https://wordpress.org/gutenberg/handbook/).
+Please follow [Block Editor Handbook](https://developer.wordpress.org/block-editor/).
 
-#### Gutenberg Fields Middleware
+## Gutenberg Fields Middleware
 
 Register fields for Gutenberg blocks with a simple, declarative API. [https://github.com/rtCamp/gutenberg-fields-middleware](https://github.com/rtCamp/gutenberg-fields-middleware)
 
-##### create-guten-block
+## create-guten-block
 
 A zero-configuration developer toolkit for building WordPress Gutenberg block plugins.
 
@@ -14,9 +14,6 @@ A zero-configuration developer toolkit for building WordPress Gutenberg block pl
 
 [https://ahmadawais.com/create-guten-block-toolkit/](https://github.com/ahmadawais/create-guten-block)
 
-**References**
+## References
 
 * [Gutenberg News](https://gutenberg.news/)
-
-
-
