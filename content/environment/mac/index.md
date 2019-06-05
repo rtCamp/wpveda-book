@@ -2,6 +2,8 @@
 
 ### **Tools**
 
+* [EasyEngine](https://easyengine.io/)
+
 * [Homebrew](https://brew.sh/ "Homebrew")
 
 * Command Line Developer Tools
