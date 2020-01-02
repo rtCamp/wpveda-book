@@ -1,3 +1,6 @@
+# We now have our own training module which has all the lessons that covers the core topics on WordPress and the various steps involved in WordPress development. Check it out https://learn.rtcamp.com/
+
+
 wpveda book
 ===========
 
